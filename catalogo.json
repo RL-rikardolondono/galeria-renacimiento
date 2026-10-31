@@ -1,0 +1,30 @@
+{
+  "revisionPrecios": "2026-10-31",
+  "precios": {
+    "arteDigital": 19900,
+    "lamina30x40": 225000,
+    "lamina50x70": 275000
+  },
+  "obras": [
+    {"id":"noche","titulo":"La noche estrellada","autor":"Vincent van Gogh","anio":"1889","sala":"Impresionismo y modernos","img":"img/noche.jpg","nota":"Pintada desde la ventana del asilo de Saint-Rémy, es una de las imágenes más amadas de la historia del arte."},
+    {"id":"perla","titulo":"La joven de la perla","autor":"Johannes Vermeer","anio":"c. 1665","sala":"Barroco","img":"img/perla.jpg","nota":"La «Mona Lisa del norte»: una mirada, una perla y una luz que parecen detener el tiempo."},
+    {"id":"prodigo","titulo":"El regreso del hijo pródigo","autor":"Rembrandt van Rijn","anio":"c. 1668","sala":"Arte sacro","img":"img/prodigo.jpg","nota":"La parábola de Lucas 15 hecha luz: el abrazo del padre que perdona."},
+    {"id":"manos","titulo":"Manos que oran","autor":"Alberto Durero","anio":"1508","sala":"Arte sacro","img":"img/manos.jpg","nota":"Estudio a pincel sobre papel azul, convertido en símbolo universal de la oración."},
+    {"id":"mateo","titulo":"La vocación de san Mateo","autor":"Caravaggio","anio":"1600","sala":"Arte sacro","img":"img/mateo.jpg","nota":"Un rayo de luz y una mano que señala: el instante en que Cristo llama al recaudador."},
+    {"id":"venus","titulo":"El nacimiento de Venus","autor":"Sandro Botticelli","anio":"c. 1485","sala":"Renacimiento","img":"img/venus.jpg","nota":"Emblema del Renacimiento florentino y de su sueño de belleza clásica."},
+    {"id":"gioconda","titulo":"La Gioconda","autor":"Leonardo da Vinci","anio":"c. 1503","sala":"Renacimiento","img":"img/gioconda.jpg","nota":"El retrato más célebre del mundo y su enigmática sonrisa."},
+    {"id":"ronda","titulo":"La ronda de noche","autor":"Rembrandt van Rijn","anio":"1642","sala":"Barroco","img":"img/ronda.jpg","nota":"Una compañía de arcabuceros en plena marcha, entre sombras y destellos."},
+    {"id":"ola","titulo":"La gran ola de Kanagawa","autor":"Katsushika Hokusai","anio":"c. 1831","sala":"Oriente","img":"img/ola.jpg","nota":"El grabado japonés más famoso: la fuerza del mar ante el monte Fuji."},
+    {"id":"monet","titulo":"Impresión, sol naciente","autor":"Claude Monet","anio":"1872","sala":"Impresionismo y modernos","img":"img/monet.jpg","nota":"El cuadro que dio nombre al impresionismo."},
+    {"id":"beso","titulo":"El beso","autor":"Gustav Klimt","anio":"1908","sala":"Impresionismo y modernos","img":"img/beso.jpg","nota":"Oro, ornamento y ternura en la obra maestra del período dorado de Klimt."}
+  ],
+  "libros": [
+    {"id":"oracion","titulo":"El poder de la oración","autor":"E. M. Bounds","idioma":"Español","img":"libros/oracion.jpg","paginas":99,"digital":14900,"ae":"https://www.autoreseditores.com/libro/36114","amazon":"https://www.amazon.com/dp/B0HP3RJXRB","resumen":"«La Iglesia busca mejores métodos; Dios busca mejores hombres». El clásico de 1907 sobre la vida de oración de quienes sirven a Dios."},
+    {"id":"presencia","titulo":"La práctica de la presencia de Dios","autor":"Hermano Lorenzo","idioma":"Español","img":"libros/presencia.jpg","paginas":64,"digital":12900,"ae":"https://www.autoreseditores.com/libro/36115","amazon":"https://www.amazon.com/dp/B0HP47LF5G","resumen":"Conversaciones y cartas de un humilde cocinero del siglo XVII que aprendió a vivir cada momento en la presencia de Dios."},
+    {"id":"gracia","titulo":"Todo por gracia","autor":"C. H. Spurgeon","idioma":"Español","img":"libros/gracia.jpg","paginas":132,"digital":16900,"ae":"https://www.autoreseditores.com/libro/36116","amazon":"https://www.amazon.com/dp/B0HP79LQR3","resumen":"El «príncipe de los predicadores» responde con calidez a quien busca la paz con Dios: la salvación es, de principio a fin, obra de la gracia."},
+    {"id":"esperando","titulo":"Esperando en Dios","autor":"Andrew Murray","idioma":"Español","img":"libros/esperando.jpg","paginas":120,"digital":14900,"ae":"https://www.autoreseditores.com/libro/36239","amazon":"https://www.amazon.com/author/ricardolondono","resumen":"Treinta y una meditaciones, una para cada día del mes, sobre el secreto de una vida que todo lo recibe de Dios."},
+    {"id":"oracao","titulo":"O poder da oração","autor":"E. M. Bounds","idioma":"Português","img":"libros/oracao.jpg","paginas":97,"digital":14900,"ae":"https://www.autoreseditores.com/libro/36155","amazon":"https://www.amazon.com/author/ricardolondono","resumen":"Edição em português do Brasil do clássico de E. M. Bounds sobre a vida de oração."},
+    {"id":"esperandopt","titulo":"Esperando em Deus","autor":"Andrew Murray","idioma":"Português","img":"libros/esperandopt.jpg","paginas":111,"digital":14900,"ae":"","amazon":"https://www.amazon.com/author/ricardolondono","resumen":"Trinta e uma meditações de Andrew Murray, uma para cada dia do mês.","pronto":true},
+    {"id":"waiting","titulo":"Waiting on God","autor":"Andrew Murray","idioma":"English","img":"libros/waiting.jpg","paginas":108,"digital":14900,"ae":"","amazon":"https://www.amazon.com/author/ricardolondono","resumen":"A new edition of Murray's 1894 classic: thirty-one daily readings on waiting on God.","pronto":true}
+  ]
+}
