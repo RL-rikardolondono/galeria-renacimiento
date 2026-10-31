@@ -82,3 +82,12 @@ h1,h2,h3,.marca{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;l
 .joyas-in{max-width:760px}.joyas h2{font-size:clamp(36px,4.6vw,60px)}.joyas h2 em{color:#e6c778;font-weight:500}
 .joyas p{font-size:18px;opacity:.9}.joyas .cta{margin-top:26px}.aviso-j{font-size:14px!important;opacity:.7!important;margin-top:16px}
 .form label{display:flex;gap:8px;align-items:flex-start}.form label input{width:auto;margin-top:4px}
+
+.menu a.dest{color:#7fd6ad;opacity:1}
+.btn.esm{background:#0f5a3f;color:#f3ead6;border-color:#e6c778}.btn.esm:hover{background:#13704f}
+.joyas{display:grid;grid-template-columns:1fr;gap:34px}
+.vitrina{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px}
+.joya{background:rgba(255,255,255,.06);border:1px solid rgba(230,199,120,.35);padding:12px;display:flex;flex-direction:column}
+.joya img{aspect-ratio:1;object-fit:cover;width:100%}.joya h3{font-size:22px;margin-top:12px;color:#f3ead6}
+.joya p{font-size:14px!important;margin:4px 0}.joya .pr{color:#e6c778;font-weight:700;font-size:16px!important}
+.joya .btn{margin-top:auto;text-align:center;padding:10px 12px;font-size:11px}

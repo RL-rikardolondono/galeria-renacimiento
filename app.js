@@ -15,7 +15,7 @@ const fisico = () => bolsa.some(i => i.f === 'l30' || i.f === 'l50');
 
 async function iniciar() {
   C = await fetch('catalogo.json?v=' + Date.now()).then(r => r.json());
-  guardar(); hero(); filtros(); muro(); estante(); retorno();
+  guardar(); hero(); vitrina(); filtros(); muro(); estante(); retorno();
 }
 // ---------- portada ----------
 let hi = 0;
@@ -32,6 +32,14 @@ function hero() {
   [...pts.children].forEach((b, k) => b.onclick = () => ver(k));
   $('#heroImg').onclick = () => ficha(lista[hi].id);
   ver(0); setInterval(() => ver((hi + 1) % lista.length), 6000);
+}
+// ---------- joyas ----------
+function vitrina() {
+  const J = (C.joyas || []).filter(x => x.disponible !== false);
+  if (!J.length) return;
+  const wa = t => 'https://wa.me/573044375758?text=' + encodeURIComponent('Hola, quiero comprar la joya «' + t + '» de Colombian Green Emerald.');
+  $('#vitrina').innerHTML = J.map(x => `<div class="joya"><img src="${x.img}" alt="${x.titulo}" loading="lazy"><h3>${x.titulo}</h3><p>${x.detalle || ''}</p><p class="pr">${x.precio ? pesos(x.precio) : 'Precio a consultar'}</p><a class="btn oro" href="${wa(x.titulo)}" target="_blank" rel="noopener">Comprar por WhatsApp</a></div>`).join('');
+  $('#joyasAviso').textContent = 'Piezas únicas: cuando se vende una, sale de la vitrina. Envío asegurado a toda Colombia.';
 }
 // ---------- salas ----------
 function filtros() {
