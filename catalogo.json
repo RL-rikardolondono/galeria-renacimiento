@@ -104,6 +104,506 @@
    "sala": "Impresionismo y modernos",
    "img": "img/beso.jpg",
    "nota": "Oro, ornamento y ternura en la obra maestra del período dorado de Klimt."
+  },
+  {
+   "id": "magdalena",
+   "titulo": "La Magdalena penitente",
+   "autor": "Georges de La Tour",
+   "anio": "c. 1640",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-27910-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-27910-001.jpg",
+   "nota": "Obra de Georges de La Tour (c. 1640), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "coronacion",
+   "titulo": "La coronación de la Virgen",
+   "autor": "Annibale Carracci",
+   "anio": "después de 1595",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-27033-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-27033-001.jpg",
+   "nota": "Obra de Annibale Carracci (después de 1595), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "musicos",
+   "titulo": "Los músicos",
+   "autor": "Caravaggio",
+   "anio": "1597",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
+   "nota": "Obra de Caravaggio (1597), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "santaana",
+   "titulo": "La Virgen y el Niño con santa Ana",
+   "autor": "Alberto Durero",
+   "anio": "1519",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280846.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP280846.jpg",
+   "nota": "Obra de Alberto Durero (1519), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "sabinas",
+   "titulo": "El rapto de las sabinas",
+   "autor": "Nicolas Poussin",
+   "anio": "1633–34",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-29324-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-29324-001.jpg",
+   "nota": "Obra de Nicolas Poussin (1633–34), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "merienda",
+   "titulo": "La merienda",
+   "autor": "Luis Meléndez",
+   "anio": "c. 1772",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1570.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1570.jpg",
+   "nota": "Obra de Luis Meléndez (c. 1772), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "mezzetin",
+   "titulo": "Mezzetin",
+   "autor": "Antoine Watteau",
+   "anio": "c. 1718",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP170811.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP170811.jpg",
+   "nota": "Obra de Antoine Watteau (c. 1718), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "pastores",
+   "titulo": "La adoración de los pastores",
+   "autor": "Andrea Mantegna",
+   "anio": "c. 1450",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP213831.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP213831.jpg",
+   "nota": "Obra de Andrea Mantegna (c. 1450), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "caballos",
+   "titulo": "La feria de caballos",
+   "autor": "Rosa Bonheur",
+   "anio": "1852–55",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-23550-001.jpg",
+   "nota": "Obra de Rosa Bonheur (1852–55), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "martevenus",
+   "titulo": "Marte y Venus unidos por el amor",
+   "autor": "Paolo Veronese",
+   "anio": "década de 1570",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP167124.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP167124.jpg",
+   "nota": "Obra de Paolo Veronese (década de 1570), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "pompas",
+   "titulo": "Pompas de jabón",
+   "autor": "Jean Siméon Chardin",
+   "anio": "c. 1734",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356133.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg",
+   "nota": "Obra de Jean Siméon Chardin (c. 1734), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "cantante",
+   "titulo": "El cantante español",
+   "autor": "Édouard Manet",
+   "anio": "1860",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/dp130799.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/dp130799.jpg",
+   "nota": "Obra de Édouard Manet (1860), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "cancion",
+   "titulo": "La canción de amor",
+   "autor": "Edward Burne-Jones",
+   "anio": "1868–77",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323394.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP323394.jpg",
+   "nota": "Obra de Edward Burne-Jones (1868–77), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "joven",
+   "titulo": "Estudio de una joven",
+   "autor": "Johannes Vermeer",
+   "anio": "c. 1666",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353256.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP353256.jpg",
+   "nota": "Obra de Johannes Vermeer (c. 1666), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "manzanas",
+   "titulo": "Bodegón con manzanas y prímulas",
+   "autor": "Paul Cézanne",
+   "anio": "c. 1890",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT47.jpg",
+   "nota": "Obra de Paul Cézanne (c. 1890), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "duccio",
+   "titulo": "La Virgen y el Niño",
+   "autor": "Duccio di Buoninsegna",
+   "anio": "c. 1295",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP142735.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg",
+   "nota": "Obra de Duccio di Buoninsegna (c. 1295), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "jarra",
+   "titulo": "Joven con una jarra de agua",
+   "autor": "Johannes Vermeer",
+   "anio": "c. 1662",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
+   "nota": "Obra de Johannes Vermeer (c. 1662), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "aristoteles",
+   "titulo": "Aristóteles con un busto de Homero",
+   "autor": "Rembrandt van Rijn",
+   "anio": "1653",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-30758-001.jpg",
+   "nota": "Obra de Rembrandt van Rijn (1653), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "barca",
+   "titulo": "En barca",
+   "autor": "Édouard Manet",
+   "anio": "1874",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25466-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25466-001.jpg",
+   "nota": "Obra de Édouard Manet (1874), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "patmos",
+   "titulo": "San Juan en Patmos",
+   "autor": "Hans Baldung Grien",
+   "anio": "c. 1511",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164867.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP164867.jpg",
+   "nota": "Obra de Hans Baldung Grien (c. 1511), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "anunciacion",
+   "titulo": "La Anunciación",
+   "autor": "Hans Memling",
+   "anio": "c. 1467",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240360.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP240360.jpg",
+   "nota": "Obra de Hans Memling (c. 1467), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "magos",
+   "titulo": "La adoración de los Magos",
+   "autor": "Giotto di Bondone",
+   "anio": "c. 1320",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31416-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-31416-001.jpg",
+   "nota": "Obra de Giotto di Bondone (c. 1320), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "adivina",
+   "titulo": "La buenaventura",
+   "autor": "Georges de La Tour",
+   "anio": "c. 1630",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-015.jpg",
+   "nota": "Obra de Georges de La Tour (c. 1630), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "sanmarcos",
+   "titulo": "Plaza de San Marcos",
+   "autor": "Canaletto",
+   "anio": "c. 1728",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-009.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-009.jpg",
+   "nota": "Obra de Canaletto (c. 1728), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "toledo",
+   "titulo": "Vista de Toledo",
+   "autor": "El Greco",
+   "anio": "c. 1600",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP349564.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP349564.jpg",
+   "nota": "Obra de El Greco (c. 1600), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "jatte",
+   "titulo": "Estudio para «Una tarde de domingo en la Grande Jatte»",
+   "autor": "Georges Seurat",
+   "anio": "1884",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP259921.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP259921.jpg",
+   "nota": "Obra de Georges Seurat (1884), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "flores",
+   "titulo": "Mujer junto a un jarrón de flores",
+   "autor": "Edgar Degas",
+   "anio": "1865",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25460-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25460-001.jpg",
+   "nota": "Obra de Edgar Degas (1865), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "laud",
+   "titulo": "El tañedor de laúd",
+   "autor": "Valentin de Boulogne",
+   "anio": "c. 1626",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP168811.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP168811.jpg",
+   "nota": "Obra de Valentin de Boulogne (c. 1626), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "murillo",
+   "titulo": "La Virgen y el Niño",
+   "autor": "Bartolomé Esteban Murillo",
+   "anio": "década de 1670",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-010.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-010.jpg",
+   "nota": "Obra de Bartolomé Esteban Murillo (década de 1670), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "terraza",
+   "titulo": "Alegre compañía en una terraza",
+   "autor": "Jan Steen",
+   "anio": "c. 1670",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146455.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146455.jpg",
+   "nota": "Obra de Jan Steen (c. 1670), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "vagon",
+   "titulo": "El vagón de tercera clase",
+   "autor": "Honoré Daumier",
+   "anio": "1864",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-21027-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-21027-001.jpg",
+   "nota": "Obra de Honoré Daumier (1864), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "huida",
+   "titulo": "El descanso en la huida a Egipto",
+   "autor": "Gerard David",
+   "anio": "c. 1513",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-023.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-023.jpg",
+   "nota": "Obra de Gerard David (c. 1513), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "circo",
+   "titulo": "Desfile de circo",
+   "autor": "Georges Seurat",
+   "anio": "1887–88",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP375450_cropped.jpg",
+   "nota": "Obra de Georges Seurat (1887–88), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "cosechadores",
+   "titulo": "Los cosechadores",
+   "autor": "Pieter Bruegel el Viejo",
+   "anio": "1565",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+   "nota": "Obra de Pieter Bruegel el Viejo (1565), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "bellini",
+   "titulo": "La Virgen y el Niño",
+   "autor": "Giovanni Bellini",
+   "anio": "c. 1488",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT375.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT375.jpg",
+   "nota": "Obra de Giovanni Bellini (c. 1488), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "rebeca",
+   "titulo": "El rapto de Rebeca",
+   "autor": "Eugène Delacroix",
+   "anio": "1846",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14344-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14344-001.jpg",
+   "nota": "Obra de Eugène Delacroix (1846), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "sagrada",
+   "titulo": "La Sagrada Familia con san Juan niño",
+   "autor": "Andrea del Sarto",
+   "anio": "c. 1528",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP295025.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP295025.jpg",
+   "nota": "Obra de Andrea del Sarto (c. 1528), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "agar",
+   "titulo": "Agar en el desierto",
+   "autor": "Camille Corot",
+   "anio": "1835",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2013.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2013.jpg",
+   "nota": "Obra de Camille Corot (1835), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "troyanas",
+   "titulo": "Las troyanas incendian su flota",
+   "autor": "Claude Lorrain",
+   "anio": "c. 1643",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP226145.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP226145.jpg",
+   "nota": "Obra de Claude Lorrain (c. 1643), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "edipo",
+   "titulo": "Edipo y la esfinge",
+   "autor": "Gustave Moreau",
+   "anio": "1864",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-023.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-023.jpg",
+   "nota": "Obra de Gustave Moreau (1864), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "balleneros",
+   "titulo": "Balleneros",
+   "autor": "J. M. W. Turner",
+   "anio": "c. 1845",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13360-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-13360-001.jpg",
+   "nota": "Obra de J. M. W. Turner (c. 1845), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "naipes",
+   "titulo": "Los jugadores de cartas",
+   "autor": "Paul Cézanne",
+   "anio": "1890–92",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg",
+   "nota": "Obra de Paul Cézanne (1890–92), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "socrates",
+   "titulo": "La muerte de Sócrates",
+   "autor": "Jacques-Louis David",
+   "anio": "1787",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
+   "nota": "Obra de Jacques-Louis David (1787), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "adonis",
+   "titulo": "Venus y Adonis",
+   "autor": "Tiziano",
+   "anio": "década de 1550",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19299-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19299-001.jpg",
+   "nota": "Obra de Tiziano (década de 1550), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "bautismo",
+   "titulo": "El bautismo de Cristo",
+   "autor": "Jacopo Bassano",
+   "anio": "c. 1590",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276931.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP276931.jpg",
+   "nota": "Obra de Jacopo Bassano (c. 1590), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "autorretrato",
+   "titulo": "Autorretrato",
+   "autor": "Rembrandt van Rijn",
+   "anio": "1660",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-16323-001.jpg",
+   "nota": "Obra de Rembrandt van Rijn (1660), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "sanson",
+   "titulo": "Sansón capturado por los filisteos",
+   "autor": "Guercino",
+   "anio": "1619",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT503.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT503.jpg",
+   "nota": "Obra de Guercino (1619), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "orilla",
+   "titulo": "A la orilla del mar",
+   "autor": "Pierre-Auguste Renoir",
+   "anio": "1883",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-039.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-039.jpg",
+   "nota": "Obra de Pierre-Auguste Renoir (1883), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "virgilio",
+   "titulo": "La tumba de Virgilio a la luz de la luna",
+   "autor": "Joseph Wright of Derby",
+   "anio": "1779",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP322015.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP322015.jpg",
+   "nota": "Obra de Joseph Wright of Derby (1779), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "lippi",
+   "titulo": "Retrato de mujer con un hombre en la ventana",
+   "autor": "Filippo Lippi",
+   "anio": "c. 1440",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159891.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP159891.jpg",
+   "nota": "Obra de Filippo Lippi (c. 1440), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
   }
  ],
  "libros": [
