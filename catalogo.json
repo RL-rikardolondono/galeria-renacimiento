@@ -699,7 +699,7 @@
    "id": "joya01",
    "titulo": "Abrazo Esmeralda",
    "img": "img/joyas/joya01.jpg",
-   "precio": 0,
+   "precio": 320000,
    "detalle": "Dos aros de plata 925 cubiertos de circones abrazan una esmeralda natural en talla redonda.",
    "disponible": true
   },
@@ -707,7 +707,7 @@
    "id": "joya02",
    "titulo": "Reina del Valle",
    "img": "img/joyas/joya02.jpg",
-   "precio": 0,
+   "precio": 1280000,
    "detalle": "Esmeralda natural en cabujón oval, coronada por un halo de circones y montada en plata 925.",
    "disponible": true
   },
@@ -715,7 +715,7 @@
    "id": "joya03",
    "titulo": "Hilo de Luna",
    "img": "img/joyas/joya03.jpg",
-   "precio": 0,
+   "precio": 190000,
    "detalle": "Cadena de plata 925 en torzal fino con balines tallados que destellan con cada movimiento.",
    "disponible": true
   },
@@ -723,7 +723,7 @@
    "id": "joya04",
    "titulo": "Promesa Verde",
    "img": "img/joyas/joya04.jpg",
-   "precio": 0,
+   "precio": 220000,
    "detalle": "Solitario de esmeralda natural en cuatro garras sobre una banda de circones en plata 925.",
    "disponible": true
   },
@@ -731,7 +731,7 @@
    "id": "joya05",
    "titulo": "Gotas de Rocío",
    "img": "img/joyas/joya05.jpg",
-   "precio": 0,
+   "precio": 110000,
    "detalle": "Topitos de plata 925 con esmeraldas naturales engastadas en garras: discretos y elegantes.",
    "disponible": true
   },
@@ -739,7 +739,7 @@
    "id": "joya06",
    "titulo": "Cruz de los Andes",
    "img": "img/joyas/joya06.jpg",
-   "precio": 0,
+   "precio": 590000,
    "detalle": "Cruz artesanal en alambre de plata 925 con esferas de esmeralda natural y balines tallados, con su cadena.",
    "disponible": true
   },
@@ -747,7 +747,7 @@
    "id": "joya07",
    "titulo": "Brote de Selva",
    "img": "img/joyas/joya07.jpg",
-   "precio": 0,
+   "precio": 110000,
    "detalle": "Topitos de plata 925 con pequeñas esmeraldas naturales, perfectos para el día a día.",
    "disponible": true
   },
@@ -755,7 +755,7 @@
    "id": "joya08",
    "titulo": "Estrella del Alba",
    "img": "img/joyas/joya08.jpg",
-   "precio": 0,
+   "precio": 270000,
    "detalle": "Esmeralda natural redonda en cuatro garras, escoltada por circones a cada lado, en plata 925.",
    "disponible": true
   },
@@ -763,7 +763,7 @@
    "id": "joya09",
    "titulo": "Lágrima Imperial",
    "img": "img/joyas/joya09.jpg",
-   "precio": 0,
+   "precio": 240000,
    "detalle": "Esmeralda en talla gota rodeada por un halo de circones, en plata 925.",
    "disponible": true
   },
@@ -771,7 +771,7 @@
    "id": "joya10",
    "titulo": "Vals Esmeralda",
    "img": "img/joyas/joya10.jpg",
-   "precio": 0,
+   "precio": 230000,
    "detalle": "Solitario de diseño cruzado que envuelve una esmeralda natural, en plata 925.",
    "disponible": true
   },
@@ -779,7 +779,7 @@
    "id": "joya11",
    "titulo": "Pétalo Esmeralda",
    "img": "img/joyas/joya11.jpg",
-   "precio": 0,
+   "precio": 90000,
    "detalle": "Topitos de plata 925 con esmeraldas naturales que dan un toque de color al rostro.",
    "disponible": true
   },
@@ -787,7 +787,7 @@
    "id": "joya12",
    "titulo": "Primavera",
    "img": "img/joyas/joya12.jpg",
-   "precio": 0,
+   "precio": 230000,
    "detalle": "Solitario delicado con esmeralda natural redonda, en plata 925, para llevar siempre.",
    "disponible": true
   },
@@ -795,7 +795,7 @@
    "id": "joya13",
    "titulo": "Corona Clásica",
    "img": "img/joyas/joya13.jpg",
-   "precio": 0,
+   "precio": 220000,
    "detalle": "Solitario de cuatro garras que eleva una esmeralda natural, en plata 925.",
    "disponible": true
   },
@@ -803,7 +803,7 @@
    "id": "joya14",
    "titulo": "Horizonte",
    "img": "img/joyas/joya14.jpg",
-   "precio": 0,
+   "precio": 220000,
    "detalle": "Esmeralda natural engastada en barra, de líneas limpias y modernas, en plata 925.",
    "disponible": true
   },
@@ -811,7 +811,7 @@
    "id": "joya15",
    "titulo": "Flor de Esmeralda",
    "img": "img/joyas/joya15.jpg",
-   "precio": 0,
+   "precio": 240000,
    "detalle": "Ocho garras en forma de flor sostienen una esmeralda natural, en plata 925.",
    "disponible": true
   },
@@ -819,7 +819,7 @@
    "id": "joya16",
    "titulo": "Diadema",
    "img": "img/joyas/joya16.jpg",
-   "precio": 0,
+   "precio": 230000,
    "detalle": "Anillo en V con esmeralda en talla gota y un circón central, en plata 925.",
    "disponible": true
   },
@@ -827,7 +827,7 @@
    "id": "joya17",
    "titulo": "Eterna",
    "img": "img/joyas/joya17.jpg",
-   "precio": 0,
+   "precio": 320000,
    "detalle": "Esmeralda natural sobre banda de circones, con aro acompañante en plata 925.",
    "disponible": true
   }
