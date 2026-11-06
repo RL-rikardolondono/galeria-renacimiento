@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Panel de la galería | Galería Renacimiento</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--azul:#0B4F8A;--azul2:#1867B0;--verde:#14A38B;--verde-osc:#0E8571;--wa:#1F8A4C;--fondo:#F4F8FB;--texto:#1C2B39;--suave:#5D6B78;--borde:#DCE5EE;--azul-claro:#E8F1FA;--verde-claro:#E3F6F2;--rojo:#C0392B;--rojo-claro:#FDECEA;--ambar:#9A6700;--ambar-claro:#FFF4D6;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--texto);font-family:'Public Sans',system-ui,sans-serif;font-size:16px;line-height:1.55}
+h1,h2,h3{font-family:'Barlow Condensed',system-ui,sans-serif;margin:0 0 .4em;line-height:1.15}
+h1{font-size:2rem}h2{font-size:1.6rem}h3{font-size:1.25rem}
+a{color:var(--azul2)}
+.oculto{display:none!important}
+.barra{background:#fff;box-shadow:0 2px 12px rgba(28,43,57,.08);position:sticky;top:0;z-index:20}
+.barra__in{max-width:1100px;margin:0 auto;padding:0 16px;min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.marca{display:flex;align-items:center;gap:10px;font-family:'Barlow Condensed',system-ui,sans-serif;font-weight:700;font-size:1.2rem}
+.marca svg{flex:none}
+.marca small{display:block;font-family:'Public Sans',system-ui,sans-serif;font-weight:500;font-size:.75rem;color:var(--suave)}
+.acciones-barra{display:flex;gap:8px;flex-wrap:wrap}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 60px}
+.caja{background:#fff;border:1px solid var(--borde);border-radius:14px;padding:22px;box-shadow:0 2px 14px rgba(11,79,138,.06);margin-bottom:18px}
+.boton{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 16px;border-radius:10px;border:0;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap}
+.boton:disabled{opacity:.55;cursor:not-allowed}
+.b-principal{background:var(--azul);color:#fff}.b-principal:hover{background:var(--azul2)}
+.b-accion{background:var(--verde);color:#fff}.b-accion:hover{background:var(--verde-osc)}
+.b-borde{background:#fff;color:var(--azul);border:1.5px solid var(--borde)}.b-borde:hover{border-color:var(--azul2)}
+.b-peligro{background:#fff;color:var(--rojo);border:1.5px solid #f1c6c0}.b-peligro:hover{background:var(--rojo-claro)}
+.b-chico{padding:6px 11px;font-size:.88rem}
+.b-grande{padding:14px 24px;font-size:1.05rem}
+label{display:block;font-weight:600;margin:14px 0 6px}
+.ayuda{font-weight:400;color:var(--suave);font-size:.88rem;margin-top:4px}
+input[type=text],input[type=url],input[type=email],input[type=number],input[type=password],input[type=search],select,textarea{width:100%;padding:11px 12px;border:1.5px solid var(--borde);border-radius:10px;font:inherit;background:#fff;color:var(--texto);color-scheme:light}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--verde);box-shadow:0 0 0 3px var(--verde-claro)}
+input[type=checkbox]{appearance:none;-webkit-appearance:none;width:20px;height:20px;border:2px solid #9fb3c6;border-radius:5px;background:#fff;display:inline-grid;place-content:center;cursor:pointer;flex:none;margin:0}
+input[type=checkbox]:checked{background:var(--verde);border-color:var(--verde)}
+input[type=checkbox]:checked::after{content:'';width:5px;height:10px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px)}
+textarea{min-height:120px;resize:vertical;line-height:1.6}
+.fila{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fila3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+@media(max-width:700px){.fila,.fila3{grid-template-columns:1fr}}
+.pestanas{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.pestana{background:#fff;border:1.5px solid var(--borde);padding:10px 16px;border-radius:10px;font:inherit;font-weight:600;cursor:pointer;color:var(--texto)}
+.pestana[aria-selected=true]{background:var(--verde);border-color:var(--verde);color:#fff}
+.cabeza{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.lista{display:flex;flex-direction:column;gap:10px}
+.item{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--borde);border-radius:12px;padding:10px}
+.item img,.item .sin-foto{width:72px;height:72px;object-fit:cover;border-radius:8px;background:var(--azul-claro);flex:none;display:grid;place-items:center;color:var(--azul);font-weight:700;font-size:.75rem;text-align:center}
+.item__txt{flex:1;min-width:0}
+.item__txt b{display:block;overflow:hidden;text-overflow:ellipsis}
+.item__txt span{color:var(--suave);font-size:.88rem;display:block}
+.item__btn{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:600px){.item{flex-wrap:wrap}.item__btn{width:100%;justify-content:flex-start}}
+.subir{display:block;border:2px dashed var(--borde);border-radius:12px;padding:16px;text-align:center;background:var(--azul-claro);cursor:pointer;color:var(--azul);font-weight:600;margin:6px 0 0}
+.subir:hover{border-color:var(--azul2)}
+.fotos{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;margin-top:8px}
+.fotos figure{margin:0;background:#fff;border:1px solid var(--borde);border-radius:10px;overflow:hidden}
+.fotos img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.fotos figcaption{display:flex;gap:4px;padding:6px;justify-content:center;flex-wrap:wrap}
+.fotos .principal{outline:3px solid var(--verde)}
+.aviso{padding:12px 14px;border-radius:10px;margin:12px 0;font-weight:500}
+.aviso.ok{background:var(--verde-claro);color:var(--verde-osc)}
+.aviso.error{background:var(--rojo-claro);color:var(--rojo)}
+.aviso.info{background:var(--azul-claro);color:var(--azul)}
+.aviso.alerta{background:var(--ambar-claro);color:var(--ambar)}
+.pie-acciones{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-top:20px;padding-top:16px;border-top:1px solid var(--borde)}
+.cargando{position:fixed;inset:0;background:rgba(244,248,251,.88);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;z-index:100;font-weight:600;color:var(--azul);text-align:center;padding:20px}
+.rueda{width:46px;height:46px;border:5px solid var(--azul-claro);border-top-color:var(--verde);border-radius:50%;animation:g 1s linear infinite}
+@keyframes g{to{transform:rotate(360deg)}}
+.ingreso{max-width:560px;margin:40px auto}
+.firma{text-align:center;color:var(--suave);font-size:.82rem;padding:20px 16px 30px}
+.chk{display:flex;gap:10px;align-items:center;font-weight:500;margin-top:12px}
+.clave-caja{position:relative}.clave-caja input{padding-right:96px}
+.ojo{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:#fff;border:1.5px solid var(--borde);border-radius:8px;padding:5px 10px;font:inherit;font-size:.85rem;font-weight:600;color:var(--azul);cursor:pointer}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--azul);color:#fff;font-size:16px;font-weight:700;padding:16px 22px;border-radius:12px;box-shadow:0 10px 30px rgba(11,79,138,.35);z-index:120;max-width:min(92vw,620px);text-align:center}
+.chip{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.8rem;font-weight:700;background:var(--azul-claro);color:var(--azul);white-space:nowrap}
+.chip.pagado,.chip.entregado,.chip.enviado{background:var(--verde-claro);color:var(--verde-osc)}
+.chip.revisar{background:var(--rojo-claro);color:var(--rojo)}
+.chip.pendiente,.chip.por_enviar,.chip.en_produccion{background:var(--ambar-claro);color:var(--ambar)}
+.chip.vencido,.chip.cancelado{background:#eef1f4;color:#6b7785}
+.tabla{width:100%;border-collapse:collapse;font-size:.92rem}
+.tabla td,.tabla th{padding:8px 6px;border-bottom:1px solid var(--borde);text-align:left;vertical-align:top}
+.tabla th{color:var(--suave);font-weight:600}
+.cifras{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:14px}
+.cifra{background:#fff;border:1px solid var(--borde);border-radius:12px;padding:12px}
+.cifra b{display:block;font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;color:var(--azul)}
+.cifra span{color:var(--suave);font-size:.85rem}
+.barra-prog{height:8px;background:var(--azul-claro);border-radius:6px;overflow:hidden;margin-top:6px}.barra-prog i{display:block;height:100%;background:var(--verde);width:0}
+.estado-arch{font-size:.85rem;font-weight:700}.estado-arch.si{color:var(--verde-osc)}.estado-arch.no{color:var(--rojo)}
+</style>
+</head>
+<body>
+<header class="barra"><div class="barra__in">
+  <div class="marca"><svg viewBox="0 0 200 200" width="38" height="38" aria-hidden="true"><rect width="200" height="200" rx="40" fill="#0B4F8A"/><g stroke="#FFFFFF" stroke-linecap="round"><polygon points="100,42 150.2,71 150.2,129 100,158 49.8,129 49.8,71" fill="none" stroke-opacity=".35" stroke-width="4"/><path d="M100 100L100 42M100 100L150.2 71M100 100L150.2 129M100 100L100 158M100 100L49.8 129M100 100L49.8 71" stroke-width="6"/></g><g fill="#FFFFFF"><circle cx="150.2" cy="71" r="10"/><circle cx="150.2" cy="129" r="10"/><circle cx="100" cy="158" r="10"/><circle cx="49.8" cy="129" r="10"/><circle cx="49.8" cy="71" r="10"/></g><circle cx="100" cy="42" r="13" fill="#E0A21A"/><circle cx="100" cy="100" r="20" fill="#E0A21A"/></svg>
+    <div>Panel de la galería<small>galeriarenacimiento.com</small></div></div>
+  <div class="acciones-barra oculto" id="acciones-barra">
+    <a class="boton b-borde b-chico" href="/" target="_blank" rel="noopener">Ver la galería</a>
+    <button class="boton b-borde b-chico" type="button" id="btn-salir">Salir</button>
+  </div>
+</div></header>
+
+<main>
+  <!-- INGRESO -->
+  <section id="vista-ingreso" class="ingreso">
+    <div class="caja" id="caja-entrar">
+      <h1>Entrar al panel</h1>
+      <p>Entre con su correo y su contraseña del panel.</p>
+      <label for="ing-correo">Correo</label>
+      <input type="email" id="ing-correo" autocomplete="username">
+      <label for="ing-clave">Contraseña</label>
+      <div class="clave-caja"><input type="password" id="ing-clave" autocomplete="current-password"><button type="button" class="ojo" data-ojo="ing-clave">Mostrar</button></div>
+      <label class="chk"><input type="checkbox" id="recordar" checked> Recordar en este equipo (no lo marque en computadores ajenos)</label>
+      <div id="aviso-ingreso"></div>
+      <div class="pie-acciones"><button class="boton b-principal b-grande" id="btn-entrar" type="button">Entrar</button></div>
+      <p class="ayuda" style="margin-top:14px"><a href="#" id="btn-olvido">¿Olvidó su contraseña?</a> · <a href="#" id="btn-primera">¿Primera vez? Crear mi contraseña</a></p>
+      <p class="ayuda">Soporte: SkyNet Genesis · contacto@skynetgenesis.com · WhatsApp 3044375758</p>
+    </div>
+
+    <div class="caja oculto" id="caja-nueva">
+      <h1>Crear nueva contraseña</h1>
+      <p>Escriba su nueva contraseña del panel (mínimo 10 caracteres).</p>
+      <label for="nueva-clave">Nueva contraseña</label>
+      <div class="clave-caja"><input type="password" id="nueva-clave" autocomplete="new-password"><button type="button" class="ojo" data-ojo="nueva-clave">Mostrar</button></div>
+      <label for="nueva-clave2">Repita la contraseña</label>
+      <div class="clave-caja"><input type="password" id="nueva-clave2" autocomplete="new-password"><button type="button" class="ojo" data-ojo="nueva-clave2">Mostrar</button></div>
+      <div id="aviso-nueva"></div>
+      <div class="pie-acciones"><button class="boton b-borde" type="button" id="btn-volver-entrar">← Volver</button><button class="boton b-principal b-grande" id="btn-clave-nueva" type="button">Guardar y entrar</button></div>
+    </div>
+
+    <div class="caja oculto" id="caja-llave">
+      <h1>Configuración inicial (solo una vez)</h1>
+      <p>Para que el panel pueda publicar en la galería, GitHub necesita una llave de acceso. Se pega <b>una sola vez</b>: queda guardada de forma segura en el servidor y nadie tendrá que volver a verla.</p>
+      <ol>
+        <li>Inicie sesión en GitHub y abra <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">esta página</a>.</li>
+        <li>En <b>Token name</b> escriba: <i>Panel Galería Renacimiento</i>. En <b>Expiration</b> elija <b>No expiration</b>.</li>
+        <li>En <b>Repository access</b> elija <b>Only select repositories</b> y marque solo <b>galeria-renacimiento</b>.</li>
+        <li>En <b>Permissions → Repository permissions</b>, ponga <b>Contents</b> en <b>Read and write</b>. Nada más.</li>
+        <li>Pulse <b>Generate token</b>, copie la llave (empieza por <code>github_pat_</code>) y péguela aquí abajo.</li>
+      </ol>
+      <label for="llave">Llave de GitHub</label>
+      <div class="clave-caja"><input type="password" id="llave" autocomplete="off" placeholder="github_pat_…"><button type="button" class="ojo" data-ojo="llave">Mostrar</button></div>
+      <div id="aviso-llave"></div>
+      <div class="pie-acciones"><button class="boton b-principal b-grande" id="btn-llave" type="button">Guardar y entrar</button></div>
+    </div>
+  </section>
+
+  <!-- PANEL -->
+  <section id="vista-panel" class="oculto">
+    <div class="pestanas" role="tablist">
+      <button class="pestana" role="tab" aria-selected="true" data-pestana="pedidos">Pedidos</button>
+      <button class="pestana" role="tab" aria-selected="false" data-pestana="joyas">Joyas</button>
+      <button class="pestana" role="tab" aria-selected="false" data-pestana="obras">Obras de arte</button>
+      <button class="pestana" role="tab" aria-selected="false" data-pestana="libros">Biblioteca</button>
+      <button class="pestana" role="tab" aria-selected="false" data-pestana="precios">Precios</button>
+      <button class="pestana" role="tab" aria-selected="false" data-pestana="archivos">Archivos de descarga</button>
+      <button class="pestana" role="tab" aria-selected="false" data-pestana="revision">Revisión</button>
+    </div>
+    <div id="aviso-panel"></div>
+
+    <!-- Pedidos -->
+    <div data-panel="pedidos">
+      <div class="cifras" id="cifras"></div>
+      <div class="caja">
+        <div class="cabeza"><h2 style="margin:0">Pedidos</h2><button class="boton b-borde b-chico" type="button" id="btn-recargar-pedidos">↻ Actualizar</button></div>
+        <p class="ayuda">Aquí llegan solos los pedidos que la gente hace en la galería. Cuando Bold confirma el pago, el sistema envía las descargas por correo y pide la impresión de las láminas a Gelato. Las joyas las despacha usted: registre la guía y pulse «Guardar y avisar al cliente».</p>
+        <div class="fila"><div><label for="f-estado">Mostrar</label><select id="f-estado"></select></div><div><label for="f-buscar">Buscar</label><input type="search" id="f-buscar" placeholder="Nombre, correo, número de pedido u obra"></div></div>
+        <div id="aviso-pedidos"></div>
+        <div class="lista" id="lista-pedidos" style="margin-top:14px"></div>
+      </div>
+      <div class="caja oculto" id="detalle-pedido"></div>
+    </div>
+
+    <!-- Colecciones del catálogo (joyas, obras, libros): se dibujan con el mismo editor -->
+    <div data-panel="joyas" class="oculto"></div>
+    <div data-panel="obras" class="oculto"></div>
+    <div data-panel="libros" class="oculto"></div>
+
+    <!-- Precios -->
+    <div data-panel="precios" class="oculto">
+      <div class="caja">
+        <h2>Precios de la galería</h2>
+        <p class="ayuda">Los precios de cada libro y de cada joya se cambian en su propia pestaña. Aquí están los de las obras de arte, que valen igual para todas. No se cobra IVA. El servidor de pagos siempre cobra lo que diga esta tabla.</p>
+        <div class="fila3">
+          <div><label for="p-dig">Descarga digital de arte</label><input type="number" id="p-dig" min="1000" step="100"></div>
+          <div><label for="p-30">Lámina 30 × 40 cm (envío incluido)</label><input type="number" id="p-30" min="1000" step="100"><p class="ayuda" id="m-30"></p></div>
+          <div><label for="p-50">Lámina 50 × 70 cm (envío incluido)</label><input type="number" id="p-50" min="1000" step="100"><p class="ayuda" id="m-50"></p></div>
+        </div>
+        <p class="ayuda" id="rev-precios"></p>
+        <div id="aviso-precios"></div>
+        <div class="pie-acciones"><button class="boton b-accion b-grande" type="button" id="btn-guardar-precios">Publicar precios</button></div>
+      </div>
+    </div>
+
+    <!-- Archivos -->
+    <div data-panel="archivos" class="oculto">
+      <div class="caja">
+        <h2>Archivos que recibe el cliente</h2>
+        <p class="ayuda">Estos archivos <b>no</b> se ven en la página: quedan guardados en el servidor privado y solo se entregan con un enlace personal después de que Bold confirma el pago. Una obra sin archivo no se puede vender (ni en lámina ni en descarga); un libro sin archivo aparece como «próximamente».</p>
+        <p class="ayuda">Obras de arte: suba la imagen original (JPG, PNG o TIF) o pegue el enlace del archivo original de Wikimedia Commons (empieza por https://upload.wikimedia.org/). Ese mismo archivo se usa para imprimir las láminas en Gelato. Libros: suba el PDF y el EPUB.</p>
+        <div id="aviso-archivos"></div>
+        <h3 style="margin-top:18px">Obras de arte</h3><div class="lista" id="arch-obras"></div>
+        <h3 style="margin-top:22px">Libros digitales</h3><div class="lista" id="arch-libros"></div>
+      </div>
+    </div>
+
+    <!-- Revisión -->
+    <div data-panel="revision" class="oculto">
+      <div class="caja">
+        <h2>Revisión del sistema</h2>
+        <p class="ayuda">Comprueba que el servidor de pedidos, las llaves de Gelato y Brevo y los archivos estén listos.</p>
+        <div class="pie-acciones" style="justify-content:flex-start;border:0;padding:0"><button class="boton b-principal" type="button" id="btn-diagnostico">Revisar ahora</button></div>
+        <div id="aviso-diag"></div>
+        <table class="tabla" id="tabla-diag"></table>
+      </div>
+      <div class="caja">
+        <h2>Pago de prueba de $1.000</h2>
+        <p class="ayuda">Hace un pago real de $1.000 con Bold para comprobar todo el circuito (Bold → servidor de la galería). Úselo una vez al instalar. Le llegará un correo cuando se aplique.</p>
+        <div id="aviso-prueba"></div>
+        <div class="pie-acciones" style="justify-content:flex-start;border:0;padding:0"><button class="boton b-accion" type="button" id="btn-prueba">Pagar $1.000 de prueba</button></div>
+      </div>
+    </div>
+  </section>
+</main>
+<p class="firma">Panel desarrollado por SkyNet Genesis · contacto@skynetgenesis.com · WhatsApp 3044375758</p>
+
+<div class="cargando oculto" id="cargando"><div class="rueda"></div><div id="cargando-texto">Cargando…</div></div>
+
+<script>
+/* ===== Configuración de esta web ===== */
+var PRUEBA = window.GALERIA_PRUEBA || {};          // solo para pruebas locales; en la web real no existe
+var CONFIG = {
+  dueno: 'RL-rikardolondono',
+  repo: 'galeria-renacimiento',
+  rama: 'main',
+  claveLocal: 'panel-galeria-sesion',
+  sitioId: 'galeria',                               // nombre de esta web en el servicio central de ingreso
+  correo: 'rikardolondono@gmail.com',               // correo que entra al panel
+  ingreso: PRUEBA.ingreso || 'https://skynetgenesis.com/ingreso/api.php',
+  github: PRUEBA.github || 'https://api.github.com',
+  galeria: PRUEBA.galeria || 'https://skynetgenesis.com/galeria-api/',
+  datos: 'catalogo.json',
+  carpetaFotos: 'img/panel',
+  costos: { lamina30x40: 112700, lamina50x70: 136800 } // costo Gelato entregado en Colombia (31 oct 2026), para avisar si el precio queda bajo
+};
+/* ===================================== */
+
+var API = CONFIG.github + '/repos/' + CONFIG.dueno + '/' + CONFIG.repo;
+var estado = { llave: '', datos: null, commitBase: '', cambiosSinGuardar: false, archivos: [], vendidas: [] };
+var nuevasImagenes = {};  // ruta -> dataURL pendiente de subir
+
+function $(id) { return document.getElementById(id); }
+function aviso(id, tipo, txt) { var el = $(id); if (!el) return; el.innerHTML = ''; if (!txt) return; var d = document.createElement('div'); d.className = 'aviso ' + tipo; d.textContent = txt; el.appendChild(d); if (tipo !== 'info') d.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+var tToast = null;
+function toast(txt) { var t = document.querySelector('.toast'); if (!t) { t = document.createElement('div'); t.className = 'toast'; document.body.appendChild(t); } t.textContent = txt; t.classList.remove('oculto'); clearTimeout(tToast); tToast = setTimeout(function () { t.classList.add('oculto'); }, 6000); }
+function cargando(on, txt) { $('cargando').classList.toggle('oculto', !on); $('cargando-texto').textContent = txt || 'Cargando…'; }
+function leerLS(k) { try { return localStorage.getItem(k) || sessionStorage.getItem(k) || ''; } catch (e) { return ''; } }
+function guardarLS(k, v, recordar) { try { (recordar ? localStorage : sessionStorage).setItem(k, v); } catch (e) {} }
+function borrarLS(k) { try { localStorage.removeItem(k); sessionStorage.removeItem(k); } catch (e) {} }
+function clonar(o) { return JSON.parse(JSON.stringify(o)); }
+function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+function pesos(n) { return '$' + Math.round(+n || 0).toLocaleString('es-CO'); }
+function hoyISO() { var d = new Date(); return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
+function fechaHora(s) { var d = new Date(s * 1000); return d.toLocaleDateString('es-CO', { day: 'numeric', month: 'short', year: 'numeric' }) + ' ' + d.toLocaleTimeString('es-CO', { hour: '2-digit', minute: '2-digit' }); }
+function slug(t) { return String(t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 50) || 'item'; }
+function idUnico(base, lista) { var s = slug(base), n = 2, id = s; while (lista.some(function (x) { return x.id === id; })) id = s + '-' + (n++); return id; }
+function boton(txt, clases, fn) { var b = document.createElement('button'); b.type = 'button'; b.className = 'boton ' + clases; b.textContent = txt; b.onclick = fn; return b; }
+function srcImagen(r) { return nuevasImagenes[r] || (/^(https?:|data:)/.test(r) ? r : '/' + String(r || '').replace(/^\//, '')); }
+document.addEventListener('click', function (e) { var b = e.target.closest('[data-ojo]'); if (!b) return; var i = $(b.getAttribute('data-ojo')); var ver = i.type === 'password'; i.type = ver ? 'text' : 'password'; b.textContent = ver ? 'Ocultar' : 'Mostrar'; });
+
+/* ---------- GitHub ---------- */
+function gh(ruta, op) {
+  op = op || {};
+  var h = { 'Authorization': 'Bearer ' + estado.llave, 'Accept': op.accept || 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+  if (op.body) h['Content-Type'] = 'application/json';
+  return fetch(ruta.indexOf('http') === 0 ? ruta : API + ruta, { method: op.method || 'GET', headers: h, body: op.body ? JSON.stringify(op.body) : undefined, cache: 'no-store' })
+    .then(function (r) {
+      if (op.accept === 'application/vnd.github.raw') return r.ok ? r.text() : r.text().then(function (t) { throw errorGH(r.status, t); });
+      return r.text().then(function (t) { var j = {}; try { j = t ? JSON.parse(t) : {}; } catch (e) {} if (!r.ok) throw errorGH(r.status, j.message || t); return j; });
+    }, function () { throw errorGH(0, ''); });
+}
+function errorGH(st, msg) {
+  var e = new Error(msg); e.status = st;
+  if (st === 401) e.message = 'La llave de GitHub no es válida o ya venció. Cree una nueva y vuelva a entrar.';
+  else if (st === 403) e.message = 'La llave no tiene permiso para escribir en la galería. Revise que tenga «Contents: Read and write» sobre el repositorio ' + CONFIG.repo + '.';
+  else if (st === 404) e.message = 'No se encontró el repositorio ' + CONFIG.repo + ' con esta llave.';
+  else if (!st) e.message = 'No hay conexión a internet. Intente de nuevo.';
+  return e;
+}
+function leerArchivo(ruta) { return gh('/contents/' + ruta + '?ref=' + CONFIG.rama, { accept: 'application/vnd.github.raw' }); }
+function refActual() { return gh('/git/ref/heads/' + CONFIG.rama).then(function (r) { return r.object.sha; }); }
+// Sube en UN solo cambio: textos, fotos nuevas y fotos a borrar.
+function confirmarCambios(textos, archivos, borrar, mensaje) {
+  var base, arbolBase;
+  return refActual().then(function (sha) {
+    if (estado.commitBase && sha !== estado.commitBase) { var e = new Error('La galería fue modificada desde otro lugar mientras usted trabajaba. Pulse «Recargar» para traer la versión más reciente.'); e.recargar = true; throw e; }
+    base = sha; return gh('/git/commits/' + sha);
+  }).then(function (c) {
+    arbolBase = c.tree.sha;
+    var rutas = Object.keys(archivos);
+    return rutas.reduce(function (p, ruta, i) {
+      return p.then(function (acc) {
+        cargando(true, 'Subiendo foto ' + (i + 1) + ' de ' + rutas.length + '…');
+        return gh('/git/blobs', { method: 'POST', body: { content: archivos[ruta].split(',')[1], encoding: 'base64' } })
+          .then(function (b) { acc.push({ path: ruta.replace(/^\//, ''), mode: '100644', type: 'blob', sha: b.sha }); return acc; });
+      });
+    }, Promise.resolve([]));
+  }).then(function (arbol) {
+    cargando(true, 'Publicando…');
+    Object.keys(textos).forEach(function (ruta) { arbol.push({ path: ruta, mode: '100644', type: 'blob', content: textos[ruta] }); });
+    borrar.forEach(function (ruta) { arbol.push({ path: ruta.replace(/^\//, ''), mode: '100644', type: 'blob', sha: null }); });
+    return gh('/git/trees', { method: 'POST', body: { base_tree: arbolBase, tree: arbol } });
+  }).then(function (t) { return gh('/git/commits', { method: 'POST', body: { message: mensaje, tree: t.sha, parents: [base] } }); })
+    .then(function (c) { return gh('/git/refs/heads/' + CONFIG.rama, { method: 'PATCH', body: { sha: c.sha } }).then(function () { estado.commitBase = c.sha; return c; }); });
+}
+function fotosUsadas(d) { var s = JSON.stringify(d), r = {}; (s.match(/img\/panel\/[\w.-]+/g) || []).forEach(function (x) { r[x] = 1; }); return r; }
+// Publica el catálogo «cand». Solo si sale bien pasa a ser el estado.
+function publicar(cand, mensaje, avisoId, alTerminar) {
+  cargando(true, 'Preparando…');
+  var antes = fotosUsadas(estado.datos), ahora = fotosUsadas(cand);
+  var imgs = {}; Object.keys(nuevasImagenes).forEach(function (r) { if (ahora[r]) imgs[r] = nuevasImagenes[r]; });
+  var borrar = Object.keys(antes).filter(function (r) { return !ahora[r]; });
+  var textos = {}; textos[CONFIG.datos] = JSON.stringify(cand, null, 1) + '\n';
+  return confirmarCambios(textos, imgs, borrar, mensaje).then(function (c) {
+    estado.datos = cand; nuevasImagenes = {}; estado.cambiosSinGuardar = false;
+    galeria('refrescar', { sha: c.sha }).catch(function () {});   // el servidor de pagos lee los precios nuevos de inmediato
+    cargando(false);
+    if (alTerminar) alTerminar();
+    aviso('aviso-panel', 'ok', '✔ Publicado. La galería se actualiza en 1 o 2 minutos (si no ve el cambio, recargue la página de la galería).');
+    toast('✔ Publicado en la galería');
+    return true;
+  }).catch(function (e) {
+    cargando(false);
+    aviso(avisoId, 'error', 'No se pudo publicar: ' + e.message);
+    if (e.recargar) { var b = boton('Recargar', 'b-principal b-chico', function () { estado.cambiosSinGuardar = false; location.reload(); }); b.style.marginTop = '8px'; $(avisoId).appendChild(b); }
+    return false;
+  });
+}
+
+/* ---------- Servidor de pedidos (skynetgenesis.com/galeria-api) ---------- */
+function galeria(accion, datos) {
+  datos = datos || {}; datos.accion = accion; datos.llave = estado.llave;
+  return fetch(CONFIG.galeria + 'admin.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(datos), cache: 'no-store' })
+    .then(function (r) { return r.json().catch(function () { return { ok: false, error: 'El servidor de pedidos respondió con un error (' + r.status + ').' }; }).then(function (j) { if (!j.ok) { var e = new Error(j.error || 'Error del servidor de pedidos.'); e.status = r.status; e.datos = j; throw e; } return j; }); },
+      function () { throw new Error('No se pudo conectar con el servidor de pedidos (skynetgenesis.com/galeria-api). Revise su internet; si sigue igual, puede que el servidor aún no esté instalado.'); });
+}
+function subirArchivo(clave, archivo, alProgreso) {
+  return new Promise(function (ok, mal) {
+    var fd = new FormData(); fd.append('accion', 'subir'); fd.append('llave', estado.llave); fd.append('clave', clave); fd.append('archivo', archivo);
+    var x = new XMLHttpRequest(); x.open('POST', CONFIG.galeria + 'admin.php');
+    x.upload.onprogress = function (e) { if (e.lengthComputable && alProgreso) alProgreso(e.loaded / e.total); };
+    x.onload = function () { var j = {}; try { j = JSON.parse(x.responseText); } catch (e) { j = { ok: false, error: x.status === 413 ? 'El archivo es demasiado grande para el servidor.' : 'El servidor respondió con un error (' + x.status + ').' }; } j.ok ? ok(j) : mal(new Error(j.error || 'No se pudo subir.')); };
+    x.onerror = function () { mal(new Error('Se cortó la conexión mientras subía el archivo. Intente de nuevo.')); };
+    x.send(fd);
+  });
+}
+
+/* ---------- Ingreso (correo y contraseña por el servicio central de SkyNet Genesis) ---------- */
+function api(accion, datos) {
+  datos = datos || {}; datos.sitio = CONFIG.sitioId; datos.accion = accion;
+  return fetch(CONFIG.ingreso + '?sitio=' + encodeURIComponent(CONFIG.sitioId), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(datos), cache: 'no-store' })
+    .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok || !j.ok) { var e = new Error(j.error || 'No se pudo conectar con el servicio de ingreso. Intente de nuevo.'); e.status = r.status; throw e; } return j; }); },
+      function () { throw new Error('No hay conexión a internet. Intente de nuevo.'); });
+}
+function verCaja(id) { ['caja-entrar', 'caja-nueva', 'caja-llave'].forEach(function (c) { $(c).classList.toggle('oculto', c !== id); }); $('vista-ingreso').classList.remove('oculto'); }
+function guardarSesion(s, recordar) { borrarLS(CONFIG.claveLocal); guardarLS(CONFIG.claveLocal, s, recordar); }
+function trasIngreso(r) { if (!r.configurado || !r.llave) { cargando(false); verCaja('caja-llave'); return; } cargarPanel(r.llave); }
+function cargarPanel(llave) {
+  estado.llave = llave;
+  cargando(true, 'Entrando…');
+  gh('').then(function (repo) {
+    if (repo.permissions && !repo.permissions.push) throw errorGH(403);
+    return Promise.all([refActual(), leerArchivo(CONFIG.datos)]);
+  }).then(function (r) {
+    estado.commitBase = r[0];
+    estado.datos = JSON.parse(r[1]);
+    ['obras', 'libros', 'joyas'].forEach(function (k) { if (!Array.isArray(estado.datos[k])) estado.datos[k] = []; });
+    if (!estado.datos.precios) estado.datos.precios = {};
+    $('vista-ingreso').classList.add('oculto'); $('vista-panel').classList.remove('oculto'); $('acciones-barra').classList.remove('oculto');
+    cargando(false); pintarTodo(); verPanel('pedidos');
+    galeria('archivos').then(function (r) { estado.archivos = r.archivos; estado.vendidas = r.vendidas || []; pintarColeccion('joyas'); }).catch(function () {});
+  }).catch(function (e) {
+    cargando(false); estado.llave = '';
+    if (e.status === 401 || e.status === 403 || e.status === 404) { verCaja('caja-llave'); aviso('aviso-llave', 'error', 'La llave de GitHub guardada ya no funciona (' + e.message + ') Cree una nueva y péguela aquí.'); return; }
+    verCaja('caja-entrar'); aviso('aviso-ingreso', 'error', e.message);
+  });
+}
+$('ing-correo').value = CONFIG.correo;
+$('btn-entrar').onclick = function () {
+  var correo = $('ing-correo').value.trim(), clave = $('ing-clave').value, recordar = $('recordar').checked;
+  if (!correo || !clave) { aviso('aviso-ingreso', 'error', 'Escriba su correo y su contraseña.'); return; }
+  cargando(true, 'Entrando…'); aviso('aviso-ingreso', '', '');
+  api('entrar', { correo: correo, clave: clave, recordar: recordar }).then(function (r) { $('ing-clave').value = ''; guardarSesion(r.sesion, recordar); trasIngreso(r); })
+    .catch(function (e) { cargando(false); aviso('aviso-ingreso', 'error', e.message); });
+};
+$('ing-clave').addEventListener('keydown', function (e) { if (e.key === 'Enter') $('btn-entrar').click(); });
+function pedirEnlace(ev) {
+  ev.preventDefault();
+  var correo = $('ing-correo').value.trim();
+  if (!correo) { aviso('aviso-ingreso', 'error', 'Escriba primero su correo.'); return; }
+  cargando(true, 'Enviando el correo…');
+  api('solicitar', { correo: correo }).then(function () {
+    cargando(false);
+    aviso('aviso-ingreso', 'ok', 'Listo. Si ese correo tiene acceso al panel, le llegará en unos minutos un mensaje con un enlace para crear su contraseña. Revise también la carpeta de spam. El enlace vence en 1 hora y sirve una sola vez.');
+  }).catch(function (e) { cargando(false); aviso('aviso-ingreso', 'error', e.message); });
+}
+$('btn-olvido').onclick = pedirEnlace; $('btn-primera').onclick = pedirEnlace;
+$('btn-volver-entrar').onclick = function () { history.replaceState(null, '', location.pathname); verCaja('caja-entrar'); };
+$('btn-clave-nueva').onclick = function () {
+  var c1 = $('nueva-clave').value, c2 = $('nueva-clave2').value;
+  if (c1.length < 10) { aviso('aviso-nueva', 'error', 'La contraseña debe tener al menos 10 caracteres.'); return; }
+  if (c1 !== c2) { aviso('aviso-nueva', 'error', 'Las dos contraseñas no coinciden.'); return; }
+  var codigo = (location.hash.match(/clave=([a-f0-9]+)/) || [])[1] || '';
+  cargando(true, 'Guardando…');
+  api('fijar', { codigo: codigo, clave: c1, recordar: true }).then(function (r) {
+    history.replaceState(null, '', location.pathname); $('nueva-clave').value = $('nueva-clave2').value = '';
+    guardarSesion(r.sesion, true); trasIngreso(r);
+  }).catch(function (e) { cargando(false); aviso('aviso-nueva', 'error', e.message); });
+};
+$('btn-llave').onclick = function () {
+  var llave = $('llave').value.trim();
+  if (!/^(github_pat_|ghp_)/.test(llave)) { aviso('aviso-llave', 'error', 'Eso no parece una llave de GitHub. Debe empezar por «github_pat_».'); return; }
+  cargando(true, 'Comprobando la llave…');
+  api('guardar_llave', { sesion: leerLS(CONFIG.claveLocal), llave: llave }).then(function (r) { $('llave').value = ''; cargarPanel(r.llave); })
+    .catch(function (e) { cargando(false); if (e.status === 401) { borrarLS(CONFIG.claveLocal); verCaja('caja-entrar'); aviso('aviso-ingreso', 'error', e.message); return; } aviso('aviso-llave', 'error', e.message); });
+};
+$('btn-salir').onclick = function () {
+  if (estado.cambiosSinGuardar && !confirm('Tiene cambios sin publicar. ¿Salir de todos modos?')) return;
+  var s = leerLS(CONFIG.claveLocal); borrarLS(CONFIG.claveLocal); estado.cambiosSinGuardar = false;
+  (s ? api('salir', { sesion: s }).catch(function () {}) : Promise.resolve()).then(function () { location.reload(); });
+};
+window.addEventListener('beforeunload', function (e) { if (estado.cambiosSinGuardar) { e.preventDefault(); e.returnValue = ''; } });
+(function () {
+  window.addEventListener('hashchange', function () { if (/clave=[a-f0-9]+/.test(location.hash)) { $('vista-panel').classList.add('oculto'); $('acciones-barra').classList.add('oculto'); verCaja('caja-nueva'); } });
+  if (/clave=[a-f0-9]+/.test(location.hash)) { verCaja('caja-nueva'); return; }
+  var s = leerLS(CONFIG.claveLocal);
+  if (!s) { verCaja('caja-entrar'); return; }
+  cargando(true, 'Entrando…');
+  api('sesion', { sesion: s }).then(trasIngreso).catch(function (e) { cargando(false); if (e.status === 401) borrarLS(CONFIG.claveLocal); verCaja('caja-entrar'); if (e.status !== 401) aviso('aviso-ingreso', 'error', e.message); });
+})();
+
+/* ---------- Pestañas ---------- */
+function verPanel(nombre) {
+  document.querySelectorAll('[data-panel]').forEach(function (p) { p.classList.toggle('oculto', p.getAttribute('data-panel') !== nombre); });
+  document.querySelectorAll('.pestana').forEach(function (b) { b.setAttribute('aria-selected', b.getAttribute('data-pestana') === nombre ? 'true' : 'false'); });
+  if (nombre === 'pedidos') cargarPedidos();
+  if (nombre === 'archivos') cargarArchivos();
+  window.scrollTo(0, 0);
+}
+document.querySelectorAll('.pestana').forEach(function (b) {
+  b.onclick = function () {
+    if (estado.cambiosSinGuardar && !confirm('Tiene cambios sin publicar. ¿Cambiar de sección y descartarlos?')) return;
+    estado.cambiosSinGuardar = false; nuevasImagenes = {}; pintarTodo();
+    aviso('aviso-panel', '', ''); verPanel(b.getAttribute('data-pestana'));
+  };
+});
+function pintarTodo() { Object.keys(COLECCIONES).forEach(pintarColeccion); pintarPrecios(); }
+
+/* ---------- Fotos ---------- */
+function reducirImagen(archivo, max, calidad) {
+  return new Promise(function (ok, mal) {
+    var url = URL.createObjectURL(archivo), im = new Image();
+    im.onload = function () {
+      var s = Math.min(1, max / Math.max(im.naturalWidth, im.naturalHeight));
+      var c = document.createElement('canvas'); c.width = Math.round(im.naturalWidth * s); c.height = Math.round(im.naturalHeight * s);
+      var x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, c.width, c.height); x.drawImage(im, 0, 0, c.width, c.height);
+      URL.revokeObjectURL(url); ok(c.toDataURL('image/jpeg', calidad || 0.84));
+    };
+    im.onerror = function () { URL.revokeObjectURL(url); mal(new Error('No se pudo leer la foto «' + archivo.name + '». Si es una foto de iPhone (HEIC), envíesela primero por WhatsApp o tómele una captura de pantalla y súbala de nuevo.')); };
+    im.src = url;
+  });
+}
+function rutaNueva() { return CONFIG.carpetaFotos + '/f-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6) + '.jpg'; }
+function leerFotos(lista, max) {
+  var archivos = Array.prototype.slice.call(lista || []);
+  cargando(true, 'Preparando ' + (archivos.length > 1 ? archivos.length + ' fotos' : 'la foto') + '…');
+  return archivos.reduce(function (p, f) { return p.then(function (acc) { return reducirImagen(f, max || 1600).then(function (d) { var r = rutaNueva(); nuevasImagenes[r] = d; acc.push(r); return acc; }); }); }, Promise.resolve([]))
+    .then(function (r) { cargando(false); return r; }, function (e) { cargando(false); throw e; });
+}
+
+/* ---------- Colecciones del catálogo: joyas, obras, libros ---------- */
+var COLECCIONES = {
+  joyas: {
+    titulo: 'Joyas · Sala de joyas', nuevo: '+ Nueva joya', nombre: 'joya',
+    ayuda: 'Cada joya es una pieza única. Suba varias fotos (la primera es la principal), póngale precio y pulse Publicar: aparece en la Sala de joyas con el botón «Agregar al pedido» y se paga con Bold. Cuando se vende, el sistema la marca «Vendida» sola. Si le pone precio 0, solo se muestra «Preguntar por WhatsApp».',
+    sub: function (x) { return [x.tipo, x.precio ? pesos(x.precio) : 'Precio a consultar', x.disponible === false ? 'OCULTA' : '', estado.vendidas.indexOf(x.id) >= 0 ? 'VENDIDA' : ''].filter(Boolean).join(' · '); },
+    foto: function (x) { return (x.fotos && x.fotos[0]) || x.img; },
+    vacio: function () { return { id: '', titulo: '', tipo: 'Anillo', detalle: '', descripcion: '', precio: 0, fotos: [], disponible: true }; },
+    campos: [
+      { k: 'titulo', t: 'texto', l: 'Nombre de la pieza', req: 1, ph: 'Ej.: Anillo Esmeralda Real' },
+      { k: 'tipo', t: 'lista', l: 'Tipo', op: ['Anillo', 'Topitos (aretes)', 'Cadena', 'Dije', 'Pulsera', 'Juego', 'Otra'] },
+      { k: 'detalle', t: 'texto', l: 'Detalle corto (se ve en la vitrina)', ph: 'Ej.: Esmeralda natural de 0,8 ct · plata 925 · talla 7' },
+      { k: 'descripcion', t: 'area', l: 'Descripción (se ve al abrir la joya)' },
+      { k: 'precio', t: 'pesos', l: 'Precio en pesos (envío incluido)', ayuda: 'Escriba solo números, sin puntos. 0 = «Precio a consultar» por WhatsApp.' },
+      { k: 'fotos', t: 'fotos', l: 'Fotos de la joya', ayuda: 'Puede elegir varias a la vez. Tome las fotos con buena luz y fondo liso. La primera es la principal.' },
+      { k: 'disponible', t: 'si', l: 'Mostrar en la galería' }
+    ]
+  },
+  obras: {
+    titulo: 'Obras de arte', nuevo: '+ Nueva obra', nombre: 'obra',
+    ayuda: 'Obras de dominio público que se venden en lámina impresa (Gelato) y en descarga digital. La foto de aquí es la que se ve en la galería; el archivo grande para imprimir y descargar se sube en «Archivos de descarga».',
+    sub: function (x) { return [x.autor, x.anio, x.sala, x.disponible === false ? 'OCULTA' : ''].filter(Boolean).join(' · '); },
+    foto: function (x) { return x.img; },
+    vacio: function () { return { id: '', titulo: '', autor: '', anio: '', sala: 'Arte sacro', img: '', nota: '', disponible: true }; },
+    campos: [
+      { k: 'titulo', t: 'texto', l: 'Título de la obra', req: 1 },
+      { k: 'autor', t: 'texto', l: 'Artista', req: 1 },
+      { k: 'anio', t: 'texto', l: 'Año', ph: 'Ej.: 1889 o c. 1665' },
+      { k: 'sala', t: 'sala', l: 'Sala', ayuda: 'Elija una sala o escriba una nueva.' },
+      { k: 'nota', t: 'area', l: 'Texto de la cartela' },
+      { k: 'img', t: 'foto', l: 'Foto para la galería', req: 1, ayuda: 'Una versión liviana; el sistema la reduce sola.' },
+      { k: 'disponible', t: 'si', l: 'Mostrar en la galería' }
+    ]
+  },
+  libros: {
+    titulo: 'Biblioteca', nuevo: '+ Nuevo libro', nombre: 'libro',
+    ayuda: 'Libros de la colección. El libro digital se vende aquí con Bold (súbalo en «Archivos de descarga»); el impreso se compra en Autores Editores o en Amazon con los enlaces.',
+    sub: function (x) { return [x.idioma, x.autor, x.digital ? 'Digital ' + pesos(x.digital) : '', x.pronto ? 'PRÓXIMAMENTE' : ''].filter(Boolean).join(' · '); },
+    foto: function (x) { return x.img; },
+    vacio: function () { return { id: '', titulo: '', autor: '', idioma: 'Español', img: '', paginas: 0, digital: 14900, ae: '', amazon: '', resumen: '', pronto: false }; },
+    campos: [
+      { k: 'titulo', t: 'texto', l: 'Título', req: 1 },
+      { k: 'autor', t: 'texto', l: 'Autor', req: 1 },
+      { k: 'idioma', t: 'lista', l: 'Idioma', op: ['Español', 'Português', 'English'] },
+      { k: 'paginas', t: 'numero', l: 'Páginas' },
+      { k: 'digital', t: 'pesos', l: 'Precio del libro digital (pesos)', ayuda: 'Escriba solo números, sin puntos.' },
+      { k: 'ae', t: 'url', l: 'Enlace en Autores Editores (impreso en Colombia)', ph: 'https://www.autoreseditores.com/libro/…' },
+      { k: 'amazon', t: 'url', l: 'Enlace en Amazon (exterior)', ph: 'https://www.amazon.com/dp/…' },
+      { k: 'resumen', t: 'area', l: 'Resumen' },
+      { k: 'img', t: 'foto', l: 'Portada', req: 1, max: 1200 },
+      { k: 'pronto', t: 'si', l: 'Mostrar como «Próximamente» (no se vende todavía)' }
+    ]
+  }
+};
+var edicion = {}; // por colección: { item, nuevo }
+function pintarColeccion(col) {
+  var C = COLECCIONES[col], cont = document.querySelector('[data-panel="' + col + '"]');
+  cont.innerHTML = '<div class="caja"><div class="cabeza"><h2 style="margin:0">' + esc(C.titulo) + '</h2></div><p class="ayuda">' + esc(C.ayuda) + '</p><div id="aviso-' + col + '"></div><div class="lista" id="lista-' + col + '" style="margin-top:12px"></div></div><div class="caja oculto" id="editor-' + col + '"></div>';
+  var cab = cont.querySelector('.cabeza'); cab.appendChild(boton(C.nuevo, 'b-accion', function () { abrirEditor(col, null); }));
+  var ul = $('lista-' + col), lista = estado.datos[col];
+  if (!lista.length) { ul.innerHTML = '<div class="aviso info">Todavía no hay ninguna ' + (col === 'libros' ? 'obra en la biblioteca' : C.nombre) + '. Pulse «' + esc(C.nuevo.replace('+ ', '')) + '».</div>'; return; }
+  lista.forEach(function (x, i) {
+    var it = document.createElement('div'); it.className = 'item'; var f = C.foto(x);
+    it.innerHTML = (f ? '<img src="' + esc(srcImagen(f)) + '" alt="">' : '<div class="sin-foto">Sin foto</div>') + '<div class="item__txt"><b>' + esc(x.titulo || '(sin título)') + '</b><span>' + esc(C.sub(x)) + '</span></div>';
+    var acc = document.createElement('div'); acc.className = 'item__btn';
+    if (i > 0) acc.appendChild(boton('↑', 'b-borde b-chico', function () { mover(col, i, -1); }));
+    if (i < lista.length - 1) acc.appendChild(boton('↓', 'b-borde b-chico', function () { mover(col, i, 1); }));
+    acc.appendChild(boton('Editar', 'b-principal b-chico', function () { abrirEditor(col, x); }));
+    acc.appendChild(boton('Eliminar', 'b-peligro b-chico', function () {
+      if (!confirm('¿Eliminar «' + x.titulo + '» de la galería? Esto no se puede deshacer.')) return;
+      var cand = clonar(estado.datos); cand[col] = cand[col].filter(function (y) { return y.id !== x.id; });
+      publicar(cand, 'Eliminado de ' + col + ': ' + x.titulo, 'aviso-' + col, function () {
+        pintarColeccion(col);
+        // su archivo de descarga ya no sirve: se borra del servidor
+        (col === 'obras' ? ['obra:' + x.id] : col === 'libros' ? ['libro:' + x.id + ':pdf', 'libro:' + x.id + ':epub'] : []).forEach(function (k) { galeria('borrar_archivo', { clave: k }).catch(function () {}); });
+      });
+    }));
+    it.appendChild(acc); ul.appendChild(it);
+  });
+}
+function mover(col, i, d) {
+  var cand = clonar(estado.datos), l = cand[col], t = l[i]; l[i] = l[i + d]; l[i + d] = t;
+  publicar(cand, 'Orden cambiado en ' + col, 'aviso-' + col, function () { pintarColeccion(col); });
+}
+function abrirEditor(col, x) {
+  var C = COLECCIONES[col], ed = $('editor-' + col);
+  edicion[col] = { item: x ? clonar(x) : C.vacio(), nuevo: !x };
+  var it = edicion[col].item;
+  if (col === 'joyas' && (!it.fotos || !it.fotos.length) && it.img) it.fotos = [it.img];
+  var h = '<h2>' + (x ? 'Editar ' : 'Nueva ') + C.nombre + '</h2>';
+  C.campos.forEach(function (c) {
+    var id = 'c-' + col + '-' + c.k, v = it[c.k];
+    if (c.t === 'si') { h += '<label class="chk"><input type="checkbox" id="' + id + '"' + (v === false || (c.k === 'pronto' && !v) ? '' : ' checked') + '> ' + esc(c.l) + '</label>'; return; }
+    h += '<label for="' + id + '">' + esc(c.l) + (c.req ? ' *' : '') + '</label>';
+    if (c.t === 'area') h += '<textarea id="' + id + '">' + esc(v) + '</textarea>';
+    else if (c.t === 'lista') h += '<select id="' + id + '">' + c.op.map(function (o) { return '<option' + (o === v ? ' selected' : '') + '>' + esc(o) + '</option>'; }).join('') + (v && c.op.indexOf(v) < 0 ? '<option selected>' + esc(v) + '</option>' : '') + '</select>';
+    else if (c.t === 'sala') { var salas = estado.datos.obras.map(function (o) { return o.sala; }).filter(function (s, k, a) { return s && a.indexOf(s) === k; }); h += '<input type="text" id="' + id + '" list="' + id + '-l" value="' + esc(v) + '"><datalist id="' + id + '-l">' + salas.map(function (s) { return '<option value="' + esc(s) + '">'; }).join('') + '</datalist>'; }
+    else if (c.t === 'pesos' || c.t === 'numero') h += '<input type="number" id="' + id + '" min="0" step="' + (c.t === 'pesos' ? 100 : 1) + '" inputmode="numeric" value="' + esc(v || 0) + '">';
+    else if (c.t === 'foto') h += '<div id="' + id + '-ver"></div><label class="subir" for="' + id + '">📷 Elegir foto<input type="file" id="' + id + '" accept="image/*" hidden></label>';
+    else if (c.t === 'fotos') h += '<div class="fotos" id="' + id + '-ver"></div><label class="subir" for="' + id + '">📷 Agregar fotos<input type="file" id="' + id + '" accept="image/*" multiple hidden></label>';
+    else h += '<input type="' + (c.t === 'url' ? 'url' : 'text') + '" id="' + id + '" value="' + esc(v) + '"' + (c.ph ? ' placeholder="' + esc(c.ph) + '"' : '') + '>';
+    if (c.ayuda) h += '<p class="ayuda">' + esc(c.ayuda) + '</p>';
+  });
+  h += '<div id="aviso-ed-' + col + '"></div><div class="pie-acciones"></div>';
+  ed.innerHTML = h; ed.classList.remove('oculto');
+  var pie = ed.querySelector('.pie-acciones');
+  pie.appendChild(boton('← Volver sin guardar', 'b-borde', function () { if (estado.cambiosSinGuardar && !confirm('¿Descartar los cambios?')) return; estado.cambiosSinGuardar = false; nuevasImagenes = {}; ed.classList.add('oculto'); window.scrollTo(0, 0); }));
+  pie.appendChild(boton('Publicar', 'b-accion b-grande', function () { guardarEditor(col); }));
+  C.campos.forEach(function (c) {
+    var id = 'c-' + col + '-' + c.k;
+    if (c.t === 'foto') {
+      pintarFoto(col, c);
+      $(id).onchange = function () { var f = this.files; leerFotos(f, c.max).then(function (r) { if (r[0]) { edicion[col].item[c.k] = r[0]; estado.cambiosSinGuardar = true; pintarFoto(col, c); } }).catch(function (e) { aviso('aviso-ed-' + col, 'error', e.message); }); this.value = ''; };
+    } else if (c.t === 'fotos') {
+      pintarFotos(col, c);
+      $(id).onchange = function () { var f = this.files; leerFotos(f, 1600).then(function (r) { var l = edicion[col].item[c.k] = (edicion[col].item[c.k] || []).concat(r); if (l.length > 10) { edicion[col].item[c.k] = l.slice(0, 10); aviso('aviso-ed-' + col, 'alerta', 'Se guardan máximo 10 fotos por joya.'); } estado.cambiosSinGuardar = true; pintarFotos(col, c); }).catch(function (e) { aviso('aviso-ed-' + col, 'error', e.message); }); this.value = ''; };
+    } else { var el = $(id); el.addEventListener('input', function () { estado.cambiosSinGuardar = true; }); el.addEventListener('change', function () { estado.cambiosSinGuardar = true; }); }
+  });
+  ed.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+function pintarFoto(col, c) {
+  var v = edicion[col].item[c.k], el = $('c-' + col + '-' + c.k + '-ver');
+  el.innerHTML = v ? '<img src="' + esc(srcImagen(v)) + '" alt="" style="max-width:220px;max-height:220px;border-radius:10px;display:block;margin-bottom:6px">' : '<p class="ayuda">Todavía no hay foto.</p>';
+}
+function pintarFotos(col, c) {
+  var l = edicion[col].item[c.k] || [], el = $('c-' + col + '-' + c.k + '-ver'); el.innerHTML = '';
+  if (!l.length) { el.innerHTML = '<p class="ayuda">Todavía no hay fotos.</p>'; return; }
+  l.forEach(function (r, i) {
+    var fig = document.createElement('figure'); if (!i) fig.className = 'principal';
+    fig.innerHTML = '<img src="' + esc(srcImagen(r)) + '" alt="Foto ' + (i + 1) + '">'; var cap = document.createElement('figcaption');
+    if (i) cap.appendChild(boton('Principal', 'b-borde b-chico', function () { l.splice(i, 1); l.unshift(r); estado.cambiosSinGuardar = true; pintarFotos(col, c); }));
+    cap.appendChild(boton('Quitar', 'b-peligro b-chico', function () { l.splice(i, 1); estado.cambiosSinGuardar = true; pintarFotos(col, c); }));
+    fig.appendChild(cap); el.appendChild(fig);
+  });
+}
+function guardarEditor(col) {
+  var C = COLECCIONES[col], e = edicion[col], it = e.item, err = '';
+  C.campos.forEach(function (c) {
+    var el = $('c-' + col + '-' + c.k);
+    if (c.t === 'si') it[c.k] = c.k === 'pronto' ? el.checked : el.checked;
+    else if (c.t === 'pesos' || c.t === 'numero') { var n = Math.max(0, Math.round(+el.value || 0)); if (c.t === 'pesos' && n % 100) { n = Math.round(n / 100) * 100; } it[c.k] = n; }
+    else if (c.t !== 'foto' && c.t !== 'fotos') it[c.k] = el.value.trim();
+    if (!err && c.req && (c.t === 'foto' ? !it[c.k] : !String(it[c.k] || '').trim())) err = 'Falta: ' + c.l + '.';
+    if (!err && c.t === 'url' && it[c.k] && !/^https:\/\//.test(it[c.k])) err = 'El enlace de «' + c.l + '» debe empezar por https://';
+  });
+  if (!err && col === 'joyas') { if (!it.fotos || !it.fotos.length) err = 'Suba al menos una foto de la joya.'; else it.img = it.fotos[0]; if (!err && it.precio && it.precio < 1000) err = 'El precio debe ser de al menos $1.000.'; }
+  if (!err && col === 'libros' && !it.pronto && it.digital && it.digital < 1000) err = 'El precio del libro digital debe ser de al menos $1.000.';
+  if (err) { aviso('aviso-ed-' + col, 'error', err); return; }
+  var cand = clonar(estado.datos);
+  if (e.nuevo) { it.id = idUnico(it.titulo, cand[col]); cand[col].push(it); }
+  else cand[col] = cand[col].map(function (y) { return y.id === it.id ? it : y; });
+  publicar(cand, (e.nuevo ? 'Nueva ' : 'Editada ') + C.nombre + ': ' + it.titulo, 'aviso-ed-' + col, function () {
+    pintarColeccion(col);
+    var extra = '';
+    if (col !== 'joyas' && e.nuevo) extra = ' Recuerde subir su archivo en «Archivos de descarga» para poder venderla.';
+    aviso('aviso-' + col, 'ok', '✔ «' + it.titulo + '» publicado. La galería se actualiza en 1 o 2 minutos.' + extra);
+  });
+}
+
+/* ---------- Precios ---------- */
+function pintarPrecios() {
+  var P = estado.datos.precios || {};
+  $('p-dig').value = P.arteDigital || 0; $('p-30').value = P.lamina30x40 || 0; $('p-50').value = P.lamina50x70 || 0;
+  $('rev-precios').textContent = estado.datos.revisionPrecios ? 'Última revisión de precios: ' + estado.datos.revisionPrecios + '. Los precios se revisan cada 30 días.' : '';
+  margen();
+}
+function margen() {
+  [['p-30', 'm-30', CONFIG.costos.lamina30x40], ['p-50', 'm-50', CONFIG.costos.lamina50x70]].forEach(function (a) {
+    var v = +$(a[0]).value || 0, neto = v * (1 - 0.0349) - 900, u = neto - a[2], pct = Math.round(u / a[2] * 100);
+    $(a[1]).textContent = 'Costo en Gelato ≈ ' + pesos(a[2]) + ' · utilidad aprox. ' + pesos(u) + ' (' + pct + ' %) después de la comisión de Bold.' + (pct < 80 ? ' ⚠ Queda por debajo del 80 % que usted fijó.' : '');
+    $(a[1]).style.color = pct < 80 ? 'var(--rojo)' : '';
+  });
+}
+['p-30', 'p-50', 'p-dig'].forEach(function (id) { $(id).addEventListener('input', function () { estado.cambiosSinGuardar = true; margen(); }); });
+$('btn-guardar-precios').onclick = function () {
+  var v = { arteDigital: Math.round(+$('p-dig').value || 0), lamina30x40: Math.round(+$('p-30').value || 0), lamina50x70: Math.round(+$('p-50').value || 0) };
+  for (var k in v) if (v[k] < 1000 || v[k] % 100) { aviso('aviso-precios', 'error', 'Cada precio debe ser de al menos $1.000 y terminar en 00.'); return; }
+  var bajo = v.lamina30x40 < CONFIG.costos.lamina30x40 * 1.8 || v.lamina50x70 < CONFIG.costos.lamina50x70 * 1.8;
+  if (bajo && !confirm('Con estos precios la utilidad de alguna lámina queda por debajo del 80 %. ¿Publicar de todos modos?')) return;
+  var cand = clonar(estado.datos); cand.precios = Object.assign({}, cand.precios, v); cand.revisionPrecios = hoyISO();
+  publicar(cand, 'Precios actualizados', 'aviso-precios', function () { pintarPrecios(); aviso('aviso-precios', 'ok', '✔ Precios publicados. El servidor de pagos ya cobra los nuevos valores.'); });
+};
+
+/* ---------- Pedidos ---------- */
+var ESTADOS = {};
+function cargarPedidos() {
+  aviso('aviso-pedidos', 'info', 'Cargando pedidos…');
+  Promise.all([galeria('resumen'), galeria('pedidos', { estado: $('f-estado').value || 'activos', buscar: $('f-buscar').value })]).then(function (r) {
+    ESTADOS = r[0].estados || {}; aviso('aviso-pedidos', '', '');
+    if (!$('f-estado').options.length) {
+      $('f-estado').innerHTML = '<option value="activos">Todos los vigentes</option><option value="">Todos (incluye vencidos)</option>' + Object.keys(ESTADOS).map(function (k) { return '<option value="' + k + '">' + esc(ESTADOS[k]) + '</option>'; }).join('');
+    }
+    var por = {}; (r[0].porEstado || []).forEach(function (f) { por[f.estado] = f; });
+    var n = function (k) { return por[k] ? +por[k].n : 0; };
+    $('cifras').innerHTML = '<div class="cifra"><b>' + pesos(r[0].mes.t) + '</b><span>Ventas pagadas este mes (' + r[0].mes.n + ')</span></div>'
+      + '<div class="cifra"><b>' + (n('revisar')) + '</b><span>Para revisar</span></div>'
+      + '<div class="cifra"><b>' + (n('por_enviar')) + '</b><span>Joyas por enviar</span></div>'
+      + '<div class="cifra"><b>' + (n('en_produccion')) + '</b><span>Láminas en impresión</span></div>';
+    pintarPedidos(r[1].pedidos);
+  }).catch(function (e) { aviso('aviso-pedidos', 'error', e.message); $('lista-pedidos').innerHTML = ''; });
+}
+function pintarPedidos(lista) {
+  var ul = $('lista-pedidos'); ul.innerHTML = '';
+  if (!lista.length) { ul.innerHTML = '<div class="aviso info">No hay pedidos con este filtro.</div>'; return; }
+  lista.forEach(function (p) {
+    var it = document.createElement('div'); it.className = 'item';
+    it.innerHTML = '<div class="item__txt"><b>' + esc(p.cliente || '') + ' · ' + pesos(p.total) + (p.prueba ? ' · PRUEBA' : '') + '</b><span>' + esc(p.id) + ' · ' + fechaHora(p.creado) + (p.ciudad ? ' · ' + esc(p.ciudad) : '') + '</span><span>' + esc(p.items.join(' | ')) + '</span></div>';
+    var acc = document.createElement('div'); acc.className = 'item__btn';
+    var chip = document.createElement('span'); chip.className = 'chip ' + p.estado; chip.textContent = p.estadoTxt; acc.appendChild(chip);
+    acc.appendChild(boton('Ver', 'b-principal b-chico', function () { abrirPedido(p.id); }));
+    it.appendChild(acc); ul.appendChild(it);
+  });
+}
+$('f-estado').onchange = cargarPedidos;
+var tBuscar = null; $('f-buscar').oninput = function () { clearTimeout(tBuscar); tBuscar = setTimeout(cargarPedidos, 400); };
+$('btn-recargar-pedidos').onclick = cargarPedidos;
+function abrirPedido(id) {
+  cargando(true, 'Abriendo el pedido…');
+  galeria('pedido', { id: id }).then(function (r) { cargando(false); pintarPedido(r.pedido); }).catch(function (e) { cargando(false); aviso('aviso-pedidos', 'error', e.message); });
+}
+function pintarPedido(p) {
+  var d = $('detalle-pedido'), c = p.cliente || {};
+  var lam = p.items.some(function (i) { return i.f === 'l30' || i.f === 'l50'; }), joy = p.items.filter(function (i) { return i.f === 'joya'; });
+  var h = '<div class="cabeza"><h2 style="margin:0">Pedido ' + esc(p.id) + '</h2><span class="chip ' + p.estado + '">' + esc(p.estadoTxt) + '</span></div>';
+  h += '<table class="tabla">' + p.items.map(function (i) { return '<tr><td>' + esc(i.titulo) + '<br><span class="ayuda">' + esc({ dig: 'Descarga digital', l30: 'Lámina 30 × 40', l50: 'Lámina 50 × 70', lib: 'Libro digital', joya: 'Joya', prueba: 'Prueba' }[i.f] || i.f) + '</span></td><td style="text-align:right">' + pesos(i.precio) + '</td></tr>'; }).join('')
+    + '<tr><th>Total</th><th style="text-align:right">' + pesos(p.total) + (p.pagado ? ' · Bold cobró ' + pesos(p.valor_pagado) : '') + '</th></tr></table>';
+  h += '<div class="fila" style="margin-top:12px"><div><b>Cliente</b><br>' + esc(c.nombre) + '<br>' + esc(c.correo) + '<br>' + esc(c.celular) + (c.celular ? ' · <a href="https://wa.me/57' + esc(String(c.celular).replace(/\D/g, '').replace(/^57/, '')) + '" target="_blank" rel="noopener">WhatsApp</a>' : '') + '</div>'
+    + '<div>' + (c.direccion ? '<b>Envío</b><br>' + esc(c.direccion) + (c.direccion2 ? '<br>' + esc(c.direccion2) : '') + '<br>' + esc(c.ciudad) + ', ' + esc(c.departamento) + '<br>Código postal ' + esc(c.postal) : '<b>Entrega</b><br>Solo digital (por correo)') + '</div></div>';
+  h += '<p class="ayuda">Creado: ' + fechaHora(p.creado) + (p.pagado ? ' · Pagado: ' + fechaHora(p.pagado) + ' · Pago Bold ' + esc(p.pago_id) : '') + (p.bold_orden ? ' · Orden ' + esc(p.bold_orden) : '') + '</p>';
+  if (lam) h += '<p><b>Impresión (Gelato):</b> ' + esc(p.gelato_estado || 'pendiente') + (p.gelato_id ? ' · pedido ' + esc(p.gelato_id) + ' · <a href="https://dashboard.gelato.com/orders" target="_blank" rel="noopener">abrir Gelato</a>' : '') + '</p>';
+  if (p.descargas && p.descargas.length) h += '<p><b>Descargas</b></p><ul>' + p.descargas.map(function (x) { return '<li>' + esc(x.nombre) + ' · usada ' + x.usos + ' de 5 · vence ' + new Date(x.vence * 1000).toLocaleDateString('es-CO') + '</li>'; }).join('') + '</ul>';
+  h += '<div class="fila"><div><label for="d-estado">Estado</label><select id="d-estado">' + Object.keys(ESTADOS).map(function (k) { return '<option value="' + k + '"' + (k === p.estado ? ' selected' : '') + '>' + esc(ESTADOS[k]) + '</option>'; }).join('') + '</select></div>'
+    + '<div><label for="d-guia">Número de guía del envío</label><input type="text" id="d-guia" value="' + esc(p.guia) + '" placeholder="Ej.: Servientrega 1234567890"></div></div>';
+  h += '<label for="d-nota">Notas internas</label><textarea id="d-nota" style="min-height:80px">' + esc(p.nota) + '</textarea>';
+  h += '<details style="margin-top:12px"><summary>Historial del pedido</summary><ul class="ayuda">' + (p.historial || []).map(function (x) { return '<li>' + esc(new Date(x.f).toLocaleString('es-CO')) + ' — ' + esc(x.e) + '</li>'; }).join('') + '</ul></details>';
+  h += '<div id="aviso-detalle"></div><div class="pie-acciones" id="acc-detalle"></div>';
+  d.innerHTML = h; d.classList.remove('oculto');
+  var acc = $('acc-detalle'), hacer = function (accion, datos, txt) {
+    cargando(true, 'Un momento…');
+    galeria(accion, Object.assign({ id: p.id }, datos || {})).then(function (r) { cargando(false); pintarPedido(r.pedido); toast(txt || r.msg || '✔ Listo'); cargarPedidos(); })
+      .catch(function (e) { cargando(false); aviso('aviso-detalle', 'error', e.message); if (e.datos && e.datos.pedido) setTimeout(function () { pintarPedido(e.datos.pedido); aviso('aviso-detalle', 'error', e.message); }, 0); });
+  };
+  acc.appendChild(boton('← Volver a la lista', 'b-borde', function () { d.classList.add('oculto'); window.scrollTo(0, 0); }));
+  if (!p.pagado && p.bold_orden) acc.appendChild(boton('Confirmar con Bold', 'b-borde', function () { hacer('confirmar_bold', {}, '✔ Pago confirmado con Bold'); }));
+  if (p.pagado) acc.appendChild(boton('Reenviar correo al cliente', 'b-borde', function () { hacer('reenviar', {}, '✔ Correo reenviado'); }));
+  if (p.pagado && p.descargas && p.descargas.length) acc.appendChild(boton('Renovar descargas', 'b-borde', function () { if (confirm('¿Renovar los enlaces de descarga (5 usos más y 30 días)?')) hacer('renovar_descargas', {}, '✔ Descargas renovadas. Reenvíe el correo si el cliente lo necesita.'); }));
+  if (p.pagado && lam && !p.gelato_id) {
+    acc.appendChild(boton('Reintentar impresión', 'b-borde', function () { hacer('reintentar_gelato', {}, '✔ Pedido enviado a Gelato'); }));
+    acc.appendChild(boton('Ya la pedí a mano en Gelato', 'b-borde', function () { var g = prompt('Número del pedido en Gelato (opcional):', ''); if (g === null) return; hacer('gelato_manual', { gelato_id: g }, '✔ Anotado'); }));
+  }
+  if (joy.length && ['cancelado', 'vencido'].indexOf(p.estado) >= 0 && p.pagado) acc.appendChild(boton('Volver a poner la joya a la venta', 'b-borde', function () {
+    if (!confirm('¿Quitar el sello «Vendida» de ' + joy.map(function (j) { return j.titulo; }).join(', ') + '?')) return;
+    Promise.all(joy.map(function (j) { return galeria('liberar_joya', { joya: j.id }); })).then(function () { toast('✔ La joya volvió a la venta'); }).catch(function (e) { aviso('aviso-detalle', 'error', e.message); });
+  }));
+  acc.appendChild(boton('Guardar cambios', 'b-principal', function () { hacer('actualizar', { estado: $('d-estado').value, guia: $('d-guia').value, nota: $('d-nota').value }, '✔ Pedido actualizado'); }));
+  acc.appendChild(boton('Guardar y avisar al cliente', 'b-accion', function () {
+    if ($('d-estado').value !== 'enviado' || !$('d-guia').value.trim()) { aviso('aviso-detalle', 'error', 'Para avisar al cliente, ponga el estado «Enviado» y escriba el número de guía.'); return; }
+    hacer('actualizar', { estado: 'enviado', guia: $('d-guia').value, nota: $('d-nota').value, avisar: 1 }, '✔ Guardado y correo enviado al cliente');
+  }));
+  d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+/* ---------- Archivos de descarga ---------- */
+function cargarArchivos() {
+  aviso('aviso-archivos', 'info', 'Cargando…');
+  galeria('archivos').then(function (r) { estado.archivos = r.archivos; estado.vendidas = r.vendidas || []; aviso('aviso-archivos', '', ''); pintarArchivos(r.maxMB); pintarColeccion('joyas'); })
+    .catch(function (e) { aviso('aviso-archivos', 'error', e.message); });
+}
+function filaArchivo(cont, titulo, sub, clave, acepta, conEnlace, maxMB) {
+  var a = estado.archivos.filter(function (x) { return x.clave === clave; })[0];
+  var it = document.createElement('div'); it.className = 'item';
+  var txt = document.createElement('div'); txt.className = 'item__txt';
+  txt.innerHTML = '<b>' + esc(titulo) + '</b><span>' + esc(sub) + '</span><span class="estado-arch ' + (a ? 'si' : 'no') + '">' + (a ? '✔ Listo: ' + esc(a.tipo === 'url' ? 'enlace ' + a.url : a.nombre + ' (' + (a.tam / 1048576).toFixed(1) + ' MB)') : '✖ Falta el archivo') + '</span><div class="barra-prog oculto"><i></i></div>';
+  var acc = document.createElement('div'); acc.className = 'item__btn';
+  var inp = document.createElement('input'); inp.type = 'file'; inp.accept = acepta; inp.hidden = true;
+  inp.onchange = function () {
+    var f = inp.files[0]; inp.value = ''; if (!f) return;
+    if (f.size > maxMB * 1048576) { aviso('aviso-archivos', 'error', 'El archivo pasa de ' + maxMB + ' MB.'); return; }
+    var barra = txt.querySelector('.barra-prog'); barra.classList.remove('oculto');
+    subirArchivo(clave, f, function (x) { barra.firstChild.style.width = Math.round(x * 100) + '%'; })
+      .then(function () { toast('✔ Archivo guardado: ' + titulo); cargarArchivos(); })
+      .catch(function (e) { barra.classList.add('oculto'); aviso('aviso-archivos', 'error', titulo + ': ' + e.message); });
+  };
+  acc.appendChild(inp);
+  acc.appendChild(boton(a ? 'Cambiar archivo' : 'Subir archivo', 'b-principal b-chico', function () { inp.click(); }));
+  if (conEnlace) acc.appendChild(boton('Pegar enlace', 'b-borde b-chico', function () {
+    var u = prompt('Pegue el enlace del archivo original (https://upload.wikimedia.org/…):', a && a.tipo === 'url' ? a.url : '');
+    if (!u) return;
+    galeria('archivo_url', { clave: clave, url: u.trim() }).then(function () { toast('✔ Enlace guardado'); cargarArchivos(); }).catch(function (e) { aviso('aviso-archivos', 'error', e.message); });
+  }));
+  if (a) acc.appendChild(boton('Quitar', 'b-peligro b-chico', function () {
+    if (!confirm('¿Quitar el archivo de «' + titulo + '»? Mientras no tenga archivo no se podrá vender.')) return;
+    galeria('borrar_archivo', { clave: clave }).then(function () { toast('✔ Archivo quitado'); cargarArchivos(); }).catch(function (e) { aviso('aviso-archivos', 'error', e.message); });
+  }));
+  it.appendChild(txt); it.appendChild(acc); cont.appendChild(it);
+}
+function pintarArchivos(maxMB) {
+  var o = $('arch-obras'), l = $('arch-libros'); o.innerHTML = ''; l.innerHTML = '';
+  estado.datos.obras.forEach(function (x) { filaArchivo(o, x.titulo, x.autor + ' · imagen original para láminas y descarga (JPG, PNG o TIF)', 'obra:' + x.id, '.jpg,.jpeg,.png,.tif,.tiff', true, maxMB); });
+  estado.datos.libros.forEach(function (x) {
+    filaArchivo(l, x.titulo + ' — PDF', x.idioma, 'libro:' + x.id + ':pdf', '.pdf', false, maxMB);
+    filaArchivo(l, x.titulo + ' — EPUB', x.idioma, 'libro:' + x.id + ':epub', '.epub', false, maxMB);
+  });
+  if (!estado.datos.obras.length) o.innerHTML = '<div class="aviso info">No hay obras.</div>';
+  if (!estado.datos.libros.length) l.innerHTML = '<div class="aviso info">No hay libros.</div>';
+}
+
+/* ---------- Revisión ---------- */
+$('btn-diagnostico').onclick = function () {
+  cargando(true, 'Revisando…');
+  galeria('diagnostico').then(function (r) {
+    cargando(false); aviso('aviso-diag', '', '');
+    $('tabla-diag').innerHTML = '<tr><th>Qué</th><th>Estado</th><th>Detalle</th></tr>' + r.diagnostico.map(function (f) { return '<tr><td>' + esc(f[0]) + '</td><td><span class="chip ' + (f[1] === 'ok' ? 'pagado' : 'revisar') + '">' + (f[1] === 'ok' ? '✔ bien' : f[1] === 'falta' ? 'falta' : '✖ error') + '</span></td><td>' + esc(f[2]) + '</td></tr>'; }).join('');
+  }).catch(function (e) { cargando(false); aviso('aviso-diag', 'error', e.message); });
+};
+$('btn-prueba').onclick = function () {
+  if (!confirm('Se abrirá Bold para pagar $1.000 reales de prueba. ¿Continuar?')) return;
+  cargando(true, 'Preparando el pago de prueba…');
+  galeria('prueba').then(function (r) {
+    try { localStorage.setItem('gr-ultimo', JSON.stringify({ p: r.pedido, t: r.token })); } catch (e) {}
+    return new Promise(function (ok, mal) { if (window.BoldCheckout) return ok(r); var s = document.createElement('script'); s.src = 'https://checkout.bold.co/library/boldPaymentButton.js'; s.onload = function () { ok(r); }; s.onerror = function () { mal(new Error('No cargó la ventana de pago de Bold. Intente de nuevo.')); }; document.head.appendChild(s); });
+  }).then(function (r) { cargando(false); new window.BoldCheckout(r.bold).open(); aviso('aviso-prueba', 'info', 'Al terminar el pago, Bold lo devuelve a la galería. El pedido de prueba aparece en «Pedidos».'); })
+    .catch(function (e) { cargando(false); aviso('aviso-prueba', 'error', e.message); });
+};
+</script>
+</body>
+</html>
