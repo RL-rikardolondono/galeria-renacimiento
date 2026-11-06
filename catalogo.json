@@ -694,5 +694,142 @@
    "pronto": true
   }
  ],
- "joyas": []
+ "joyas": [
+  {
+   "id": "joya01",
+   "titulo": "Anillo doble aro con esmeralda",
+   "img": "img/joyas/joya01.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya02",
+   "titulo": "Anillo oval con halo de circones",
+   "img": "img/joyas/joya02.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya03",
+   "titulo": "Cadena de plata con balines tallados",
+   "img": "img/joyas/joya03.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya04",
+   "titulo": "Solitario con banda de circones",
+   "img": "img/joyas/joya04.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya05",
+   "titulo": "Topitos de esmeralda",
+   "img": "img/joyas/joya05.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya06",
+   "titulo": "Cruz de esmeraldas con cadena",
+   "img": "img/joyas/joya06.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya07",
+   "titulo": "Topitos de esmeralda II",
+   "img": "img/joyas/joya07.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya08",
+   "titulo": "Anillo de esmeralda redonda",
+   "img": "img/joyas/joya08.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya09",
+   "titulo": "Anillo gota con halo",
+   "img": "img/joyas/joya09.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya10",
+   "titulo": "Solitario cruzado",
+   "img": "img/joyas/joya10.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya11",
+   "titulo": "Topitos de esmeralda III",
+   "img": "img/joyas/joya11.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya12",
+   "titulo": "Solitario clásico",
+   "img": "img/joyas/joya12.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya13",
+   "titulo": "Solitario de cuatro garras",
+   "img": "img/joyas/joya13.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya14",
+   "titulo": "Anillo de engaste en barra",
+   "img": "img/joyas/joya14.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya15",
+   "titulo": "Solitario de ocho garras",
+   "img": "img/joyas/joya15.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya16",
+   "titulo": "Anillo corona en V",
+   "img": "img/joyas/joya16.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  },
+  {
+   "id": "joya17",
+   "titulo": "Anillo con banda de circones",
+   "img": "img/joyas/joya17.jpg",
+   "precio": 0,
+   "detalle": "",
+   "disponible": true
+  }
+ ]
 }
