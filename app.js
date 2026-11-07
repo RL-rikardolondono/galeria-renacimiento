@@ -113,7 +113,7 @@ function fichaJoya(id) {
 }
 // ---------- salas ----------
 const DESTACADAS = ['noche', 'perla', 'gioconda', 'venus', 'ronda', 'prodigo', 'mateo', 'ola', 'beso', 'monet', 'lirios', 'cipreses', 'danza', 'pareja', 'manos', 'juana'];
-const ORDEN_SALAS = ['Renacimiento', 'Arte sacro', 'Barroco', 'Romanticismo y siglo XIX', 'Impresionismo y modernos', 'Arte americano', 'Oriente'];
+const ORDEN_SALAS = ['Renacimiento', 'Arte sacro', 'Barroco', 'Romanticismo y siglo XIX', 'Impresionismo y modernos', 'Modernismo y Art Nouveau', 'Simbolismo y lo fantástico', 'Vanguardias del siglo XX', 'Arte americano', 'Oriente'];
 const POR_PAGINA = 12;
 let mostrar = POR_PAGINA, buscar = '';
 const sinTilde = t => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
