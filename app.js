@@ -171,8 +171,8 @@ function ficha(id) {
   <div class="der"><button class="cerrar" aria-label="Cerrar">×</button>
     <p class="sobre">${esc(o.sala)}</p><h2>${esc(o.titulo)}</h2><p class="au">${esc(o.autor)} · ${esc(o.anio)}</p><p>${esc(o.nota)}</p>
     ${lista ? `<div class="opc">
-      <label><span><input type="radio" name="f" value="l30" checked>Lámina 30 × 40 cm<small>Papel mate prémium 200 g · envío incluido</small></span><b>${pesos(P.lamina30x40)}</b></label>
-      <label><span><input type="radio" name="f" value="l50">Lámina 50 × 70 cm<small>Papel mate prémium 200 g · envío incluido</small></span><b>${pesos(P.lamina50x70)}</b></label>
+      <label><span><input type="radio" name="f" value="l30" checked>Lámina 30 × 40 cm<small>Impresión de la mejor calidad · empaque especial · envío incluido</small></span><b>${pesos(P.lamina30x40)}</b></label>
+      <label><span><input type="radio" name="f" value="l50">Lámina 50 × 70 cm<small>Impresión de la mejor calidad · empaque especial · envío incluido</small></span><b>${pesos(P.lamina50x70)}</b></label>
       <label><span><input type="radio" name="f" value="dig">Descarga digital<small>Archivo en alta resolución, llega a su correo</small></span><b>${pesos(P.arteDigital)}</b></label>
     </div>
     <button class="btn oro" id="agregarObra">Agregar al pedido</button>`
@@ -226,7 +226,7 @@ function verBolsa(msg, tipo) {
     ${conJoya() ? `<input name="barrio" placeholder="Barrio" required value="${v('barrio')}">` : ''}
     <div class="dos"><input name="ciudad" placeholder="Ciudad" required autocomplete="address-level2" value="${v('ciudad')}"><input name="departamento" placeholder="Departamento" required autocomplete="address-level1" value="${v('departamento')}"></div>
     <div class="dos"><input name="postal" placeholder="Código postal${lamina() ? '' : ' (opcional)'}" ${lamina() ? 'required' : ''} inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="postal-code" value="${v('postal')}"><select name="pais"><option value="CO">Colombia</option></select></div>
-    ${lamina() ? `<p class="aviso">¿No sabe su código postal? Búsquelo en <a href="https://visor.codigopostal.gov.co" target="_blank" rel="noopener">visor.codigopostal.gov.co</a>. Las láminas llegan en 10 a 20 días hábiles.</p>` : ''}` : ''}
+    ${lamina() ? `<p class="aviso">¿No sabe su código postal? Búsquelo en <a href="https://visor.codigopostal.gov.co" target="_blank" rel="noopener">visor.codigopostal.gov.co</a>. Las láminas llegan en 3 a 8 días hábiles.</p>` : ''}` : ''}
     <label class="aviso"><input type="checkbox" name="acepta" required ${datosCliente.acepta ? 'checked' : ''}> Acepto los <a href="#" data-legal="terminos">términos</a> y la <a href="#" data-legal="privacidad">política de privacidad</a>.</label>
   </form>` : ''}${msg ? `<p class="${tipo === 'ok' ? 'ok' : 'error'}" id="msgPedido">${msg}</p>` : ''}</div>
   <footer><div class="total"><span>Total</span><span>${pesos(total)}</span></div>
@@ -318,7 +318,7 @@ function retorno() {
       const dl = (r.descargas || []).map(d => `<li><a href="${esc(d.url)}">${esc(d.nombre)}</a></li>`).join('');
       pintar('Gracias por su compra', `Su pago fue aprobado. Le enviamos el resumen a <b>${esc(r.correo)}</b> (revise también la carpeta de spam).`,
         (dl ? `<p class="sobre" style="margin-top:20px">Sus descargas</p><ul class="descargas">${dl}</ul><p class="aviso">Cada enlace sirve 5 veces durante 30 días. También están en su correo.</p>` : '')
-        + (r.estado === 'en_produccion' || r.estado === 'revisar' || r.estado === 'pagado' ? '<p class="aviso">Si compró láminas, se imprimen bajo pedido y llegan en 10 a 20 días hábiles.</p>' : '')
+        + (r.estado === 'en_produccion' || r.estado === 'revisar' || r.estado === 'pagado' ? '<p class="aviso">Si compró láminas, se imprimen bajo pedido y llegan en 3 a 8 días hábiles.</p>' : '')
         + (r.estado === 'por_enviar' ? '<p class="aviso">Su joya sale por Interrapidísimo con seguro; le enviaremos la guía a su correo.</p>' : ''));
       return;
     }
@@ -333,12 +333,12 @@ function retorno() {
 const LEGAL = {
   terminos: ['Términos y condiciones', `<p>Galería Renacimiento es una iniciativa de SkyNet Genesis (Colombia). Las obras de arte que ofrecemos son de dominio público; vendemos nuestras reproducciones, archivos preparados y ediciones propias. Las joyas de la Sala de joyas son piezas únicas de Colombian Green Emerald.</p>
   <h3>Descargas digitales</h3><p>Se entregan por correo con un enlace personal válido por 30 días y 5 descargas. Son para uso personal: impresión doméstica, fondos de pantalla o decoración propia.</p>
-  <h3>Láminas impresas</h3><p>Se imprimen bajo pedido en papel mate prémium de 200 g y se envían sin marco. El precio incluye el envío. La entrega en Colombia toma de 10 a 20 días hábiles.</p>
+  <h3>Láminas impresas</h3><p>Se imprimen bajo pedido en Colombia, en la mejor calidad, y se envían sin marco en un empaque especial que las protege. El precio incluye el envío por Interrapidísimo con seguro. La entrega toma de 3 a 8 días hábiles.</p>
   <h3>Joyas</h3><p>Cada joya es una pieza única con esmeralda natural colombiana montada en plata 925. Se entrega con certificado y se envía por Interrapidísimo con seguro; el número de guía llega a su correo.</p>
   <h3>Libros</h3><p>Los libros digitales se entregan en EPUB y PDF. Las traducciones, introducciones y notas están protegidas por derechos de autor de Ricardo Londoño González.</p>
   <h3>Pagos</h3><p>Los pagos se procesan con una pasarela de pagos certificada; no almacenamos datos de tarjetas.</p>`],
   privacidad: ['Política de privacidad', `<p>Usamos su nombre, correo, celular y dirección solo para entregar su pedido y atender sus solicitudes (Ley 1581 de 2012). Compartimos la dirección de envío únicamente con nuestro aliado de impresión y mensajería. Puede pedir la consulta, corrección o eliminación de sus datos escribiendo a contacto@skynetgenesis.com.</p>`],
-  envios: ['Envíos y devoluciones', `<p>Las láminas viajan protegidas en tubo o empaque rígido. Si llega dañada o con un defecto de impresión, envíenos una foto dentro de los 7 días siguientes y la reponemos sin costo. Por tratarse de productos hechos a pedido y de contenidos digitales, no aplica el retracto una vez iniciada la producción o la descarga (Ley 1480 de 2011, art. 47). Las joyas tienen 5 días hábiles de retracto desde la entrega, sin uso y con su empaque y certificado.</p>`]
+  envios: ['Envíos y devoluciones', `<p>Las láminas viajan en un empaque especial rígido que las protege, por Interrapidísimo con seguro. Si llega dañada o con un defecto de impresión, envíenos una foto dentro de los 7 días siguientes y la reponemos sin costo. Por tratarse de productos hechos a pedido y de contenidos digitales, no aplica el retracto una vez iniciada la producción o la descarga (Ley 1480 de 2011, art. 47). Las joyas tienen 5 días hábiles de retracto desde la entrega, sin uso y con su empaque y certificado.</p>`]
 };
 function legal(k) {
   const [t, h] = LEGAL[k];
