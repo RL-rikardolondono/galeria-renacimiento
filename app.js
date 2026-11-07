@@ -37,7 +37,7 @@ async function iniciar() {
   try { C = await fetch('catalogo.json?v=' + Date.now()).then(r => r.json()); C.obras = (C.obras || []).filter(o => o.disponible !== false); C.libros = C.libros || []; C.precios = C.precios || {}; }
   catch (e) { document.querySelector('main').insertAdjacentHTML('afterbegin', '<p class="error" style="padding:20px;text-align:center">No pudimos cargar la galería. Revise su conexión y recargue la página.</p>'); return; }
   bolsa = bolsa.filter(i => articulo(i)); // quita lo que ya no existe en el catálogo
-  guardar(); hero(); vitrina(); filtros(); muro(); estante(); retorno();
+  guardar(); hero(); vitrina(); filtros(); iniciarBusqueda(); muro(); estante(); retorno();
   try {
     const r = await conTiempo(API + 'estado.php', {}, 8000).then(r => r.json());
     if (r && r.ok) { E = r; const antes = bolsa.length; bolsa = bolsa.filter(i => !(i.f === 'joya' && vendida(i.id))); if (bolsa.length !== antes) guardar(); vitrina(); estante(); }
@@ -99,16 +99,38 @@ function fichaJoya(id) {
   abrir($('#modal'));
 }
 // ---------- salas ----------
+const DESTACADAS = ['noche', 'perla', 'gioconda', 'venus', 'ronda', 'prodigo', 'mateo', 'ola', 'beso', 'monet', 'lirios', 'cipreses', 'danza', 'pareja', 'manos', 'juana'];
+const ORDEN_SALAS = ['Renacimiento', 'Arte sacro', 'Barroco', 'Impresionismo y modernos', 'Oriente'];
+const POR_PAGINA = 12;
+let mostrar = POR_PAGINA, buscar = '';
+const sinTilde = t => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 function filtros() {
-  const salas = ['Todas', ...new Set(C.obras.map(o => o.sala))];
-  $('#filtros').innerHTML = salas.map(s => `<button class="${s === sala ? 'on' : ''}">${esc(s)}</button>`).join('');
-  [...$('#filtros').children].forEach(b => b.onclick = () => { sala = b.textContent; filtros(); muro(); });
+  if (sala === 'Todas') sala = 'Destacadas';
+  const hay = new Set(C.obras.map(o => o.sala));
+  const salas = ['Destacadas', ...ORDEN_SALAS.filter(s => hay.has(s)), ...[...hay].filter(s => !ORDEN_SALAS.includes(s))];
+  const cuenta = s => s === 'Destacadas' ? '' : ` <small>${C.obras.filter(o => o.sala === s).length}</small>`;
+  $('#filtros').innerHTML = salas.map(s => `<button data-s="${esc(s)}" class="${s === sala && !buscar ? 'on' : ''}">${esc(s)}${cuenta(s)}</button>`).join('');
+  [...$('#filtros').children].forEach(b => b.onclick = () => { sala = b.dataset.s; buscar = ''; $('#buscaObra').value = ''; mostrar = POR_PAGINA; filtros(); muro(); });
+}
+function obrasVisibles() {
+  if (buscar) { const q = sinTilde(buscar); return C.obras.filter(o => sinTilde(o.titulo + ' ' + o.autor).includes(q)); }
+  if (sala === 'Destacadas') { const d = C.obras.filter(o => o.destacada || DESTACADAS.includes(o.id)); return d.length ? d : C.obras.slice(0, POR_PAGINA); }
+  return C.obras.filter(o => o.sala === sala);
 }
 function muro() {
-  $('#muro').innerHTML = C.obras.filter(o => sala === 'Todas' || o.sala === sala).map(o => `
-    <figure class="obra" data-id="${esc(o.id)}"><img src="${esc(o.img)}" alt="${esc(o.titulo)}" loading="lazy">
+  const todas = obrasVisibles(), lista = todas.slice(0, mostrar), quedan = todas.length - lista.length;
+  $('#muroInfo').textContent = buscar ? (todas.length ? `${todas.length} obra${todas.length === 1 ? '' : 's'} encontrada${todas.length === 1 ? '' : 's'}` : 'No encontramos obras con ese nombre.') : (sala === 'Destacadas' ? `Una selección de las obras más queridas · ${C.obras.length} obras en toda la galería` : `${todas.length} obras en esta sala`);
+  $('#muro').innerHTML = lista.map(o => `
+    <figure class="obra" data-id="${esc(o.id)}"><div class="marco"><img src="${esc(o.img)}" alt="${esc(o.titulo)}" loading="lazy"></div>
     <h3>${esc(o.titulo)}</h3><p>${esc(o.autor)} · ${esc(o.anio)}</p><p class="desde">Desde ${pesos(C.precios.arteDigital)}</p></figure>`).join('');
   [...$('#muro').children].forEach(f => f.onclick = () => ficha(f.dataset.id));
+  $('#masObras').hidden = quedan <= 0;
+  $('#masObras').textContent = `Ver más obras (${quedan})`;
+}
+function iniciarBusqueda() {
+  const i = $('#buscaObra'); if (!i) return; let t;
+  i.oninput = () => { clearTimeout(t); t = setTimeout(() => { buscar = i.value.trim(); mostrar = POR_PAGINA; filtros(); muro(); }, 250); };
+  $('#masObras').onclick = () => { mostrar += POR_PAGINA; muro(); };
 }
 // ---------- biblioteca ----------
 function estante() {
