@@ -62,9 +62,22 @@ function hero() {
 }
 // ---------- joyas ----------
 const waJoya = t => 'https://wa.me/' + WA + '?text=' + encodeURIComponent('Hola, quiero preguntar por la joya «' + t + '» de Colombian Green Emerald.');
+const ORDEN_JOYAS = ['Anillos', 'Aretes', 'Cadenas y dijes', 'Pulseras', 'Juegos', 'Otras'];
+const catJoya = x => ({ 'Anillo': 'Anillos', 'Topitos (aretes)': 'Aretes', 'Aretes': 'Aretes', 'Cadena': 'Cadenas y dijes', 'Dije': 'Cadenas y dijes', 'Pulsera': 'Pulseras', 'Juego': 'Juegos' })[x.tipo] || 'Otras';
+let catJ = 'Todas';
+function filtrosJoyas(T) {
+  const hay = ORDEN_JOYAS.filter(c => T.some(x => catJoya(x) === c));
+  if (catJ !== 'Todas' && !hay.includes(catJ)) catJ = 'Todas';
+  const el = $('#filtrosJoyas'); if (!el) return;
+  el.hidden = hay.length < 2;
+  el.innerHTML = ['Todas', ...hay].map(c => `<button data-c="${esc(c)}" class="${c === catJ ? 'on' : ''}">${esc(c)} <small>${c === 'Todas' ? T.length : T.filter(x => catJoya(x) === c).length}</small></button>`).join('');
+  [...el.children].forEach(b => b.onclick = () => { catJ = b.dataset.c; vitrina(); });
+}
 function vitrina() {
-  const J = joyas();
-  if (!J.length) { $('#vitrina').innerHTML = ''; return; }
+  const T = joyas();
+  if (!T.length) { $('#vitrina').innerHTML = ''; return; }
+  filtrosJoyas(T);
+  const J = catJ === 'Todas' ? T : T.filter(x => catJoya(x) === catJ);
   $('#vitrina').innerHTML = J.map(x => {
     const v = vendida(x.id), f = fotoJoya(x);
     return `<div class="joya${v ? ' vendida' : ''}" data-joya="${esc(x.id)}">
@@ -100,7 +113,7 @@ function fichaJoya(id) {
 }
 // ---------- salas ----------
 const DESTACADAS = ['noche', 'perla', 'gioconda', 'venus', 'ronda', 'prodigo', 'mateo', 'ola', 'beso', 'monet', 'lirios', 'cipreses', 'danza', 'pareja', 'manos', 'juana'];
-const ORDEN_SALAS = ['Renacimiento', 'Arte sacro', 'Barroco', 'Impresionismo y modernos', 'Oriente'];
+const ORDEN_SALAS = ['Renacimiento', 'Arte sacro', 'Barroco', 'Impresionismo y modernos', 'Arte americano', 'Oriente'];
 const POR_PAGINA = 12;
 let mostrar = POR_PAGINA, buscar = '';
 const sinTilde = t => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
