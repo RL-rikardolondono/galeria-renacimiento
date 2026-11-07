@@ -166,7 +166,7 @@ textarea{min-height:120px;resize:vertical;line-height:1.6}
       <div class="cifras" id="cifras"></div>
       <div class="caja">
         <div class="cabeza"><h2 style="margin:0">Pedidos</h2><button class="boton b-borde b-chico" type="button" id="btn-recargar-pedidos">↻ Actualizar</button></div>
-        <p class="ayuda">Aquí llegan solos los pedidos que la gente hace en la galería. Cuando Bold confirma el pago, el sistema envía las descargas por correo y pide la impresión de las láminas a Gelato. Las joyas las despacha usted: registre la guía y pulse «Guardar y avisar al cliente».</p>
+        <p class="ayuda">Aquí llegan solos los pedidos que la gente hace en la galería. Cuando Bold confirma el pago, el sistema envía las descargas por correo. Las láminas y las joyas las despacha usted: abra el pedido, descargue el archivo para imprimir, imprímalo en la mejor calidad, envíelo en empaque especial por Interrapidísimo con seguro, registre la guía y pulse «Guardar y avisar al cliente».</p>
         <div class="fila"><div><label for="f-estado">Mostrar</label><select id="f-estado"></select></div><div><label for="f-buscar">Buscar</label><input type="search" id="f-buscar" placeholder="Nombre, correo, número de pedido u obra"></div></div>
         <div id="aviso-pedidos"></div>
         <div class="lista" id="lista-pedidos" style="margin-top:14px"></div>
@@ -200,7 +200,7 @@ textarea{min-height:120px;resize:vertical;line-height:1.6}
       <div class="caja">
         <h2>Archivos que recibe el cliente</h2>
         <p class="ayuda">Estos archivos <b>no</b> se ven en la página: quedan guardados en el servidor privado y solo se entregan con un enlace personal después de que Bold confirma el pago. Una obra sin archivo no se puede vender (ni en lámina ni en descarga); un libro sin archivo aparece como «próximamente».</p>
-        <p class="ayuda">Obras de arte: suba la imagen original (JPG, PNG o TIF) o pegue el enlace del archivo original de Wikimedia Commons (empieza por https://upload.wikimedia.org/). Ese mismo archivo se usa para imprimir las láminas en Gelato. Libros: suba el PDF y el EPUB.</p>
+        <p class="ayuda">Obras de arte: suba la imagen original (JPG, PNG o TIF) o pegue el enlace del archivo original de Wikimedia Commons (empieza por https://upload.wikimedia.org/). Ese mismo archivo es el que usted descarga para imprimir las láminas. Libros: suba el PDF y el EPUB.</p>
         <div id="aviso-archivos"></div>
         <h3 style="margin-top:18px">Obras de arte</h3><div class="lista" id="arch-obras"></div>
         <h3 style="margin-top:22px">Libros digitales</h3><div class="lista" id="arch-libros"></div>
@@ -211,7 +211,7 @@ textarea{min-height:120px;resize:vertical;line-height:1.6}
     <div data-panel="revision" class="oculto">
       <div class="caja">
         <h2>Revisión del sistema</h2>
-        <p class="ayuda">Comprueba que el servidor de pedidos, las llaves de Gelato y Brevo y los archivos estén listos.</p>
+        <p class="ayuda">Comprueba que el servidor de pedidos, la llave de Brevo y los archivos estén listos.</p>
         <div class="pie-acciones" style="justify-content:flex-start;border:0;padding:0"><button class="boton b-principal" type="button" id="btn-diagnostico">Revisar ahora</button></div>
         <div id="aviso-diag"></div>
         <table class="tabla" id="tabla-diag"></table>
@@ -501,7 +501,7 @@ var COLECCIONES = {
   },
   obras: {
     titulo: 'Obras de arte', nuevo: '+ Nueva obra', nombre: 'obra',
-    ayuda: 'Obras de dominio público que se venden en lámina impresa (Gelato) y en descarga digital. La foto de aquí es la que se ve en la galería; el archivo grande para imprimir y descargar se sube en «Archivos de descarga».',
+    ayuda: 'Obras de dominio público que se venden en lámina impresa (impresión local) y en descarga digital. La foto de aquí es la que se ve en la galería; el archivo grande para imprimir y descargar se sube en «Archivos de descarga».',
     sub: function (x) { return [x.autor, x.anio, x.sala, x.disponible === false ? 'OCULTA' : ''].filter(Boolean).join(' · '); },
     foto: function (x) { return x.img; },
     vacio: function () { return { id: '', titulo: '', autor: '', anio: '', sala: 'Arte sacro', img: '', nota: '', disponible: true }; },
@@ -657,15 +657,14 @@ function pintarPrecios() {
 function margen() {
   [['p-30', 'm-30', CONFIG.costos.lamina30x40], ['p-50', 'm-50', CONFIG.costos.lamina50x70]].forEach(function (a) {
     var v = +$(a[0]).value || 0, neto = v * (1 - 0.0349) - 900, u = neto - a[2], pct = Math.round(u / a[2] * 100);
-    $(a[1]).textContent = 'Costo en Gelato ≈ ' + pesos(a[2]) + ' · utilidad aprox. ' + pesos(u) + ' (' + pct + ' %) después de la comisión de Bold.' + (pct < 80 ? ' ⚠ Queda por debajo del 80 % que usted fijó.' : '');
-    $(a[1]).style.color = pct < 80 ? 'var(--rojo)' : '';
+    $(a[1]).textContent = 'Impresión local en la mejor calidad, con empaque especial y envío incluido.'; $(a[1]).style.color = '';
   });
 }
 ['p-30', 'p-50', 'p-dig'].forEach(function (id) { $(id).addEventListener('input', function () { estado.cambiosSinGuardar = true; margen(); }); });
 $('btn-guardar-precios').onclick = function () {
   var v = { arteDigital: Math.round(+$('p-dig').value || 0), lamina30x40: Math.round(+$('p-30').value || 0), lamina50x70: Math.round(+$('p-50').value || 0) };
   for (var k in v) if (v[k] < 1000 || v[k] % 100) { aviso('aviso-precios', 'error', 'Cada precio debe ser de al menos $1.000 y terminar en 00.'); return; }
-  var bajo = v.lamina30x40 < CONFIG.costos.lamina30x40 * 1.8 || v.lamina50x70 < CONFIG.costos.lamina50x70 * 1.8;
+  var bajo = false;
   if (bajo && !confirm('Con estos precios la utilidad de alguna lámina queda por debajo del 80 %. ¿Publicar de todos modos?')) return;
   var cand = clonar(estado.datos); cand.precios = Object.assign({}, cand.precios, v); cand.revisionPrecios = hoyISO();
   publicar(cand, 'Precios actualizados', 'aviso-precios', function () { pintarPrecios(); aviso('aviso-precios', 'ok', '✔ Precios publicados. El servidor de pagos ya cobra los nuevos valores.'); });
@@ -684,8 +683,8 @@ function cargarPedidos() {
     var n = function (k) { return por[k] ? +por[k].n : 0; };
     $('cifras').innerHTML = '<div class="cifra"><b>' + pesos(r[0].mes.t) + '</b><span>Ventas pagadas este mes (' + r[0].mes.n + ')</span></div>'
       + '<div class="cifra"><b>' + (n('revisar')) + '</b><span>Para revisar</span></div>'
-      + '<div class="cifra"><b>' + (n('por_enviar')) + '</b><span>Joyas por enviar</span></div>'
-      + '<div class="cifra"><b>' + (n('en_produccion')) + '</b><span>Láminas en impresión</span></div>';
+      + '<div class="cifra"><b>' + (n('por_enviar')) + '</b><span>Por enviar</span></div>'
+      + '<div class="cifra"><b>' + (n('en_produccion')) + '</b><span>Láminas por imprimir</span></div>';
     pintarPedidos(r[1].pedidos);
   }).catch(function (e) { aviso('aviso-pedidos', 'error', e.message); $('lista-pedidos').innerHTML = ''; });
 }
@@ -717,7 +716,7 @@ function pintarPedido(p) {
   h += '<div class="fila" style="margin-top:12px"><div><b>Cliente</b><br>' + esc(c.nombre) + '<br>' + esc(c.correo) + '<br>' + esc(c.celular) + (c.celular ? ' · <a href="https://wa.me/57' + esc(String(c.celular).replace(/\D/g, '').replace(/^57/, '')) + '" target="_blank" rel="noopener">WhatsApp</a>' : '') + '</div>'
     + '<div>' + (c.direccion ? '<b>Envío</b><br>' + esc(c.direccion) + (c.direccion2 ? '<br>' + esc(c.direccion2) : '') + '<br>' + esc(c.ciudad) + ', ' + esc(c.departamento) + '<br>Código postal ' + esc(c.postal) : '<b>Entrega</b><br>Solo digital (por correo)') + '</div></div>';
   h += '<p class="ayuda">Creado: ' + fechaHora(p.creado) + (p.pagado ? ' · Pagado: ' + fechaHora(p.pagado) + ' · Pago Bold ' + esc(p.pago_id) : '') + (p.bold_orden ? ' · Orden ' + esc(p.bold_orden) : '') + '</p>';
-  if (lam) h += '<p><b>Impresión (Gelato):</b> ' + esc(p.gelato_estado || 'pendiente') + (p.gelato_id ? ' · pedido ' + esc(p.gelato_id) + ' · <a href="https://dashboard.gelato.com/orders" target="_blank" rel="noopener">abrir Gelato</a>' : '') + '</p>';
+  if (lam) h += '<p><b>Láminas para imprimir:</b> descargue cada archivo, imprímalo en la mejor calidad y envíelo en empaque especial por Interrapidísimo con seguro.</p><ul>' + (p.imprimir || []).map(function (x) { return '<li>' + esc(x.titulo) + ' · ' + esc(x.formato) + ' · <a href="' + esc(x.url) + '" target="_blank" rel="noopener">Descargar archivo para imprimir</a></li>'; }).join('') + '</ul>';
   if (p.descargas && p.descargas.length) h += '<p><b>Descargas</b></p><ul>' + p.descargas.map(function (x) { return '<li>' + esc(x.nombre) + ' · usada ' + x.usos + ' de 5 · vence ' + new Date(x.vence * 1000).toLocaleDateString('es-CO') + '</li>'; }).join('') + '</ul>';
   h += '<div class="fila"><div><label for="d-estado">Estado</label><select id="d-estado">' + Object.keys(ESTADOS).map(function (k) { return '<option value="' + k + '"' + (k === p.estado ? ' selected' : '') + '>' + esc(ESTADOS[k]) + '</option>'; }).join('') + '</select></div>'
     + '<div><label for="d-guia">Número de guía del envío</label><input type="text" id="d-guia" value="' + esc(p.guia) + '" placeholder="Ej.: Servientrega 1234567890"></div></div>';
@@ -734,7 +733,7 @@ function pintarPedido(p) {
   if (!p.pagado && p.bold_orden) acc.appendChild(boton('Confirmar con Bold', 'b-borde', function () { hacer('confirmar_bold', {}, '✔ Pago confirmado con Bold'); }));
   if (p.pagado) acc.appendChild(boton('Reenviar correo al cliente', 'b-borde', function () { hacer('reenviar', {}, '✔ Correo reenviado'); }));
   if (p.pagado && p.descargas && p.descargas.length) acc.appendChild(boton('Renovar descargas', 'b-borde', function () { if (confirm('¿Renovar los enlaces de descarga (5 usos más y 30 días)?')) hacer('renovar_descargas', {}, '✔ Descargas renovadas. Reenvíe el correo si el cliente lo necesita.'); }));
-  if (p.pagado && lam && !p.gelato_id) {
+  if (false) {
     acc.appendChild(boton('Reintentar impresión', 'b-borde', function () { hacer('reintentar_gelato', {}, '✔ Pedido enviado a Gelato'); }));
     acc.appendChild(boton('Ya la pedí a mano en Gelato', 'b-borde', function () { var g = prompt('Número del pedido en Gelato (opcional):', ''); if (g === null) return; hacer('gelato_manual', { gelato_id: g }, '✔ Anotado'); }));
   }
