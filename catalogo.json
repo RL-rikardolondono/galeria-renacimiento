@@ -604,6 +604,676 @@
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159891.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP159891.jpg",
    "nota": "Obra de Filippo Lippi (c. 1440), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+  },
+  {
+   "id": "juana",
+   "titulo": "Juana de Arco",
+   "autor": "Jules Bastien-Lepage",
+   "anio": "1879",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-049.jpg",
+   "nota": "La joven de Domrémy escucha sus voces en el huerto de su casa; una de las obras más queridas del Met."
+  },
+  {
+   "id": "jeronimo",
+   "titulo": "La última comunión de san Jerónimo",
+   "autor": "Sandro Botticelli",
+   "anio": "c. 1490",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24049-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-24049-001.jpg",
+   "nota": "Pequeña joya devocional de Botticelli, pintada en la Florencia de Savonarola."
+  },
+  {
+   "id": "tocador",
+   "titulo": "El tocador de Venus",
+   "autor": "François Boucher",
+   "anio": "1751",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-411-01.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-411-01.jpg",
+   "nota": "Rococó en estado puro: sedas, rosas y la diosa del amor, pintado para Madame de Pompadour."
+  },
+  {
+   "id": "bronzino",
+   "titulo": "Retrato de un joven",
+   "autor": "Bronzino",
+   "anio": "c. 1530",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-011.jpg",
+   "nota": "Elegancia y misterio manierista en uno de los grandes retratos florentinos."
+  },
+  {
+   "id": "brugghen",
+   "titulo": "La crucifixión con la Virgen y san Juan",
+   "autor": "Hendrick ter Brugghen",
+   "anio": "c. 1624",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146490.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146490.jpg",
+   "nota": "Dramática y austera, con la luz de Caravaggio llevada al norte de Europa."
+  },
+  {
+   "id": "carpaccio",
+   "titulo": "Meditación sobre la Pasión",
+   "autor": "Vittore Carpaccio",
+   "anio": "c. 1490",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP296427.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP296427.jpg",
+   "nota": "Dos santos ermitaños meditan ante Cristo en un paisaje lleno de símbolos."
+  },
+  {
+   "id": "hortense",
+   "titulo": "Madame Cézanne con vestido rojo",
+   "autor": "Paul Cézanne",
+   "anio": "1888–90",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320128.jpg",
+   "nota": "La esposa del pintor, retratada con la solidez geométrica que anunció el arte moderno."
+  },
+  {
+   "id": "cartujo",
+   "titulo": "Retrato de un cartujo",
+   "autor": "Petrus Christus",
+   "anio": "1446",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44361-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-44361-001.jpg",
+   "nota": "Un monje de mirada viva y una mosca pintada sobre el marco: virtuosismo flamenco."
+  },
+  {
+   "id": "sibila",
+   "titulo": "Sibila",
+   "autor": "Camille Corot",
+   "anio": "c. 1870",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16592-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-16592-001.jpg",
+   "nota": "Una figura serena y enigmática, inspirada en los retratos del Renacimiento italiano."
+  },
+  {
+   "id": "loro",
+   "titulo": "Mujer con un loro",
+   "autor": "Gustave Courbet",
+   "anio": "1866",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17680-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-17680-001.jpg",
+   "nota": "Audaz y sensual, causó revuelo en el Salón de París."
+  },
+  {
+   "id": "paris",
+   "titulo": "El juicio de Paris",
+   "autor": "Lucas Cranach el Viejo",
+   "anio": "c. 1528",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280358.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP280358.jpg",
+   "nota": "El mito griego vestido a la moda de la corte alemana del siglo XVI."
+  },
+  {
+   "id": "lavoisier",
+   "titulo": "Antoine y Marie Anne Lavoisier",
+   "autor": "Jacques-Louis David",
+   "anio": "1788",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19709-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19709-001.jpg",
+   "nota": "El padre de la química moderna junto a su esposa y colaboradora."
+  },
+  {
+   "id": "peinado",
+   "titulo": "Mujer peinándose",
+   "autor": "Edgar Degas",
+   "anio": "c. 1887",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP253480.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP253480.jpg",
+   "nota": "Un instante íntimo captado en pastel por la mirada de Degas."
+  },
+  {
+   "id": "uffel",
+   "titulo": "Retrato de Lucas van Uffel",
+   "autor": "Antoon van Dyck",
+   "anio": "c. 1622",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-27908-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-27908-001.jpg",
+   "nota": "Un mercader y coleccionista, pintado por Van Dyck durante su estancia en Italia."
+  },
+  {
+   "id": "courson",
+   "titulo": "Madame de Courson con su perro",
+   "autor": "Jean-Honoré Fragonard",
+   "anio": "c. 1769",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1019-01.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-1019-01.jpg",
+   "nota": "Frescura y ligereza del rococó francés en un retrato lleno de ternura."
+  },
+  {
+   "id": "lenadores",
+   "titulo": "Los niños leñadores",
+   "autor": "Thomas Gainsborough",
+   "anio": "1787",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169640.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169640.jpg",
+   "nota": "Niños del campo inglés, pintados con delicadeza por el gran retratista."
+  },
+  {
+   "id": "lirios",
+   "titulo": "Lirios",
+   "autor": "Vincent van Gogh",
+   "anio": "1890",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346474.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP346474.jpg",
+   "nota": "Pintado en Saint-Rémy poco antes de su partida: un estallido de violeta sobre rosa."
+  },
+  {
+   "id": "sombrero",
+   "titulo": "Autorretrato con sombrero de paja",
+   "autor": "Vincent van Gogh",
+   "anio": "1887",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg",
+   "nota": "Van Gogh en París, el año en que descubrió el color y la pincelada impresionista."
+  },
+  {
+   "id": "cipreses",
+   "titulo": "Campo de trigo con cipreses",
+   "autor": "Vincent van Gogh",
+   "anio": "1889",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+   "nota": "Uno de los paisajes más célebres de Van Gogh, bajo un cielo en remolino."
+  },
+  {
+   "id": "manuelito",
+   "titulo": "Manuel Osorio Manrique de Zúñiga",
+   "autor": "Francisco de Goya",
+   "anio": "1787–88",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP287624.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP287624.jpg",
+   "nota": "El famoso «niño de rojo» de Goya, con su urraca y los gatos al acecho."
+  },
+  {
+   "id": "guevara",
+   "titulo": "El cardenal Niño de Guevara",
+   "autor": "El Greco",
+   "anio": "c. 1600",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17777-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-17777-001.jpg",
+   "nota": "El inquisidor general de España, retratado con inquietante intensidad."
+  },
+  {
+   "id": "huevos",
+   "titulo": "Los huevos rotos",
+   "autor": "Jean-Baptiste Greuze",
+   "anio": "1756",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12952-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-12952-001.jpg",
+   "nota": "Una escena moralizante del siglo XVIII contada con picardía."
+  },
+  {
+   "id": "carnaval",
+   "titulo": "Juerguistas en carnaval",
+   "autor": "Frans Hals",
+   "anio": "c. 1616",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145901.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145901.jpg",
+   "nota": "Risas y disfraces del martes de carnaval por el maestro de Haarlem."
+  },
+  {
+   "id": "wedigh",
+   "titulo": "Retrato de Hermann von Wedigh",
+   "autor": "Hans Holbein el Joven",
+   "anio": "1532",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164836.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP164836.jpg",
+   "nota": "Precisión asombrosa en el retrato de un comerciante de la Liga Hanseática."
+  },
+  {
+   "id": "cleve",
+   "titulo": "La crucifixión con santos y un donante",
+   "autor": "Joos van Cleve",
+   "anio": "c. 1520",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1467.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1467.jpg",
+   "nota": "Tríptico flamenco de colores luminosos y paisaje minucioso."
+  },
+  {
+   "id": "mada",
+   "titulo": "Mäda Primavesi",
+   "autor": "Gustav Klimt",
+   "anio": "1912–13",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243354.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP243354.jpg",
+   "nota": "Una niña segura de sí misma entre flores, del período maduro de Klimt."
+  },
+  {
+   "id": "labille",
+   "titulo": "Autorretrato con dos alumnas",
+   "autor": "Adélaïde Labille-Guiard",
+   "anio": "1785",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320103.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320103.jpg",
+   "nota": "Una pintora reclama el lugar de las mujeres en la Academia francesa."
+  },
+  {
+   "id": "farren",
+   "titulo": "Elizabeth Farren",
+   "autor": "Thomas Lawrence",
+   "anio": "1790",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169218.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169218.jpg",
+   "nota": "La célebre actriz londinense, pintada por Lawrence con apenas veinte años."
+  },
+  {
+   "id": "filippino",
+   "titulo": "La Virgen y el Niño",
+   "autor": "Filippino Lippi",
+   "anio": "c. 1483",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243637.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP243637.jpg",
+   "nota": "Ternura florentina del hijo de Filippo Lippi y discípulo de Botticelli."
+  },
+  {
+   "id": "lotto",
+   "titulo": "Venus y Cupido",
+   "autor": "Lorenzo Lotto",
+   "anio": "c. 1525",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25975-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25975-001.jpg",
+   "nota": "Pintado para celebrar una boda, lleno de símbolos de amor y fertilidad."
+  },
+  {
+   "id": "dama",
+   "titulo": "Joven dama en 1866",
+   "autor": "Édouard Manet",
+   "anio": "1866",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP273977.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP273977.jpg",
+   "nota": "También llamada «La mujer del loro», con su modelo predilecta Victorine Meurent."
+  },
+  {
+   "id": "portinari",
+   "titulo": "Tommaso y Maria Portinari",
+   "autor": "Hans Memling",
+   "anio": "c. 1470",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44362-005.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-44362-005.jpg",
+   "nota": "El agente de los Médici en Brujas y su esposa, en oración."
+  },
+  {
+   "id": "almiares",
+   "titulo": "Almiares en otoño",
+   "autor": "Jean-François Millet",
+   "anio": "c. 1874",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP124093.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP124093.jpg",
+   "nota": "La calma del campo francés, por el pintor de los campesinos."
+  },
+  {
+   "id": "patinir",
+   "titulo": "La penitencia de san Jerónimo",
+   "autor": "Joachim Patinir",
+   "anio": "c. 1515",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT5549.jpg",
+   "nota": "Tríptico de paisajes fantásticos del primer gran paisajista flamenco."
+  },
+  {
+   "id": "caceria",
+   "titulo": "Escena de caza",
+   "autor": "Piero di Cosimo",
+   "anio": "c. 1495",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19296-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19296-001.jpg",
+   "nota": "Hombres, sátiros y fieras en una visión salvaje de los primeros tiempos."
+  },
+  {
+   "id": "jalais",
+   "titulo": "La colina de Jalais, Pontoise",
+   "autor": "Camille Pissarro",
+   "anio": "1867",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1859.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1859.jpg",
+   "nota": "Un paisaje rural que anuncia el impresionismo."
+  },
+  {
+   "id": "orion",
+   "titulo": "Orión ciego busca el sol naciente",
+   "autor": "Nicolas Poussin",
+   "anio": "1658",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP148490.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP148490.jpg",
+   "nota": "El gigante mitológico camina hacia la luz que le devolverá la vista."
+  },
+  {
+   "id": "pastor",
+   "titulo": "El canto del pastor",
+   "autor": "Pierre Puvis de Chavannes",
+   "anio": "1891",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-001.jpg",
+   "nota": "Armonía serena y colores suaves del gran muralista francés."
+  },
+  {
+   "id": "rafael",
+   "titulo": "La Virgen y el Niño entronizados con santos",
+   "autor": "Rafael",
+   "anio": "c. 1504",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-43051-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-43051-001.jpg",
+   "nota": "El retablo Colonna, obra temprana del joven Rafael."
+  },
+  {
+   "id": "inmaculada",
+   "titulo": "La Inmaculada Concepción",
+   "autor": "Guido Reni",
+   "anio": "1627",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1138.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1138.jpg",
+   "nota": "Pintada para la infanta de España; modelo de muchas Inmaculadas posteriores."
+  },
+  {
+   "id": "coussmaker",
+   "titulo": "El capitán George Coussmaker",
+   "autor": "Joshua Reynolds",
+   "anio": "1782",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169215.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169215.jpg",
+   "nota": "Elegancia inglesa: un joven oficial apoyado en un árbol junto a su caballo."
+  },
+  {
+   "id": "ribera",
+   "titulo": "La Sagrada Familia con santa Ana y santa Catalina",
+   "autor": "José de Ribera",
+   "anio": "1648",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT16.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT16.jpg",
+   "nota": "Naturalismo y dulzura del gran pintor valenciano en Nápoles."
+  },
+  {
+   "id": "deste",
+   "titulo": "Francesco d'Este",
+   "autor": "Rogier van der Weyden",
+   "anio": "c. 1460",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26278-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-26278-001.jpg",
+   "nota": "Un noble italiano educado en la corte de Borgoña, por el maestro flamenco."
+  },
+  {
+   "id": "rubens",
+   "titulo": "Rubens, Helena Fourment y su hijo",
+   "autor": "Pedro Pablo Rubens",
+   "anio": "c. 1635",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-003.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-003.jpg",
+   "nota": "El pintor con su joven esposa y su hijo en el jardín de su casa."
+  },
+  {
+   "id": "trigales",
+   "titulo": "Campos de trigo",
+   "autor": "Jacob van Ruisdael",
+   "anio": "c. 1670",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145911.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145911.jpg",
+   "nota": "Un cielo inmenso sobre la llanura holandesa."
+  },
+  {
+   "id": "andres",
+   "titulo": "San Andrés",
+   "autor": "Simone Martini",
+   "anio": "c. 1326",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP343101.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP343101.jpg",
+   "nota": "Fondo de oro y elegancia gótica del maestro de Siena."
+  },
+  {
+   "id": "vestir",
+   "titulo": "Vestir al desnudo",
+   "autor": "Michiel Sweerts",
+   "anio": "c. 1661",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15762-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-15762-001.jpg",
+   "nota": "Una de las obras de misericordia, pintada con quietud conmovedora."
+  },
+  {
+   "id": "tiepolo",
+   "titulo": "Alegoría de los planetas y continentes",
+   "autor": "Giovanni Battista Tiepolo",
+   "anio": "1752",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-007.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-007.jpg",
+   "nota": "Boceto para el gran techo de la Residencia de Wurzburgo."
+  },
+  {
+   "id": "moulin",
+   "titulo": "El inglés en el Moulin Rouge",
+   "autor": "Henri de Toulouse-Lautrec",
+   "anio": "1892",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1500.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1500.jpg",
+   "nota": "La noche parisina con los colores planos de Toulouse-Lautrec."
+  },
+  {
+   "id": "pareja",
+   "titulo": "Juan de Pareja",
+   "autor": "Diego Velázquez",
+   "anio": "1650",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-001.jpg",
+   "nota": "Uno de los retratos más asombrosos de la historia, pintado por Velázquez en Roma."
+  },
+  {
+   "id": "chatre",
+   "titulo": "La condesa de la Châtre",
+   "autor": "Élisabeth Vigée Le Brun",
+   "anio": "1789",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320086.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320086.jpg",
+   "nota": "La retratista de María Antonieta, en vísperas de la Revolución."
+  },
+  {
+   "id": "virgennina",
+   "titulo": "La Virgen niña",
+   "autor": "Francisco de Zurbarán",
+   "anio": "c. 1632",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26971-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-26971-001.jpg",
+   "nota": "María niña en oración, con la quietud mística de Zurbarán."
+  },
+  {
+   "id": "enriqueta",
+   "titulo": "La reina Enriqueta María",
+   "autor": "Antoon van Dyck",
+   "anio": "1636",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18371-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-18371-001.jpg",
+   "nota": "La reina de Inglaterra, esposa de Carlos I, por su pintor de corte."
+  },
+  {
+   "id": "luna",
+   "titulo": "Dos hombres contemplan la luna",
+   "autor": "Caspar David Friedrich",
+   "anio": "c. 1825",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31997-001-NEW.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-31997-001-NEW.jpg",
+   "nota": "Romanticismo alemán: el ser humano ante el misterio de la naturaleza."
+  },
+  {
+   "id": "lorenzetti",
+   "titulo": "La crucifixión",
+   "autor": "Pietro Lorenzetti",
+   "anio": "c. 1340",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278472.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP278472.jpg",
+   "nota": "Oro y dolor en la pintura gótica de Siena."
+  },
+  {
+   "id": "charpentier",
+   "titulo": "Madame Charpentier y sus hijos",
+   "autor": "Pierre-Auguste Renoir",
+   "anio": "1878",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-35674-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-35674-001.jpg",
+   "nota": "El retrato que consagró a Renoir en el Salón de 1879."
+  },
+  {
+   "id": "bosque",
+   "titulo": "El bosque en invierno al atardecer",
+   "autor": "Théodore Rousseau",
+   "anio": "c. 1846",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31520-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-31520-001.jpg",
+   "nota": "La obra de toda una vida del maestro de la escuela de Barbizon."
+  },
+  {
+   "id": "danza",
+   "titulo": "La clase de danza",
+   "autor": "Edgar Degas",
+   "anio": "1874",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20101-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-20101-001.jpg",
+   "nota": "Bailarinas que descansan y ensayan bajo la mirada del maestro."
+  },
+  {
+   "id": "moltedo",
+   "titulo": "Retrato de Joseph-Antoine Moltedo",
+   "autor": "Jean-Auguste-Dominique Ingres",
+   "anio": "c. 1810",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP151185.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP151185.jpg",
+   "nota": "Pintado en Roma con la precisión impecable de Ingres."
+  },
+  {
+   "id": "senoritas",
+   "titulo": "Las señoritas del pueblo",
+   "autor": "Gustave Courbet",
+   "anio": "1851–52",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1967.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1967.jpg",
+   "nota": "Las hermanas del pintor dan limosna a una pastorcita en el campo."
+  },
+  {
+   "id": "iaorana",
+   "titulo": "Ia Orana Maria (Te saludo, María)",
+   "autor": "Paul Gauguin",
+   "anio": "1891",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1025.jpg",
+   "nota": "La Anunciación llevada a Tahití: la primera gran obra polinesia de Gauguin."
+  },
+  {
+   "id": "leon",
+   "titulo": "El festín del león",
+   "autor": "Henri Rousseau",
+   "anio": "c. 1907",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT50.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT50.jpg",
+   "nota": "Una selva soñada por el Aduanero Rousseau, que nunca salió de Francia."
+  },
+  {
+   "id": "bashi",
+   "titulo": "Bashi-Bazouk",
+   "autor": "Jean-Léon Gérôme",
+   "anio": "1868–69",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243839.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP243839.jpg",
+   "nota": "Sedas y luz en un retrato orientalista de asombroso detalle."
+  },
+  {
+   "id": "jabach",
+   "titulo": "La familia Jabach",
+   "autor": "Charles Le Brun",
+   "anio": "c. 1660",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP352819.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP352819.jpg",
+   "nota": "Un banquero de París y su familia, por el primer pintor de Luis XIV."
+  },
+  {
+   "id": "sueno",
+   "titulo": "El sueño del pastor",
+   "autor": "Ferdinand Hodler",
+   "anio": "1896",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP318843.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP318843.jpg",
+   "nota": "Simbolismo suizo: un pastor dormido y las figuras de su sueño."
+  },
+  {
+   "id": "pescado",
+   "titulo": "Mercado de pescado",
+   "autor": "Joachim Beuckelaer",
+   "anio": "1568",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375107.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP375107.jpg",
+   "nota": "Abundancia y vida cotidiana en un mercado flamenco del siglo XVI."
+  },
+  {
+   "id": "ramo",
+   "titulo": "Ramo de flores",
+   "autor": "Clara Peeters",
+   "anio": "c. 1612",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19451-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19451-001.jpg",
+   "nota": "Obra de una de las primeras pintoras de bodegones de Flandes."
   }
  ],
  "libros": [
