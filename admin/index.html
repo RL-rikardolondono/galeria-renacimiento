@@ -548,6 +548,13 @@ function pintarColeccion(col) {
     var acc = document.createElement('div'); acc.className = 'item__btn';
     if (i > 0) acc.appendChild(boton('↑', 'b-borde b-chico', function () { mover(col, i, -1); }));
     if (i < lista.length - 1) acc.appendChild(boton('↓', 'b-borde b-chico', function () { mover(col, i, 1); }));
+    if (col === 'joyas') {
+      var esV = estado.vendidas.indexOf(x.id) >= 0;
+      acc.appendChild(boton(esV ? 'Volver a la venta' : 'VENDIDA', esV ? 'b-borde b-chico' : 'b-peligro b-chico', function () {
+        if (!confirm(esV ? '¿Quitar el sello «Vendida» de «' + x.titulo + '» y ponerla otra vez a la venta?' : '¿Marcar «' + x.titulo + '» como VENDIDA? Nadie podrá comprarla en la página.')) return;
+        galeria(esV ? 'liberar_joya' : 'vender_joya', { joya: x.id }).then(function (r) { estado.vendidas = r.vendidas || []; pintarColeccion('joyas'); toast(esV ? '✔ La joya volvió a la venta' : '✔ Marcada como VENDIDA'); }).catch(function (e) { aviso('aviso-joyas', 'error', e.message); });
+      }));
+    }
     acc.appendChild(boton('Editar', 'b-principal b-chico', function () { abrirEditor(col, x); }));
     acc.appendChild(boton('Eliminar', 'b-peligro b-chico', function () {
       if (!confirm('¿Eliminar «' + x.titulo + '» de la galería? Esto no se puede deshacer.')) return;
