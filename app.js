@@ -172,7 +172,7 @@ function ficha(id) {
     <p class="sobre">${esc(o.sala)}</p><h2>${esc(o.titulo)}</h2><p class="au">${esc(o.autor)} · ${esc(o.anio)}</p><p>${esc(o.nota)}</p>
     ${lista ? `<div class="opc">
       <label><span><input type="radio" name="f" value="l30" checked>Lámina 30 × 40 cm<small>Impresión de la mejor calidad · empaque especial · envío incluido</small></span><b>${pesos(P.lamina30x40)}</b></label>
-      <label><span><input type="radio" name="f" value="l50">Lámina 50 × 70 cm<small>Impresión de la mejor calidad · empaque especial · envío incluido</small></span><b>${pesos(P.lamina50x70)}</b></label>
+      ${o.l50 === false ? '' : `<label><span><input type="radio" name="f" value="l50">Lámina 50 × 70 cm<small>Impresión de la mejor calidad · empaque especial · envío incluido</small></span><b>${pesos(P.lamina50x70)}</b></label>`}
       <label><span><input type="radio" name="f" value="dig">Descarga digital<small>Archivo en alta resolución, llega a su correo</small></span><b>${pesos(P.arteDigital)}</b></label>
     </div>
     <button class="btn oro" id="agregarObra">Agregar al pedido</button>`
