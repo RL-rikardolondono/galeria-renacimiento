@@ -9,9 +9,9 @@ let C = null, bolsa = [], sala = 'Todas', E = null; // E = estado del servidor (
 try { bolsa = JSON.parse(localStorage.getItem('gr-bolsa') || '[]'); if (!Array.isArray(bolsa)) bolsa = []; } catch (e) { bolsa = []; }
 const guardar = () => { try { localStorage.setItem('gr-bolsa', JSON.stringify(bolsa)); } catch (e) {} $('#nBolsa').textContent = bolsa.length; };
 const FORMATOS = { dig: 'Descarga digital (alta resolución)', l30: 'Lámina impresa 30 × 40 cm', l50: 'Lámina impresa 50 × 70 cm', lib: 'Libro digital (EPUB y PDF)', joya: 'Joya · pieza única' };
-const joyas = () => (C.joyas || []).filter(x => x.disponible !== false);
+const joyas = () => (C.joyas || []).filter(x => x.disponible !== false || x.vendida);
 const fotoJoya = j => (j.fotos && j.fotos[0]) || j.img || '';
-const vendida = id => !!(E && E.vendidas.includes(id));
+const vendida = id => !!((E && E.vendidas.includes(id)) || (C.joyas || []).some(x => x.id === id && x.vendida));
 const obraLista = id => !E || E.disponibles.obras.includes(id);   // si el servidor no responde, el pedido lo valida igual
 const libroListo = id => !E || E.disponibles.libros.includes(id);
 function articulo(i) {
