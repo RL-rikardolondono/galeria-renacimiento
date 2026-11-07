@@ -1274,6 +1274,1566 @@
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19451-001.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19451-001.jpg",
    "nota": "Obra de una de las primeras pintoras de bodegones de Flandes."
+  },
+  {
+   "id": "bernier",
+   "titulo": "Madame Édouard Bernier",
+   "autor": "Pierre-Auguste Renoir",
+   "anio": "1871",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1399.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1399.jpg",
+   "nota": "Un retrato temprano de Renoir, lleno de calidez y sencillez."
+  },
+  {
+   "id": "margot",
+   "titulo": "Margot Bérard",
+   "autor": "Pierre-Auguste Renoir",
+   "anio": "1879",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1489.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1489.jpg",
+   "nota": "La mirada fresca de una niña, pintada con la luz suave de Renoir."
+  },
+  {
+   "id": "italiana",
+   "titulo": "La anciana italiana",
+   "autor": "Edgar Degas",
+   "anio": "1857",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25458-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25458-001.jpg",
+   "nota": "Un estudio de carácter pintado por el joven Degas durante su estancia en Italia."
+  },
+  {
+   "id": "grabados",
+   "titulo": "El coleccionista de grabados",
+   "autor": "Edgar Degas",
+   "anio": "1866",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25461-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25461-001.jpg",
+   "nota": "Un aficionado hojea su colección: un retrato original y moderno."
+  },
+  {
+   "id": "vaquera",
+   "titulo": "Vaquera en Valhermeil",
+   "autor": "Camille Pissarro",
+   "anio": "1874",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1556.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1556.jpg",
+   "nota": "La vida tranquila del campo francés en pleno nacimiento del impresionismo."
+  },
+  {
+   "id": "pontoise",
+   "titulo": "El jardín público de Pontoise",
+   "autor": "Camille Pissarro",
+   "anio": "1874",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1868.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1868.jpg",
+   "nota": "Paseantes y árboles bajo la luz clara de una tarde impresionista."
+  },
+  {
+   "id": "villeneuve",
+   "titulo": "El puente de Villeneuve-la-Garenne",
+   "autor": "Alfred Sisley",
+   "anio": "1872",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-041.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-041.jpg",
+   "nota": "Agua, cielo y barcas en uno de los paisajes más luminosos de Sisley."
+  },
+  {
+   "id": "marly",
+   "titulo": "Vista de Marly-le-Roi",
+   "autor": "Alfred Sisley",
+   "anio": "1876",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130325.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP130325.jpg",
+   "nota": "Un camino de pueblo pintado con la delicadeza del impresionismo."
+  },
+  {
+   "id": "manzanas2",
+   "titulo": "Manzanas",
+   "autor": "Paul Cézanne",
+   "anio": "1878–79",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1940.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1940.jpg",
+   "nota": "Un bodegón sencillo donde Cézanne ensaya la geometría del arte moderno."
+  },
+  {
+   "id": "banistas",
+   "titulo": "Bañistas",
+   "autor": "Paul Cézanne",
+   "anio": "1874–75",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-33710-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-33710-001.jpg",
+   "nota": "Figuras y naturaleza en armonía, tema que acompañó a Cézanne toda su vida."
+  },
+  {
+   "id": "girasoles",
+   "titulo": "Girasoles",
+   "autor": "Vincent van Gogh",
+   "anio": "1887",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41223-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-41223-001.jpg",
+   "nota": "Los célebres girasoles de Van Gogh, pintados en París con trazo enérgico."
+  },
+  {
+   "id": "jarron",
+   "titulo": "Ramo de flores en un jarrón",
+   "autor": "Vincent van Gogh",
+   "anio": "1890",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7098.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT7098.jpg",
+   "nota": "Un estallido de color pintado en los últimos meses de vida del artista."
+  },
+  {
+   "id": "tahitianas",
+   "titulo": "Dos mujeres tahitianas",
+   "autor": "Paul Gauguin",
+   "anio": "1899",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1342.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1342.jpg",
+   "nota": "La belleza serena de la Polinesia en uno de los cuadros más queridos de Gauguin."
+  },
+  {
+   "id": "bretana",
+   "titulo": "Granja en Bretaña",
+   "autor": "Paul Gauguin",
+   "anio": "c. 1894",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123847.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP123847.jpg",
+   "nota": "Colores intensos y formas simples en el paisaje bretón de Gauguin."
+  },
+  {
+   "id": "espada",
+   "titulo": "La señorita V. vestida de espada",
+   "autor": "Édouard Manet",
+   "anio": "1862",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25649-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25649-001.jpg",
+   "nota": "Manet rinde homenaje a España con su modelo vestida de torero."
+  },
+  {
+   "id": "brioche",
+   "titulo": "El brioche",
+   "autor": "Édouard Manet",
+   "anio": "1870",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13655-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-13655-001.jpg",
+   "nota": "Un bodegón elegante y sabroso del gran pintor de la vida moderna."
+  },
+  {
+   "id": "pavos",
+   "titulo": "Paisaje de otoño con pavos",
+   "autor": "Jean-François Millet",
+   "anio": "1872–73",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1982.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1982.jpg",
+   "nota": "El campo francés en otoño, con la poesía sencilla de Millet."
+  },
+  {
+   "id": "lemaistre",
+   "titulo": "Retrato de Toussaint Lemaistre",
+   "autor": "Camille Corot",
+   "anio": "1833",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2017.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2017.jpg",
+   "nota": "Un retrato íntimo pintado por el maestro de los paisajes."
+  },
+  {
+   "id": "bacante",
+   "titulo": "Bacante junto al mar",
+   "autor": "Camille Corot",
+   "anio": "1865",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16590-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-16590-001.jpg",
+   "nota": "Una figura mitológica en un paisaje sereno y luminoso."
+  },
+  {
+   "id": "breyer",
+   "titulo": "Madame Breyer",
+   "autor": "Gustave Courbet",
+   "anio": "1858",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17408-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-17408-001.jpg",
+   "nota": "Un retrato de sobria elegancia del maestro del realismo."
+  },
+  {
+   "id": "jo",
+   "titulo": "Jo, la bella irlandesa",
+   "autor": "Gustave Courbet",
+   "anio": "1865–66",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23236-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-23236-001.jpg",
+   "nota": "La modelo de cabellera rojiza que inspiró también a Whistler."
+  },
+  {
+   "id": "pulham",
+   "titulo": "La señora Pulham",
+   "autor": "John Constable",
+   "anio": "1818",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP162142.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP162142.jpg",
+   "nota": "Un raro retrato del gran paisajista inglés."
+  },
+  {
+   "id": "salisbury",
+   "titulo": "La catedral de Salisbury desde el jardín del obispo",
+   "autor": "John Constable",
+   "anio": "c. 1825",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164837.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP164837.jpg",
+   "nota": "La catedral enmarcada por árboles, una de las vistas más amadas de Inglaterra."
+  },
+  {
+   "id": "samaritana",
+   "titulo": "Cristo y la samaritana",
+   "autor": "Rembrandt van Rijn",
+   "anio": "1655",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145935.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145935.jpg",
+   "nota": "El encuentro junto al pozo, contado con la luz dorada de Rembrandt."
+  },
+  {
+   "id": "cabezacristo",
+   "titulo": "Cabeza de Cristo",
+   "autor": "Rembrandt van Rijn",
+   "anio": "c. 1648",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145916.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145916.jpg",
+   "nota": "Un rostro humano y sereno de Cristo, estudiado con profunda ternura."
+  },
+  {
+   "id": "banquete",
+   "titulo": "Un banquete",
+   "autor": "Dirck Hals",
+   "anio": "1628",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143192.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP143192.jpg",
+   "nota": "La alegría de una fiesta holandesa del Siglo de Oro."
+  },
+  {
+   "id": "posada",
+   "titulo": "Joven pareja en una posada",
+   "autor": "Frans Hals",
+   "anio": "1623",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145899.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145899.jpg",
+   "nota": "Picardía y vida en una escena de taberna del maestro de Haarlem."
+  },
+  {
+   "id": "fecatolica",
+   "titulo": "Alegoría de la fe católica",
+   "autor": "Johannes Vermeer",
+   "anio": "c. 1670–72",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145924.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145924.jpg",
+   "nota": "Una obra simbólica y poco común de Vermeer, llena de detalles."
+  },
+  {
+   "id": "dormida",
+   "titulo": "Joven dormida",
+   "autor": "Johannes Vermeer",
+   "anio": "c. 1656–57",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP355525.jpg",
+   "nota": "Una criada descansa junto a la mesa: silencio y luz de Vermeer."
+  },
+  {
+   "id": "atalanta",
+   "titulo": "Atalanta y Meleagro",
+   "autor": "Pedro Pablo Rubens",
+   "anio": "c. 1616",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP261342.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP261342.jpg",
+   "nota": "El mito de la cazadora y el héroe, con la energía de Rubens."
+  },
+  {
+   "id": "coronacion2",
+   "titulo": "La coronación de la Virgen",
+   "autor": "Pedro Pablo Rubens",
+   "anio": "c. 1632–33",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7932.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT7932.jpg",
+   "nota": "Gloria y movimiento en un boceto luminoso de Rubens."
+  },
+  {
+   "id": "cesta",
+   "titulo": "Cesta de flores",
+   "autor": "Eugène Delacroix",
+   "anio": "1848–49",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14347-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14347-001.jpg",
+   "nota": "Una explosión de flores en un bosque, pintada por el maestro romántico."
+  },
+  {
+   "id": "tempestad",
+   "titulo": "Cristo dormido durante la tempestad",
+   "autor": "Eugène Delacroix",
+   "anio": "c. 1853",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14343-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14343-001.jpg",
+   "nota": "Los discípulos luchan contra las olas mientras Cristo descansa en paz."
+  },
+  {
+   "id": "nohant",
+   "titulo": "El jardín de George Sand en Nohant",
+   "autor": "Eugène Delacroix",
+   "anio": "c. 1842–43",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14092-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14092-001.jpg",
+   "nota": "El jardín de la escritora y amiga de Delacroix, pintado del natural."
+  },
+  {
+   "id": "hamlet",
+   "titulo": "Hamlet y su madre",
+   "autor": "Eugène Delacroix",
+   "anio": "1849",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2001.jpg",
+   "nota": "Una escena dramática de Shakespeare pintada por el romántico francés."
+  },
+  {
+   "id": "saltash",
+   "titulo": "Saltash con el transbordador, Cornualles",
+   "autor": "J. M. W. Turner",
+   "anio": "1811",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169566.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169566.jpg",
+   "nota": "Agua y luz en un paisaje inglés del gran Turner."
+  },
+  {
+   "id": "venecia",
+   "titulo": "Venecia desde el pórtico de la Salute",
+   "autor": "J. M. W. Turner",
+   "anio": "c. 1835",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169568.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169568.jpg",
+   "nota": "Una Venecia de luz dorada pintada por el maestro inglés."
+  },
+  {
+   "id": "stuart",
+   "titulo": "James Stuart, duque de Richmond",
+   "autor": "Antoon van Dyck",
+   "anio": "c. 1633–35",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25646-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25646-001.jpg",
+   "nota": "Un noble inglés con su perro, de la elegante mano de Van Dyck."
+  },
+  {
+   "id": "mariana",
+   "titulo": "Mariana de Austria, reina de España",
+   "autor": "Diego Velázquez",
+   "anio": "c. 1652",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276130.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP276130.jpg",
+   "nota": "La joven reina de España retratada por el pintor de corte."
+  },
+  {
+   "id": "hombre",
+   "titulo": "Retrato de un hombre",
+   "autor": "Diego Velázquez",
+   "anio": "c. 1650",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276131.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP276131.jpg",
+   "nota": "Una mirada viva y directa que muestra la maestría de Velázquez."
+  },
+  {
+   "id": "crucifixion3",
+   "titulo": "La crucifixión",
+   "autor": "Bartolomé Esteban Murillo",
+   "anio": "c. 1675",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT10248.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT10248.jpg",
+   "nota": "Cristo en la cruz, con la serenidad devota de Murillo."
+  },
+  {
+   "id": "andrade",
+   "titulo": "Don Andrés de Andrade y la Cal",
+   "autor": "Bartolomé Esteban Murillo",
+   "anio": "c. 1665–72",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16333-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-16333-001.jpg",
+   "nota": "Un caballero sevillano con su perro, por el gran Murillo."
+  },
+  {
+   "id": "sotillo",
+   "titulo": "Batalla de El Sotillo",
+   "autor": "Francisco de Zurbarán",
+   "anio": "c. 1637–39",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20747-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-20747-001.jpg",
+   "nota": "La Virgen aparece en medio de la batalla, en un lienzo de Zurbarán."
+  },
+  {
+   "id": "benito",
+   "titulo": "San Benito",
+   "autor": "Francisco de Zurbarán",
+   "anio": "c. 1640–45",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25223-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-25223-001.jpg",
+   "nota": "El santo fundador, sobrio y monumental, en el estilo de Zurbarán."
+  },
+  {
+   "id": "iriarte",
+   "titulo": "Don Bernardo de Iriarte",
+   "autor": "Francisco de Goya",
+   "anio": "1797",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23289-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-23289-001.jpg",
+   "nota": "Un ilustrado español retratado por Goya con agudeza."
+  },
+  {
+   "id": "mariluisa",
+   "titulo": "La infanta María Luisa y su hijo",
+   "autor": "Francisco de Goya",
+   "anio": "c. 1800",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22884-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-22884-001.jpg",
+   "nota": "Ternura familiar en un retrato de la corte española."
+  },
+  {
+   "id": "pastores2",
+   "titulo": "La adoración de los pastores",
+   "autor": "El Greco",
+   "anio": "c. 1605–10",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123919.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP123919.jpg",
+   "nota": "Luz sobrenatural y figuras alargadas en una de las últimas obras de El Greco."
+  },
+  {
+   "id": "ciego",
+   "titulo": "Cristo cura al ciego",
+   "autor": "El Greco",
+   "anio": "c. 1570",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26505-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-26505-001.jpg",
+   "nota": "Una obra temprana de El Greco, todavía bajo la influencia de Venecia."
+  },
+  {
+   "id": "mocenigo",
+   "titulo": "El dux Mocenigo ante el Redentor",
+   "autor": "Tintoretto",
+   "anio": "c. 1577",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT216453.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT216453.jpg",
+   "nota": "Fe y poder veneciano en una escena majestuosa de Tintoretto."
+  },
+  {
+   "id": "moises",
+   "titulo": "El hallazgo de Moisés",
+   "autor": "Tintoretto",
+   "anio": "c. 1560",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP239507.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP239507.jpg",
+   "nota": "La princesa de Egipto rescata al niño Moisés de las aguas."
+  },
+  {
+   "id": "grancanal",
+   "titulo": "El Gran Canal de Venecia hacia el puente de Rialto",
+   "autor": "Canaletto",
+   "anio": "c. 1735",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/Wrightsman16.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/Wrightsman16.jpg",
+   "nota": "Góndolas y palacios en la vista más célebre de Venecia."
+  },
+  {
+   "id": "zobenigo",
+   "titulo": "Campo Santa Maria Zobenigo, Venecia",
+   "autor": "Canaletto",
+   "anio": "c. 1735",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT274230.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT274230.jpg",
+   "nota": "Una plaza veneciana llena de vida, pintada con precisión asombrosa."
+  },
+  {
+   "id": "fantastico",
+   "titulo": "Paisaje fantástico",
+   "autor": "Francesco Guardi",
+   "anio": "c. 1765",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-023.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-18296-023.jpg",
+   "nota": "Ruinas, agua y luz en un paisaje soñado del último gran pintor veneciano."
+  },
+  {
+   "id": "angeles",
+   "titulo": "La Virgen y el Niño con dos ángeles",
+   "autor": "Sandro Botticelli",
+   "anio": "c. 1490",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/EP256.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/EP256.jpg",
+   "nota": "La gracia inconfundible de Botticelli en una escena devocional."
+  },
+  {
+   "id": "coronacion3",
+   "titulo": "La coronación de la Virgen",
+   "autor": "Sandro Botticelli",
+   "anio": "c. 1490",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT350031.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT350031.jpg",
+   "nota": "Ángeles y oro en una de las escenas sagradas de Botticelli."
+  },
+  {
+   "id": "alejandro",
+   "titulo": "San Alejandro",
+   "autor": "Fra Angelico",
+   "anio": "c. 1425",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19582-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19582-001.jpg",
+   "nota": "La pureza de color del pintor dominico de Florencia."
+  },
+  {
+   "id": "crucifixion4",
+   "titulo": "La crucifixión",
+   "autor": "Fra Angelico",
+   "anio": "c. 1440",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20398-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-20398-001.jpg",
+   "nota": "Recogimiento y oración en la pintura de Fra Angelico."
+  },
+  {
+   "id": "santos",
+   "titulo": "La Virgen y el Niño con santos",
+   "autor": "Giovanni di Paolo",
+   "anio": "1454",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-32_100_76-1.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_76-1.jpg",
+   "nota": "Oro y color en un retablo de la escuela de Siena."
+  },
+  {
+   "id": "magos2",
+   "titulo": "La adoración de los Magos",
+   "autor": "Giovanni di Paolo",
+   "anio": "c. 1460",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2580.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2580.jpg",
+   "nota": "Los reyes llegan a Belén en un paisaje de fantasía sienesa."
+  },
+  {
+   "id": "crivelli",
+   "titulo": "La Virgen y el Niño entronizados",
+   "autor": "Carlo Crivelli",
+   "anio": "1472",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8827.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT8827.jpg",
+   "nota": "Riqueza decorativa y detalle exquisito del maestro veneciano."
+  },
+  {
+   "id": "crivelli2",
+   "titulo": "La Virgen y el Niño",
+   "autor": "Carlo Crivelli",
+   "anio": "c. 1480",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19298-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19298-001.jpg",
+   "nota": "Frutas, guirnaldas y ternura en una pequeña obra maestra."
+  },
+  {
+   "id": "resurreccion",
+   "titulo": "La Resurrección",
+   "autor": "Perugino",
+   "anio": "c. 1500",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24050-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-24050-001.jpg",
+   "nota": "Cristo resucitado sobre un paisaje sereno, del maestro de Rafael."
+  },
+  {
+   "id": "lucia",
+   "titulo": "San Juan Bautista y santa Lucía",
+   "autor": "Perugino",
+   "anio": "c. 1500",
+   "sala": "Arte sacro",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-029.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-18296-029.jpg",
+   "nota": "Dos santos en un paisaje claro y armonioso de Umbría."
+  },
+  {
+   "id": "sajonia",
+   "titulo": "Juan, duque de Sajonia",
+   "autor": "Lucas Cranach el Viejo",
+   "anio": "c. 1534–37",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280918.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP280918.jpg",
+   "nota": "Un príncipe alemán del Renacimiento en la tabla de Cranach."
+  },
+  {
+   "id": "granadas",
+   "titulo": "Granadas y otras frutas",
+   "autor": "Abraham Brueghel",
+   "anio": "c. 1670",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT264793.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT264793.jpg",
+   "nota": "Un bodegón opulento de frutas en un paisaje."
+  },
+  {
+   "id": "camino",
+   "titulo": "Camino del bosque con viajeros",
+   "autor": "Jan Brueghel el Viejo",
+   "anio": "1607",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19631-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-19631-001.jpg",
+   "nota": "Diminutos viajeros en un bosque, con el detalle de los Brueghel."
+  },
+  {
+   "id": "palatino",
+   "titulo": "Paisaje con el monte Palatino",
+   "autor": "François Boucher",
+   "anio": "c. 1732",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-409-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-409-001.jpg",
+   "nota": "Una Roma soñada por el pintor del rococó francés."
+  },
+  {
+   "id": "sueno2",
+   "titulo": "El sueño interrumpido",
+   "autor": "François Boucher",
+   "anio": "1750",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-414-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-414-001.jpg",
+   "nota": "Escena pastoral llena de gracia y picardía."
+  },
+  {
+   "id": "cascada",
+   "titulo": "La cascada",
+   "autor": "Jean-Honoré Fragonard",
+   "anio": "c. 1775",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1015-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-1015-001.jpg",
+   "nota": "Un parque con cascada pintado con la ligereza de Fragonard."
+  },
+  {
+   "id": "sopera",
+   "titulo": "La sopera de plata",
+   "autor": "Jean Siméon Chardin",
+   "anio": "c. 1728–30",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356136.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP356136.jpg",
+   "nota": "La belleza de lo cotidiano en un bodegón de Chardin."
+  },
+  {
+   "id": "grand",
+   "titulo": "Madame Grand",
+   "autor": "Élisabeth Vigée Le Brun",
+   "anio": "1783",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320094.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320094.jpg",
+   "nota": "Una mirada al cielo que capta el encanto de la época."
+  },
+  {
+   "id": "crussol",
+   "titulo": "El barón de Crussol",
+   "autor": "Élisabeth Vigée Le Brun",
+   "anio": "1787",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320090.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320090.jpg",
+   "nota": "Un oficial francés retratado por la gran pintora de la corte."
+  },
+  {
+   "id": "leblanc",
+   "titulo": "Madame Leblanc",
+   "autor": "Jean-Auguste-Dominique Ingres",
+   "anio": "1823",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1926.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1926.jpg",
+   "nota": "Elegancia y precisión en un retrato de Ingres."
+  },
+  {
+   "id": "cave",
+   "titulo": "Edmond Cavé",
+   "autor": "Jean-Auguste-Dominique Ingres",
+   "anio": "1844",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1996.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1996.jpg",
+   "nota": "Un retrato sobrio y refinado del maestro neoclásico."
+  },
+  {
+   "id": "terneros",
+   "titulo": "El destete de los terneros",
+   "autor": "Rosa Bonheur",
+   "anio": "1879",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2579.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2579.jpg",
+   "nota": "La gran pintora de animales en una escena rural llena de vida."
+  },
+  {
+   "id": "tejiendo",
+   "titulo": "Joven tejiendo",
+   "autor": "Berthe Morisot",
+   "anio": "c. 1883",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1928.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1928.jpg",
+   "nota": "Un instante doméstico captado por la gran impresionista."
+  },
+  {
+   "id": "vestidorosa",
+   "titulo": "El vestido rosa",
+   "autor": "Berthe Morisot",
+   "anio": "c. 1870",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1927.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1927.jpg",
+   "nota": "Una joven en reposo, pintada con delicadeza por Morisot."
+  },
+  {
+   "id": "crisantemos",
+   "titulo": "Crisantemos en el jardín",
+   "autor": "Gustave Caillebotte",
+   "anio": "1893",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP341200.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP341200.jpg",
+   "nota": "Flores en primer plano, del jardín del propio Caillebotte."
+  },
+  {
+   "id": "madre",
+   "titulo": "Joven madre contemplando a su hijo",
+   "autor": "William Bouguereau",
+   "anio": "1871",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16481-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-16481-001.jpg",
+   "nota": "Ternura maternal pintada con la perfección académica de Bouguereau."
+  },
+  {
+   "id": "propuesta",
+   "titulo": "La propuesta",
+   "autor": "William Bouguereau",
+   "anio": "1872",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23423-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-23423-001.jpg",
+   "nota": "Un joven pastor declara su amor en una escena campestre."
+  },
+  {
+   "id": "eco",
+   "titulo": "Eco",
+   "autor": "Alexandre Cabanel",
+   "anio": "1874",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP208016.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP208016.jpg",
+   "nota": "La ninfa del mito griego, condenada a repetir las palabras ajenas."
+  },
+  {
+   "id": "wolfe",
+   "titulo": "Catharine Lorillard Wolfe",
+   "autor": "Alexandre Cabanel",
+   "anio": "1876",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11971.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT11971.jpg",
+   "nota": "Retrato de la gran benefactora del Museo Metropolitano."
+  },
+  {
+   "id": "muertos",
+   "titulo": "La isla de los muertos",
+   "autor": "Arnold Böcklin",
+   "anio": "1880",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-47457-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-47457-001.jpg",
+   "nota": "Un islote misterioso y silencioso, ícono del simbolismo."
+  },
+  {
+   "id": "romano",
+   "titulo": "Paisaje romano",
+   "autor": "Arnold Böcklin",
+   "anio": "c. 1850–52",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23285-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-23285-001.jpg",
+   "nota": "La campiña romana vista por el pintor suizo."
+  },
+  {
+   "id": "aldea",
+   "titulo": "Paisaje con aldea a lo lejos",
+   "autor": "Jacob van Ruisdael",
+   "anio": "1646",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145939.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145939.jpg",
+   "nota": "Cielo amplio y campo holandés del gran paisajista."
+  },
+  {
+   "id": "arroyo",
+   "titulo": "El arroyo del bosque",
+   "autor": "Jacob van Ruisdael",
+   "anio": "c. 1660",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146457.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146457.jpg",
+   "nota": "Agua, árboles y luz en un bosque del norte."
+  },
+  {
+   "id": "entrada",
+   "titulo": "Entrada a una aldea",
+   "autor": "Meindert Hobbema",
+   "anio": "c. 1665",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146444.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146444.jpg",
+   "nota": "Un camino de pueblo holandés entre árboles frondosos."
+  },
+  {
+   "id": "camino2",
+   "titulo": "Camino en el bosque",
+   "autor": "Meindert Hobbema",
+   "anio": "c. 1670",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP252576.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP252576.jpg",
+   "nota": "La calma del campo holandés del Siglo de Oro."
+  },
+  {
+   "id": "pareja2",
+   "titulo": "Interior con una joven pareja",
+   "autor": "Pieter de Hooch",
+   "anio": "c. 1662–65",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145906.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145906.jpg",
+   "nota": "La vida doméstica holandesa bañada de luz."
+  },
+  {
+   "id": "jarra2",
+   "titulo": "Mujer con una jarra y un hombre junto a la cama",
+   "autor": "Pieter de Hooch",
+   "anio": "c. 1667–70",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143173.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP143173.jpg",
+   "nota": "Un interior tranquilo, con la luz característica de De Hooch."
+  },
+  {
+   "id": "calavera",
+   "titulo": "Bodegón con calavera y pluma",
+   "autor": "Pieter Claesz",
+   "anio": "1628",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145929.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145929.jpg",
+   "nota": "Una vanitas: recordatorio de lo breve de la vida."
+  },
+  {
+   "id": "ostras",
+   "titulo": "Bodegón con ostras y copa de plata",
+   "autor": "Willem Claesz Heda",
+   "anio": "1635",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120415.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP120415.jpg",
+   "nota": "Plata, cristal y ostras en un bodegón de gran refinamiento."
+  },
+  {
+   "id": "ruysch",
+   "titulo": "Retrato de Rachel Ruysch",
+   "autor": "Michiel van Musscher",
+   "anio": "1692",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-32674-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-32674-001.jpg",
+   "nota": "La célebre pintora de flores, retratada en su taller."
+  },
+  {
+   "id": "rosas",
+   "titulo": "Bodegón con rosas y frutas",
+   "autor": "Henri Fantin-Latour",
+   "anio": "1863",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8649.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT8649.jpg",
+   "nota": "Rosas y frutas del maestro francés de las flores."
+  },
+  {
+   "id": "flores2",
+   "titulo": "Bodegón con flores y frutas",
+   "autor": "Henri Fantin-Latour",
+   "anio": "1866",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1980.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1980.jpg",
+   "nota": "Un bodegón delicado y lleno de color."
+  },
+  {
+   "id": "chino",
+   "titulo": "Ramo en un jarrón chino",
+   "autor": "Odilon Redon",
+   "anio": "c. 1912–14",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240599.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP240599.jpg",
+   "nota": "Flores de colores soñados por el pintor simbolista."
+  },
+  {
+   "id": "reposo",
+   "titulo": "Reposo",
+   "autor": "John White Alexander",
+   "anio": "1895",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT1551.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT1551.jpg",
+   "nota": "Una mujer reclinada en un vestido de líneas elegantes y fluidas."
+  },
+  {
+   "id": "rocosas",
+   "titulo": "Las Montañas Rocosas",
+   "autor": "Albert Bierstadt",
+   "anio": "1863",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT82.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT82.jpg",
+   "nota": "La grandeza del Oeste americano en un enorme paisaje."
+  },
+  {
+   "id": "missouri",
+   "titulo": "Comerciantes de pieles en el Misuri",
+   "autor": "George Caleb Bingham",
+   "anio": "1845",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT73.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT73.jpg",
+   "nota": "Un amanecer silencioso en el río, ícono de la pintura americana."
+  },
+  {
+   "id": "playa",
+   "titulo": "En la playa",
+   "autor": "William Merritt Chase",
+   "anio": "c. 1892",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT95.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT95.jpg",
+   "nota": "Sol, mar y sombrillas en un día de verano."
+  },
+  {
+   "id": "andes",
+   "titulo": "El corazón de los Andes",
+   "autor": "Frederic Edwin Church",
+   "anio": "1859",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT78.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT78.jpg",
+   "nota": "Los Andes de Sudamérica, pintados tras el viaje del artista por Colombia y Ecuador."
+  },
+  {
+   "id": "oxbow",
+   "titulo": "El meandro del río Connecticut",
+   "autor": "Thomas Cole",
+   "anio": "1836",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-12550-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP-12550-001.jpg",
+   "nota": "Naturaleza salvaje y tierra cultivada tras la tormenta."
+  },
+  {
+   "id": "verplanck",
+   "titulo": "Daniel Crommelin Verplanck",
+   "autor": "John Singleton Copley",
+   "anio": "1771",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT58.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT58.jpg",
+   "nota": "Un niño con su ardilla, en un retrato colonial americano."
+  },
+  {
+   "id": "remo",
+   "titulo": "Max Schmitt en un bote de remo",
+   "autor": "Thomas Eakins",
+   "anio": "1871",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT86.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT86.jpg",
+   "nota": "Un remero en el río al atardecer, obra clave del realismo americano."
+  },
+  {
+   "id": "baile",
+   "titulo": "La lección de baile",
+   "autor": "Thomas Eakins",
+   "anio": "1878",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5507.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT5507.jpg",
+   "nota": "Un abuelo enseña a bailar a su nieto."
+  },
+  {
+   "id": "boardman",
+   "titulo": "Elijah Boardman",
+   "autor": "Ralph Earl",
+   "anio": "1789",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT60.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT60.jpg",
+   "nota": "Un comerciante en su tienda de telas."
+  },
+  {
+   "id": "violin",
+   "titulo": "Bodegón con violín y partitura",
+   "autor": "William Michael Harnett",
+   "anio": "1888",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2046.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT2046.jpg",
+   "nota": "Un engaño visual tan real que parece salir del cuadro."
+  },
+  {
+   "id": "tormenta",
+   "titulo": "Se acerca la tormenta",
+   "autor": "Martin Johnson Heade",
+   "anio": "1859",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP248013.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP248013.jpg",
+   "nota": "Un cielo oscuro sobre la bahía, con una calma inquietante."
+  },
+  {
+   "id": "golfo",
+   "titulo": "La corriente del Golfo",
+   "autor": "Winslow Homer",
+   "anio": "1899",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-20821-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP-20821-001.jpg",
+   "nota": "Un marinero solo frente al mar y los tiburones."
+  },
+  {
+   "id": "barra",
+   "titulo": "Dentro de la barra",
+   "autor": "Winslow Homer",
+   "anio": "1883",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/ap54.183.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/ap54.183.jpg",
+   "nota": "Una mujer de pescadores frente al viento del mar."
+  },
+  {
+   "id": "veterano",
+   "titulo": "El veterano en un nuevo campo",
+   "autor": "Winslow Homer",
+   "anio": "1865",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP102298.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP102298.jpg",
+   "nota": "Un soldado vuelve a la siega después de la guerra."
+  },
+  {
+   "id": "george",
+   "titulo": "Lago George",
+   "autor": "John Frederick Kensett",
+   "anio": "1869",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT84.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT84.jpg",
+   "nota": "Un lago sereno, bañado de luz plateada."
+  },
+  {
+   "id": "nocturno",
+   "titulo": "Nocturno",
+   "autor": "John La Farge",
+   "anio": "c. 1885",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT256385.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT256385.jpg",
+   "nota": "Un paisaje nocturno lleno de poesía."
+  },
+  {
+   "id": "delaware",
+   "titulo": "Washington cruza el Delaware",
+   "autor": "Emanuel Leutze",
+   "anio": "1851",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP215410.jpg",
+   "nota": "La escena más famosa de la independencia de Estados Unidos."
+  },
+  {
+   "id": "generalife",
+   "titulo": "En el Generalife",
+   "autor": "John Singer Sargent",
+   "anio": "1912",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP323590.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP323590.jpg",
+   "nota": "Pintoras en los jardines de la Alhambra de Granada."
+  },
+  {
+   "id": "madamex",
+   "titulo": "Madame X",
+   "autor": "John Singer Sargent",
+   "anio": "1883–84",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29006-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP-29006-001.jpg",
+   "nota": "El retrato que causó escándalo en París y hoy es un ícono."
+  },
+  {
+   "id": "copley",
+   "titulo": "Autorretrato",
+   "autor": "John Singleton Copley",
+   "anio": "1769",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP161508.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP161508.jpg",
+   "nota": "El gran pintor de la América colonial se retrata a sí mismo."
+  },
+  {
+   "id": "washington",
+   "titulo": "George Washington",
+   "autor": "Gilbert Stuart",
+   "anio": "1795",
+   "sala": "Arte americano",
+   "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT62.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT62.jpg",
+   "nota": "El retrato que inspiró el rostro del billete de un dólar."
+  },
+  {
+   "id": "roben",
+   "titulo": "La cascada de Rōben en Ōyama",
+   "autor": "Katsushika Hokusai",
+   "anio": "c. 1827",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP141246.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP141246.jpg",
+   "nota": "Peregrinos bajo una cascada sagrada, de la serie de cascadas de Hokusai."
+  },
+  {
+   "id": "jito",
+   "titulo": "Poema de la emperatriz Jitō",
+   "autor": "Katsushika Hokusai",
+   "anio": "1839",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP140961.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP140961.jpg",
+   "nota": "Escena campesina inspirada en un poema clásico japonés."
+  },
+  {
+   "id": "hitomaro",
+   "titulo": "Poema de Kakinomoto Hitomaro",
+   "autor": "Katsushika Hokusai",
+   "anio": "1839",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP140962.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP140962.jpg",
+   "nota": "Pescadores y paisaje en la serie de los Cien poemas."
+  },
+  {
+   "id": "aguacero",
+   "titulo": "Aguacero sobre el puente Ōhashi",
+   "autor": "Utagawa Hiroshige",
+   "anio": "1857",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP121525.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP121525.jpg",
+   "nota": "La lluvia más famosa del arte japonés, que inspiró a Van Gogh."
+  },
+  {
+   "id": "cerezos",
+   "titulo": "Cerezos al atardecer en Gotenyama",
+   "autor": "Utagawa Hiroshige",
+   "anio": "1830",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP123237.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP123237.jpg",
+   "nota": "Cerezos en flor y paseantes en una tarde de primavera."
+  },
+  {
+   "id": "kihan",
+   "titulo": "Velas que regresan",
+   "autor": "Utagawa Hiroshige",
+   "anio": "c. 1836",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP120436.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP120436.jpg",
+   "nota": "Barcos que vuelven a puerto en un paisaje sereno."
+  },
+  {
+   "id": "haneda",
+   "titulo": "Gansos que bajan en Haneda",
+   "autor": "Utagawa Hiroshige",
+   "anio": "c. 1835",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP123256.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP123256.jpg",
+   "nota": "Aves migratorias sobre la costa, con la poesía de Hiroshige."
+  },
+  {
+   "id": "yukata",
+   "titulo": "Dos jóvenes envueltas en yukata",
+   "autor": "Kitagawa Utamaro",
+   "anio": "c. 1796",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP135638.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP135638.jpg",
+   "nota": "La elegancia femenina del maestro de las bellezas japonesas."
+  },
+  {
+   "id": "lluvia",
+   "titulo": "Pareja bajo la lluvia de la tarde",
+   "autor": "Kitagawa Utamaro",
+   "anio": "c. 1800",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP144598.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP144598.jpg",
+   "nota": "Un paseo bajo el aguacero, de la serie Placeres del mundo flotante."
+  },
+  {
+   "id": "espejos",
+   "titulo": "Takashima Ohisa con dos espejos",
+   "autor": "Kitagawa Utamaro",
+   "anio": "c. 1795",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP135639.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP135639.jpg",
+   "nota": "Una joven famosa de Edo se mira el peinado."
+  },
+  {
+   "id": "imado",
+   "titulo": "Asakusa Imado",
+   "autor": "Utagawa Kuniyoshi",
+   "anio": "c. 1840",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP124464.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP124464.jpg",
+   "nota": "Vida a orillas del río en el antiguo Edo."
+  },
+  {
+   "id": "nieve",
+   "titulo": "Viajeros en la tormenta de nieve",
+   "autor": "Utagawa Kuniyoshi",
+   "anio": "c. 1830",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP124465.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP124465.jpg",
+   "nota": "El frío y la nieve vistos por un maestro del grabado japonés."
+  },
+  {
+   "id": "jizo",
+   "titulo": "Viajeros ante la estatua de Jizō",
+   "autor": "Utagawa Kuniyoshi",
+   "anio": "c. 1840",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP124466.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP124466.jpg",
+   "nota": "Un alto en el camino bajo los pinos de Hashiba."
+  },
+  {
+   "id": "veranda",
+   "titulo": "Dos jóvenes en una veranda",
+   "autor": "Suzuki Harunobu",
+   "anio": "c. 1766–70",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP114902.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP114902.jpg",
+   "nota": "Colores suaves del creador del grabado a todo color."
+  },
+  {
+   "id": "toallero",
+   "titulo": "Velas que regresan al toallero",
+   "autor": "Suzuki Harunobu",
+   "anio": "c. 1766",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP119523.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP119523.jpg",
+   "nota": "Humor y poesía en una escena doméstica japonesa."
+  },
+  {
+   "id": "agua",
+   "titulo": "Sacando la primera agua del año",
+   "autor": "Suzuki Harunobu",
+   "anio": "c. 1769–70",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP114903.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP114903.jpg",
+   "nota": "Una tradición de Año Nuevo en Japón."
+  },
+  {
+   "id": "komuso",
+   "titulo": "Joven vestida de monje komusō",
+   "autor": "Suzuki Harunobu",
+   "anio": "c. 1768",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP144637.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP144637.jpg",
+   "nota": "Una muchacha disfrazada de monje músico con su flauta."
+  },
+  {
+   "id": "lluvianoche",
+   "titulo": "Lluvia nocturna en el estante",
+   "autor": "Suzuki Harunobu",
+   "anio": "c. 1766",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP119525.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP119525.jpg",
+   "nota": "De la serie Ocho vistas de salón: poesía en lo cotidiano."
+  },
+  {
+   "id": "avalokiteshvara",
+   "titulo": "Avalokiteshvara de la luna en el agua",
+   "autor": "Artista anónimo coreano",
+   "anio": "s. XIV",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15580-002.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP-15580-002.jpg",
+   "nota": "Una joya de la pintura budista coreana de la dinastía Goryeo."
+  },
+  {
+   "id": "gongxian",
+   "titulo": "Paisajes con poemas",
+   "autor": "Gong Xian",
+   "anio": "1688",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/1981_4_1a.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/1981_4_1a.jpg",
+   "nota": "Montañas y poesía de un maestro chino de la tinta."
+  },
+  {
+   "id": "vid",
+   "titulo": "Vid en el viento",
+   "autor": "Artista anónimo coreano",
+   "anio": "s. XVI",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT3769.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DT3769.jpg",
+   "nota": "Una rama de vid agitada por el viento, pintada en tinta."
+  },
+  {
+   "id": "devananda",
+   "titulo": "Los catorce sueños de Devananda",
+   "autor": "Maestro del Kalpasutra de Jaunpur",
+   "anio": "c. 1465",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT6940.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DT6940.jpg",
+   "nota": "Un manuscrito iluminado de la India, de colores vibrantes."
+  },
+  {
+   "id": "corona",
+   "titulo": "Corona ritual con los cinco Budas",
+   "autor": "Arte tibetano",
+   "anio": "s. XIV–XV",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14528-010.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP-14528-010.jpg",
+   "nota": "Una pintura sagrada del Tíbet de gran riqueza simbólica."
+  },
+  {
+   "id": "chenresi",
+   "titulo": "Chenresi de mil brazos",
+   "autor": "Arte tibetano",
+   "anio": "s. XIV",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP-30186-001.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP-30186-001.jpg",
+   "nota": "La compasión infinita representada en el arte tibetano."
+  },
+  {
+   "id": "lokeshvara",
+   "titulo": "Lokeshvara entre manifestaciones y monjes",
+   "autor": "Arte tibetano",
+   "anio": "finales s. XV",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT5231.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DT5231.jpg",
+   "nota": "Una pintura sagrada tibetana llena de figuras y color."
+  },
+  {
+   "id": "jnanadakini",
+   "titulo": "Mandala de Jnanadakini",
+   "autor": "Arte tibetano",
+   "anio": "finales s. XIV",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP-30187-002.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP-30187-002.jpg",
+   "nota": "Un mandala de geometría perfecta para la meditación."
+  },
+  {
+   "id": "amitayus",
+   "titulo": "Amitayus, el Buda de la vida eterna",
+   "autor": "Arte tibetano",
+   "anio": "s. XI–XII",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/23ar4_61B.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/23ar4_61B.jpg",
+   "nota": "Una de las pinturas tibetanas más antiguas que se conservan."
+  },
+  {
+   "id": "vilaval",
+   "titulo": "Vilaval Ragini",
+   "autor": "Arte de Rajastán",
+   "anio": "c. 1680",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP259541.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP259541.jpg",
+   "nota": "Una pintura india que representa un modo musical."
+  },
+  {
+   "id": "krishna",
+   "titulo": "Krishna y Balarama contra los luchadores",
+   "autor": "Arte de Malwa (India)",
+   "anio": "c. 1650",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP152283.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP152283.jpg",
+   "nota": "Una escena del Bhagavata Purana llena de color."
+  },
+  {
+   "id": "chaupar",
+   "titulo": "Shiva y Parvati juegan chaupar",
+   "autor": "Devidasa de Nurpur",
+   "anio": "1694–95",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT5245.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DT5245.jpg",
+   "nota": "Los dioses juegan en una delicada miniatura india."
+  },
+  {
+   "id": "rama",
+   "titulo": "Rama libera a los espías del demonio",
+   "autor": "Manaku",
+   "anio": "c. 1725",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP278165.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP278165.jpg",
+   "nota": "Una escena del Ramayana pintada en las colinas de la India."
+  },
+  {
+   "id": "gopis",
+   "titulo": "Las gopis ruegan a Krishna",
+   "autor": "Maestro del Bhagavata Purana de Isarda",
+   "anio": "c. 1560–65",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP153157.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP153157.jpg",
+   "nota": "Una escena amable de la mitología india en vivos colores."
+  },
+  {
+   "id": "fantastico2",
+   "titulo": "Paisaje fantástico con ruinas",
+   "autor": "Francesco Guardi",
+   "anio": "c. 1765",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT4562.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT4562.jpg",
+   "nota": "Arquitecturas soñadas a orillas del agua, compañero del anterior."
+  },
+  {
+   "id": "spielhausen",
+   "titulo": "Lukas Spielhausen",
+   "autor": "Lucas Cranach el Viejo",
+   "anio": "1532",
+   "sala": "Renacimiento",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278979.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP278979.jpg",
+   "nota": "Un burgués alemán retratado con la precisión de Cranach."
+  },
+  {
+   "id": "caballero",
+   "titulo": "Retrato de un caballero",
+   "autor": "Antoon van Dyck",
+   "anio": "c. 1618",
+   "sala": "Barroco",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP361123.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP361123.jpg",
+   "nota": "Un retrato juvenil de Van Dyck, todavía en Amberes."
+  },
+  {
+   "id": "jnanatapa",
+   "titulo": "El mahasiddha Jnanatapa",
+   "autor": "Arte tibetano",
+   "anio": "c. 1350",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15583-020.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP-15583-020.jpg",
+   "nota": "Un maestro espiritual tibetano rodeado de figuras sagradas."
+  },
+  {
+   "id": "amoghasiddhi",
+   "titulo": "Buda Amoghasiddhi con ocho bodhisattvas",
+   "autor": "Arte tibetano",
+   "anio": "c. 1200–50",
+   "sala": "Oriente",
+   "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT6641.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DT6641.jpg",
+   "nota": "Un Buda rodeado de bodhisattvas, del Tíbet central."
+  },
+  {
+   "id": "sabueso",
+   "titulo": "Un sabueso",
+   "autor": "Rosa Bonheur",
+   "anio": "c. 1856",
+   "sala": "Impresionismo y modernos",
+   "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123961.jpg",
+   "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP123961.jpg",
+   "nota": "El retrato de un perro de caza, por la gran pintora de animales."
   }
  ],
  "libros": [
@@ -1371,7 +2931,8 @@
    "img": "img/joyas/joya01.jpg",
    "precio": 320000,
    "detalle": "Dos aros de plata 925 cubiertos de circones abrazan una esmeralda natural en talla redonda.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya02",
@@ -1379,7 +2940,8 @@
    "img": "img/joyas/joya02.jpg",
    "precio": 1280000,
    "detalle": "Esmeralda natural en cabujón oval, coronada por un halo de circones y montada en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya03",
@@ -1387,7 +2949,8 @@
    "img": "img/joyas/joya03.jpg",
    "precio": 190000,
    "detalle": "Cadena de plata 925 en torzal fino con balines tallados que destellan con cada movimiento.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Cadena"
   },
   {
    "id": "joya04",
@@ -1395,7 +2958,8 @@
    "img": "img/joyas/joya04.jpg",
    "precio": 220000,
    "detalle": "Solitario de esmeralda natural en cuatro garras sobre una banda de circones en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya05",
@@ -1403,7 +2967,8 @@
    "img": "img/joyas/joya05.jpg",
    "precio": 110000,
    "detalle": "Topitos de plata 925 con esmeraldas naturales engastadas en garras: discretos y elegantes.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Topitos (aretes)"
   },
   {
    "id": "joya06",
@@ -1411,7 +2976,8 @@
    "img": "img/joyas/joya06.jpg",
    "precio": 590000,
    "detalle": "Cruz artesanal en alambre de plata 925 con esferas de esmeralda natural y balines tallados, con su cadena.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Dije"
   },
   {
    "id": "joya07",
@@ -1419,7 +2985,8 @@
    "img": "img/joyas/joya07.jpg",
    "precio": 110000,
    "detalle": "Topitos de plata 925 con pequeñas esmeraldas naturales, perfectos para el día a día.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Topitos (aretes)"
   },
   {
    "id": "joya08",
@@ -1427,7 +2994,8 @@
    "img": "img/joyas/joya08.jpg",
    "precio": 270000,
    "detalle": "Esmeralda natural redonda en cuatro garras, escoltada por circones a cada lado, en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya09",
@@ -1435,7 +3003,8 @@
    "img": "img/joyas/joya09.jpg",
    "precio": 240000,
    "detalle": "Esmeralda en talla gota rodeada por un halo de circones, en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya10",
@@ -1443,7 +3012,8 @@
    "img": "img/joyas/joya10.jpg",
    "precio": 230000,
    "detalle": "Solitario de diseño cruzado que envuelve una esmeralda natural, en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya11",
@@ -1451,7 +3021,8 @@
    "img": "img/joyas/joya11.jpg",
    "precio": 90000,
    "detalle": "Topitos de plata 925 con esmeraldas naturales que dan un toque de color al rostro.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Topitos (aretes)"
   },
   {
    "id": "joya12",
@@ -1459,7 +3030,8 @@
    "img": "img/joyas/joya12.jpg",
    "precio": 230000,
    "detalle": "Solitario delicado con esmeralda natural redonda, en plata 925, para llevar siempre.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya13",
@@ -1467,7 +3039,8 @@
    "img": "img/joyas/joya13.jpg",
    "precio": 220000,
    "detalle": "Solitario de cuatro garras que eleva una esmeralda natural, en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya14",
@@ -1475,7 +3048,8 @@
    "img": "img/joyas/joya14.jpg",
    "precio": 220000,
    "detalle": "Esmeralda natural engastada en barra, de líneas limpias y modernas, en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya15",
@@ -1483,7 +3057,8 @@
    "img": "img/joyas/joya15.jpg",
    "precio": 240000,
    "detalle": "Ocho garras en forma de flor sostienen una esmeralda natural, en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya16",
@@ -1491,7 +3066,8 @@
    "img": "img/joyas/joya16.jpg",
    "precio": 230000,
    "detalle": "Anillo en V con esmeralda en talla gota y un circón central, en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   },
   {
    "id": "joya17",
@@ -1499,7 +3075,8 @@
    "img": "img/joyas/joya17.jpg",
    "precio": 320000,
    "detalle": "Esmeralda natural sobre banda de circones, con aro acompañante en plata 925.",
-   "disponible": true
+   "disponible": true,
+   "tipo": "Anillo"
   }
  ]
 }
