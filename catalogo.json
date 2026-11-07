@@ -392,6 +392,83 @@
    "destacada": true
   },
   {
+   "id": "composicion-vii",
+   "titulo": "Composición VII",
+   "autor": "Vasili Kandinsky",
+   "anio": "1913",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg/960px-Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/01/Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.015 × 4.661 píxeles, apto para lámina de 50 × 70 cm.",
+   "destacada": true
+  },
+  {
+   "id": "los-lobos-guerra-de-los-balcanes",
+   "titulo": "Los lobos, guerra de los Balcanes",
+   "autor": "Franz Marc",
+   "anio": "1913",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Franz_Marc_-_Die_W%C3%B6lfe_%28Balkankrieg%29_%28The_Wolves_%28Balkan_War%29%29_-_1951-1_-_Albright%E2%80%93Knox_Art_Gallery.tiff/lossy-page1-960px-Franz_Marc_-_Die_W%C3%B6lfe_%28Balkankrieg%29_%28The_Wolves_%28Balkan_War%29%29_-_1951-1_-_Albright%E2%80%93Knox_Art_Gallery.tiff.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Franz_Marc_-_Die_W%C3%B6lfe_%28Balkankrieg%29_%28The_Wolves_%28Balkan_War%29%29_-_1951-1_-_Albright%E2%80%93Knox_Art_Gallery.tiff",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 10.404 × 5.153 píxeles, apto para lámina de 50 × 70 cm.",
+   "destacada": true
+  },
+  {
+   "id": "la-esperanza-ii",
+   "titulo": "La esperanza II",
+   "autor": "Gustav Klimt",
+   "anio": "1907–1908",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gustav_Klimt_-_G._hope_ii._moma%2Cny.jpg/960px-Gustav_Klimt_-_G._hope_ii._moma%2Cny.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Gustav_Klimt_-_G._hope_ii._moma%2Cny.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 13.477 × 13.581 píxeles, apto para lámina de 50 × 70 cm.",
+   "destacada": true
+  },
+  {
+   "id": "el-grito",
+   "titulo": "El grito",
+   "autor": "Edvard Munch",
+   "anio": "1893",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg/960px-Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/8/86/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.232 × 7.880 píxeles, apto para lámina de 50 × 70 cm.",
+   "destacada": true
+  },
+  {
+   "id": "triptico-del-juicio-final",
+   "titulo": "Tríptico del Juicio Final",
+   "autor": "El Bosco",
+   "anio": "h. 1486",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bosch_laatste_oordeel_drieluik.jpg/960px-Bosch_laatste_oordeel_drieluik.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Bosch_laatste_oordeel_drieluik.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.841 × 5.744 píxeles, apto para lámina de 50 × 70 cm.",
+   "destacada": true
+  },
+  {
+   "id": "la-isla-de-los-muertos",
+   "titulo": "La isla de los muertos",
+   "autor": "Arnold Böcklin",
+   "anio": "1886",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Arnold_B%C3%B6cklin_-_The_Isle_of_the_Dead_-_1883_8901.jpg/960px-Arnold_B%C3%B6cklin_-_The_Isle_of_the_Dead_-_1883_8901.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/8/80/Arnold_B%C3%B6cklin_-_The_Isle_of_the_Dead_-_1883_8901.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.256 × 5.504 píxeles, apto para lámina de 50 × 70 cm.",
+   "destacada": true
+  },
+  {
+   "id": "ofelia",
+   "titulo": "Ofelia",
+   "autor": "John Everett Millais",
+   "anio": "1851–1852",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg/960px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.087 × 4.820 píxeles, apto para lámina de 50 × 70 cm.",
+   "destacada": true
+  },
+  {
    "id": "combate-en-el-club-sharkey-s",
    "titulo": "Combate en el club Sharkey's",
    "autor": "George Bellows",
@@ -9090,6 +9167,1166 @@
    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Henri_Rousseau_-_Tropical_Landscape%2C_American_Indian_Struggling_with_a_Gorilla_Google_Art_Project.jpg/960px-Henri_Rousseau_-_Tropical_Landscape%2C_American_Indian_Struggling_with_a_Gorilla_Google_Art_Project.jpg",
    "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Henri_Rousseau_-_Tropical_Landscape%2C_American_Indian_Struggling_with_a_Gorilla_Google_Art_Project.jpg",
    "nota": "Obra de dominio público (Virginia Museum of Fine Arts), reproducida en altísima resolución por el Google Art Project. Archivo original de 12.688 × 8.790 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "impresion-v-parque",
+   "titulo": "Impresión V, parque",
+   "autor": "Vasili Kandinsky",
+   "anio": "1911",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Impression_V_%28Park%29_by_Wassily_Kandinsky%2C_1911%2C_GAC.jpg/960px-Impression_V_%28Park%29_by_Wassily_Kandinsky%2C_1911%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/60/Impression_V_%28Park%29_by_Wassily_Kandinsky%2C_1911%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.524 × 5.789 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "ciudad-vieja-ii",
+   "titulo": "Ciudad vieja II",
+   "autor": "Vasili Kandinsky",
+   "anio": "1902",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Old_Town_II_-_Wassily_Kandinsky%2C_GAC.jpg/960px-Old_Town_II_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/28/Old_Town_II_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.307 × 5.507 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-dia-del-juicio-final",
+   "titulo": "El día del Juicio Final",
+   "autor": "Vasili Kandinsky",
+   "anio": "1912",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kandinsky%2C_Wassily_-_J%C3%BCngster_Tag_%28The_Day_of_the_Last_Judgement%29%2C_1912%2C_GAC.jpg/960px-Kandinsky%2C_Wassily_-_J%C3%BCngster_Tag_%28The_Day_of_the_Last_Judgement%29%2C_1912%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Kandinsky%2C_Wassily_-_J%C3%BCngster_Tag_%28The_Day_of_the_Last_Judgement%29%2C_1912%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.110 × 6.187 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "cuadro-con-mancha-roja",
+   "titulo": "Cuadro con mancha roja",
+   "autor": "Vasili Kandinsky",
+   "anio": "1914",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Kandinsky_-_Bild_mit_rotem_Fleck%2C_GAC.jpg/960px-Kandinsky_-_Bild_mit_rotem_Fleck%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Kandinsky_-_Bild_mit_rotem_Fleck%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.897 × 6.847 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "acuerdos-reciprocos",
+   "titulo": "Acuerdos recíprocos",
+   "autor": "Vasili Kandinsky",
+   "anio": "1942",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Reciprocal_Accords_-_Wassily_Kandinsky%2C_GAC.jpg/960px-Reciprocal_Accords_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Reciprocal_Accords_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.306 × 5.736 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "vacio-verde",
+   "titulo": "Vacío verde",
+   "autor": "Vasili Kandinsky",
+   "anio": "1930",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Green_Void_-_Wassily_Kandinsky%2C_GAC.jpg/960px-Green_Void_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Green_Void_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 10.773 × 7.751 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "acento-en-rosa",
+   "titulo": "Acento en rosa",
+   "autor": "Vasili Kandinsky",
+   "anio": "1926",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Accent_on_Pink_-_Wassily_Kandinsky.jpg/960px-Accent_on_Pink_-_Wassily_Kandinsky.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Accent_on_Pink_-_Wassily_Kandinsky.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.576 × 8.122 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "amarillo-rojo-azul",
+   "titulo": "Amarillo, rojo, azul",
+   "autor": "Vasili Kandinsky",
+   "anio": "1925",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Gelb-Rot-Blau%2C_by_Wassily_Kandinsky.jpg/960px-Gelb-Rot-Blau%2C_by_Wassily_Kandinsky.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/68/Gelb-Rot-Blau%2C_by_Wassily_Kandinsky.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.379 × 5.394 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "composicion-ix",
+   "titulo": "Composición IX",
+   "autor": "Vasili Kandinsky",
+   "anio": "1936",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Vassily_Kandinsky%2C_1936_-_Composition_9.jpg/960px-Vassily_Kandinsky%2C_1936_-_Composition_9.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vassily_Kandinsky%2C_1936_-_Composition_9.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.093 × 3.551 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "azul-cielo",
+   "titulo": "Azul cielo",
+   "autor": "Vasili Kandinsky",
+   "anio": "1940",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Wassily_Kandinsky_-_Sky_Blue%2C_1940.jpg/960px-Wassily_Kandinsky_-_Sky_Blue%2C_1940.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Wassily_Kandinsky_-_Sky_Blue%2C_1940.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.548 × 8.907 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "ciudad-arabe",
+   "titulo": "Ciudad árabe",
+   "autor": "Vasili Kandinsky",
+   "anio": "1905",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Arab_City_-_Wassily_Kandinsky%2C_1905.jpg/960px-Arab_City_-_Wassily_Kandinsky%2C_1905.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Arab_City_-_Wassily_Kandinsky%2C_1905.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.945 × 5.365 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-bahia-de-tunez",
+   "titulo": "La bahía de Túnez",
+   "autor": "Vasili Kandinsky",
+   "anio": "1905",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Tunis_the_Bay_-_Wassily_Kandinsky%2C_GAC.jpg/960px-Tunis_the_Bay_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tunis_the_Bay_-_Wassily_Kandinsky%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.258 × 5.984 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "murnau-paisaje-con-torre",
+   "titulo": "Murnau, paisaje con torre",
+   "autor": "Vasili Kandinsky",
+   "anio": "1908",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Murnau%2C_Landschaft_mit_Turm_-_Kandinsky%2C_GAC.jpg/960px-Murnau%2C_Landschaft_mit_Turm_-_Kandinsky%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Murnau%2C_Landschaft_mit_Turm_-_Kandinsky%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.166 × 6.161 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "en-el-circulo",
+   "titulo": "En el círculo",
+   "autor": "Vasili Kandinsky",
+   "anio": "h. 1914",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kandinsky%2C_Wassily_-_Im_Kreis%2C_c._1914%2C_GAC.jpg/960px-Kandinsky%2C_Wassily_-_Im_Kreis%2C_c._1914%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kandinsky%2C_Wassily_-_Im_Kreis%2C_c._1914%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.290 × 6.380 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "equilibrio-rosa",
+   "titulo": "Equilibrio rosa",
+   "autor": "Vasili Kandinsky",
+   "anio": "1933",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Kandinsky%2C_Wassily_-_Ausgleichrosa%2C_1933%2C_GAC.jpg/960px-Kandinsky%2C_Wassily_-_Ausgleichrosa%2C_1933%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Kandinsky%2C_Wassily_-_Ausgleichrosa%2C_1933%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.180 × 7.734 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-pequeno-circulo-rojo",
+   "titulo": "El pequeño círculo rojo",
+   "autor": "Vasili Kandinsky",
+   "anio": "1944",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kandinsky%2C_Wassily_-_The_Little_Red_Circle%2C_1944%2C_GAC.jpg/960px-Kandinsky%2C_Wassily_-_The_Little_Red_Circle%2C_1944%2C_GAC.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kandinsky%2C_Wassily_-_The_Little_Red_Circle%2C_1944%2C_GAC.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.415 × 6.078 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "molino-en-holanda",
+   "titulo": "Molino en Holanda",
+   "autor": "Vasili Kandinsky",
+   "anio": "1904",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Wassily_Kandinsky_-_M%C3%BChle%2C_Holland_%28Mill_in_Holland%29_%281904%29.jpg/960px-Wassily_Kandinsky_-_M%C3%BChle%2C_Holland_%28Mill_in_Holland%29_%281904%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/56/Wassily_Kandinsky_-_M%C3%BChle%2C_Holland_%28Mill_in_Holland%29_%281904%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.075 × 5.594 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "nymphenburg",
+   "titulo": "Nymphenburg",
+   "autor": "Vasili Kandinsky",
+   "anio": "1904",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Vassily_Kandinsky_-_Nymphenburg_-_81.106.1_-_Minneapolis_Institute_of_Arts.jpg/960px-Vassily_Kandinsky_-_Nymphenburg_-_81.106.1_-_Minneapolis_Institute_of_Arts.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/af/Vassily_Kandinsky_-_Nymphenburg_-_81.106.1_-_Minneapolis_Institute_of_Arts.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.137 × 4.405 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-camino-a-la-ciudadela",
+   "titulo": "El camino a la ciudadela",
+   "autor": "Paul Klee",
+   "anio": "1937",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Paul_Klee_-_Der_Weg_zur_Zitadelle_%281929%29.jpg/960px-Paul_Klee_-_Der_Weg_zur_Zitadelle_%281929%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Paul_Klee_-_Der_Weg_zur_Zitadelle_%281929%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.777 × 7.968 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "noche-azul",
+   "titulo": "Noche azul",
+   "autor": "Paul Klee",
+   "anio": "1937",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Blaue_Nacht%2C_1937_-_Paul_Klee.jpg/960px-Blaue_Nacht%2C_1937_-_Paul_Klee.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/23/Blaue_Nacht%2C_1937_-_Paul_Klee.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.201 × 4.068 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "castillo-y-sol",
+   "titulo": "Castillo y sol",
+   "autor": "Paul Klee",
+   "anio": "1928",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Burg_und_Sonne_-_Klee.jpg/960px-Burg_und_Sonne_-_Klee.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Burg_und_Sonne_-_Klee.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.070 × 6.621 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "en-la-tierra-de-las-piedras-preciosas",
+   "titulo": "En la tierra de las piedras preciosas",
+   "autor": "Paul Klee",
+   "anio": "1929",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Im_Lande_Edelstein%2C_1929_-_Paul_Klee.jpg/960px-Im_Lande_Edelstein%2C_1929_-_Paul_Klee.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Im_Lande_Edelstein%2C_1929_-_Paul_Klee.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.070 × 12.096 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "kairuan",
+   "titulo": "Kairuán",
+   "autor": "Paul Klee",
+   "anio": "1914",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Paul_Klee_Kairuan_1916.jpg/960px-Paul_Klee_Kairuan_1916.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/46/Paul_Klee_Kairuan_1916.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.678 × 5.624 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "viaducto",
+   "titulo": "Viaducto",
+   "autor": "Paul Klee",
+   "anio": "1937",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/1935_Klee_Viadukt_anagoria.JPG/960px-1935_Klee_Viadukt_anagoria.JPG",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/4b/1935_Klee_Viadukt_anagoria.JPG",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.178 × 3.168 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "selva-tropical",
+   "titulo": "Selva tropical",
+   "autor": "Paul Klee",
+   "anio": "1915",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/1915_Klee_Tropischer_Wald_Nationalgalerie_Prag_anagoria.jpg/960px-1915_Klee_Tropischer_Wald_Nationalgalerie_Prag_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/6b/1915_Klee_Tropischer_Wald_Nationalgalerie_Prag_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 12.000 × 9.062 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-destino-de-los-animales",
+   "titulo": "El destino de los animales",
+   "autor": "Franz Marc",
+   "anio": "1913",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marc_-_Tierschicksale_%28Die_B%C3%A4ume_zeigten_ihre_Ringe%2C_die_Tiere_ihre_Adern%29%2C_1913%2C_Inv._1739.jpg/960px-Marc_-_Tierschicksale_%28Die_B%C3%A4ume_zeigten_ihre_Ringe%2C_die_Tiere_ihre_Adern%29%2C_1913%2C_Inv._1739.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marc_-_Tierschicksale_%28Die_B%C3%A4ume_zeigten_ihre_Ringe%2C_die_Tiere_ihre_Adern%29%2C_1913%2C_Inv._1739.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.944 × 5.098 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "dos-gatos-azul-y-amarillo",
+   "titulo": "Dos gatos, azul y amarillo",
+   "autor": "Franz Marc",
+   "anio": "1912",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Marc_-_Zwei_Katzen%2C_blau_und_gelb%2C_1912%2C_Inv._1746.jpg/960px-Marc_-_Zwei_Katzen%2C_blau_und_gelb%2C_1912%2C_Inv._1746.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Marc_-_Zwei_Katzen%2C_blau_und_gelb%2C_1912%2C_Inv._1746.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.584 × 4.960 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "tres-gatos",
+   "titulo": "Tres gatos",
+   "autor": "Franz Marc",
+   "anio": "1913",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/1913_Marc_Drei_Katzen_anagoria.jpg/960px-1913_Marc_Drei_Katzen_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/ac/1913_Marc_Drei_Katzen_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 10.039 × 7.087 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "nuestro-jardin-con-arriates-en-flor",
+   "titulo": "Nuestro jardín con arriates en flor",
+   "autor": "August Macke",
+   "anio": "1912",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/August_Macke_Unser_Garten_mit_bl%C3%BChenden_Rabatten_1912.jpg/960px-August_Macke_Unser_Garten_mit_bl%C3%BChenden_Rabatten_1912.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/d6/August_Macke_Unser_Garten_mit_bl%C3%BChenden_Rabatten_1912.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.186 × 11.100 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "jinetes-en-el-bosque",
+   "titulo": "Jinetes en el bosque",
+   "autor": "August Macke",
+   "anio": "1913",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/August_Macke_Reiter_im_Wald_1913.jpg/960px-August_Macke_Reiter_im_Wald_1913.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0a/August_Macke_Reiter_im_Wald_1913.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.028 × 6.812 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-catedral-de-friburgo-en-suiza",
+   "titulo": "La catedral de Friburgo en Suiza",
+   "autor": "August Macke",
+   "anio": "1914",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/1914_Macke_Kathedrale_zu_Freiburg_in_der_Schweiz_anagoria.jpg/960px-1914_Macke_Kathedrale_zu_Freiburg_in_der_Schweiz_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/23/1914_Macke_Kathedrale_zu_Freiburg_in_der_Schweiz_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.000 × 10.825 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "cuadrado-negro",
+   "titulo": "Cuadrado negro",
+   "autor": "Kazimir Malévich",
+   "anio": "1915",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Malevich%2C_Kazimir_Severinovich_-_Black_Square.jpg/960px-Malevich%2C_Kazimir_Severinovich_-_Black_Square.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/47/Malevich%2C_Kazimir_Severinovich_-_Black_Square.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.032 × 8.000 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "place-de-la-concorde",
+   "titulo": "Place de la Concorde",
+   "autor": "Piet Mondrian",
+   "anio": "1938–1943",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mondrian_-_Place_de_la_Concorde%2C_1938%E2%80%931943.jpg/960px-Mondrian_-_Place_de_la_Concorde%2C_1938%E2%80%931943.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/8/83/Mondrian_-_Place_de_la_Concorde%2C_1938%E2%80%931943.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.145 × 7.017 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "composicion-10-en-blanco-y-negro",
+   "titulo": "Composición 10 en blanco y negro",
+   "autor": "Piet Mondrian",
+   "anio": "1915",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Mondrian_-_Composition_10_in_Black_and_White_%281915%29.jpg/960px-Mondrian_-_Composition_10_in_Black_and_White_%281915%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/29/Mondrian_-_Composition_10_in_Black_and_White_%281915%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.000 × 6.326 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "bailarinas-de-czardas",
+   "titulo": "Bailarinas de czardas",
+   "autor": "Ernst Ludwig Kirchner",
+   "anio": "1908",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ernst_Ludwig_Kirchner_-_Czardas_dancers_-_Google_Art_Project.jpg/960px-Ernst_Ludwig_Kirchner_-_Czardas_dancers_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ernst_Ludwig_Kirchner_-_Czardas_dancers_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.660 × 7.356 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "bohemia-moderna",
+   "titulo": "Bohemia moderna",
+   "autor": "Ernst Ludwig Kirchner",
+   "anio": "1924",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ernst_Ludwig_Kirchner_-_Modern_Bohemia_-_55.3_-_Minneapolis_Institute_of_Arts.jpg/960px-Ernst_Ludwig_Kirchner_-_Modern_Bohemia_-_55.3_-_Minneapolis_Institute_of_Arts.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ernst_Ludwig_Kirchner_-_Modern_Bohemia_-_55.3_-_Minneapolis_Institute_of_Arts.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.620 × 5.005 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "davos-en-invierno",
+   "titulo": "Davos en invierno",
+   "autor": "Ernst Ludwig Kirchner",
+   "anio": "1923",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kirchner_-_Davos_im_Winter._Davos_im_Schnee%2C_1923%2C_Inv._1931.jpg/960px-Kirchner_-_Davos_im_Winter._Davos_im_Schnee%2C_1923%2C_Inv._1931.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kirchner_-_Davos_im_Winter._Davos_im_Schnee%2C_1923%2C_Inv._1931.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.558 × 5.196 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "stafelalp-regreso-de-los-animales",
+   "titulo": "Stafelalp, regreso de los animales",
+   "autor": "Ernst Ludwig Kirchner",
+   "anio": "1919",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Kirchner_-_Stafelalp%2C_R%C3%BCckkehr_der_Tiere%2C_1919%2C_Inv._G_2017.10.jpg/960px-Kirchner_-_Stafelalp%2C_R%C3%BCckkehr_der_Tiere%2C_1919%2C_Inv._G_2017.10.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kirchner_-_Stafelalp%2C_R%C3%BCckkehr_der_Tiere%2C_1919%2C_Inv._G_2017.10.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.589 × 4.696 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "danza-en-el-variete",
+   "titulo": "Danza en el varieté",
+   "autor": "Ernst Ludwig Kirchner",
+   "anio": "1911",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ernst_Ludwig_Kirchner_Tanz_im_Variet%C3%A9_1911.jpg/960px-Ernst_Ludwig_Kirchner_Tanz_im_Variet%C3%A9_1911.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ernst_Ludwig_Kirchner_Tanz_im_Variet%C3%A9_1911.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 10.596 × 8.564 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "paisaje-de-fehmarn",
+   "titulo": "Paisaje de Fehmarn",
+   "autor": "Ernst Ludwig Kirchner",
+   "anio": "1913",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ernst_Ludwig_Kirchner_Fehmarnlandschaft_1913.jpg/960px-Ernst_Ludwig_Kirchner_Fehmarnlandschaft_1913.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ernst_Ludwig_Kirchner_Fehmarnlandschaft_1913.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.294 × 8.698 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "dos-mujeres-en-la-calle",
+   "titulo": "Dos mujeres en la calle",
+   "autor": "Ernst Ludwig Kirchner",
+   "anio": "1914",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/1914_Kirchner_Zwei_Frauen_auf_der_Stra%C3%9Fe_anagoria.jpg/960px-1914_Kirchner_Zwei_Frauen_auf_der_Stra%C3%9Fe_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/e4/1914_Kirchner_Zwei_Frauen_auf_der_Stra%C3%9Fe_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.000 × 11.868 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-ciudad-de-paris",
+   "titulo": "La ciudad de París",
+   "autor": "Robert Delaunay",
+   "anio": "1910–1912",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Robert_Delaunay_-_La_ville_de_Paris_-_Google_Art_Project.jpg/960px-Robert_Delaunay_-_La_ville_de_Paris_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/db/Robert_Delaunay_-_La_ville_de_Paris_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.537 × 4.537 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "ventana",
+   "titulo": "Ventana",
+   "autor": "Robert Delaunay",
+   "anio": "1912",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/1912_Delaunay_Fensterbild_anagoria.jpg/960px-1912_Delaunay_Fensterbild_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/2d/1912_Delaunay_Fensterbild_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.000 × 11.057 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-botella-de-anis",
+   "titulo": "La botella de anís",
+   "autor": "Juan Gris",
+   "anio": "1914",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Juan_Gris_-_La_bouteille_d%27anis_-_Google_Art_Project.jpg/960px-Juan_Gris_-_La_bouteille_d%27anis_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/56/Juan_Gris_-_La_bouteille_d%27anis_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 12.707 × 22.297 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "arlequin-sentado",
+   "titulo": "Arlequín sentado",
+   "autor": "Juan Gris",
+   "anio": "1920",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Juan_Gris_-_Seated_Harlequin_-_58.33_-_Minneapolis_Institute_of_Arts.jpg/960px-Juan_Gris_-_Seated_Harlequin_-_58.33_-_Minneapolis_Institute_of_Arts.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Juan_Gris_-_Seated_Harlequin_-_58.33_-_Minneapolis_Institute_of_Arts.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.635 × 8.340 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-tarro-de-mermelada-de-fresas",
+   "titulo": "El tarro de mermelada de fresas",
+   "autor": "Juan Gris",
+   "anio": "1917",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Juan_Gris_-_La_confiture_de_fraises_%28The_Pot_of_Strawberry_Jam%29_%281917%29.jpg/960px-Juan_Gris_-_La_confiture_de_fraises_%28The_Pot_of_Strawberry_Jam%29_%281917%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Juan_Gris_-_La_confiture_de_fraises_%28The_Pot_of_Strawberry_Jam%29_%281917%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.033 × 10.000 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-vaso-de-cerveza",
+   "titulo": "El vaso de cerveza",
+   "autor": "Juan Gris",
+   "anio": "1914",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Juan_Gris_-_The_Glass_of_Beer_%281914%29.jpg/960px-Juan_Gris_-_The_Glass_of_Beer_%281914%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Juan_Gris_-_The_Glass_of_Beer_%281914%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.477 × 4.804 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "autorretrato-con-sombrero-y-velo",
+   "titulo": "Autorretrato con sombrero y velo",
+   "autor": "Paula Modersohn-Becker",
+   "anio": "1906",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Paula_Modersohn-Becker_-_Self-portrait_with_hat_and_veil_-_Google_Art_Project.jpg/960px-Paula_Modersohn-Becker_-_Self-portrait_with_hat_and_veil_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/48/Paula_Modersohn-Becker_-_Self-portrait_with_hat_and_veil_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.989 × 8.416 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "nina-con-un-nino-pequeno",
+   "titulo": "Niña con un niño pequeño",
+   "autor": "Paula Modersohn-Becker",
+   "anio": "1902",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Paula_Modersohn-Becker_-_Girl_with_child_-_Google_Art_Project.jpg/960px-Paula_Modersohn-Becker_-_Girl_with_child_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Paula_Modersohn-Becker_-_Girl_with_child_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.564 × 7.030 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "los-diez-mas-grandes-n-9-la-vejez",
+   "titulo": "Los diez más grandes, n.º 9, la vejez",
+   "autor": "Hilma af Klint",
+   "anio": "1907",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Hilma_af_Klint_%E2%80%94_The_Ten_Largest_%E2%80%94_Number_9_Old_Age.jpg/960px-Hilma_af_Klint_%E2%80%94_The_Ten_Largest_%E2%80%94_Number_9_Old_Age.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/df/Hilma_af_Klint_%E2%80%94_The_Ten_Largest_%E2%80%94_Number_9_Old_Age.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.501 × 8.856 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "paisaje",
+   "titulo": "Paisaje",
+   "autor": "Umberto Boccioni",
+   "anio": "1908",
+   "sala": "Vanguardias del siglo XX",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Umberto_Boccioni_%E2%80%93_Paesaggio.tiff/lossy-page1-960px-Umberto_Boccioni_%E2%80%93_Paesaggio.tiff.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Umberto_Boccioni_%E2%80%93_Paesaggio.tiff",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.024 × 4.286 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-doncella",
+   "titulo": "La doncella",
+   "autor": "Gustav Klimt",
+   "anio": "1913",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/KlimtDieJungfrau.jpg/960px-KlimtDieJungfrau.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/c9/KlimtDieJungfrau.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 24.943 × 23.842 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "rosal-bajo-los-arboles",
+   "titulo": "Rosal bajo los árboles",
+   "autor": "Gustav Klimt",
+   "anio": "1905",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/KlimtRosebush.jpg/960px-KlimtRosebush.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/44/KlimtRosebush.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 31.318 × 50.811 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-castillo-en-el-agua",
+   "titulo": "El castillo en el agua",
+   "autor": "Gustav Klimt",
+   "anio": "1908",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Water_Castle_%28Klimt%29.jpg/960px-Water_Castle_%28Klimt%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Water_Castle_%28Klimt%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 10.711 × 10.722 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "serpientes-de-agua-ii",
+   "titulo": "Serpientes de agua II",
+   "autor": "Gustav Klimt",
+   "anio": "1904–1907",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Gustav_Klimt_-_Water_Serpents_II.jpg/960px-Gustav_Klimt_-_Water_Serpents_II.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Gustav_Klimt_-_Water_Serpents_II.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.000 × 3.479 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-girasol",
+   "titulo": "El girasol",
+   "autor": "Gustav Klimt",
+   "anio": "1907",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sunflower_-_Gustav_Klimt.jpg/960px-Sunflower_-_Gustav_Klimt.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sunflower_-_Gustav_Klimt.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.066 × 7.200 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "amapolas-en-flor",
+   "titulo": "Amapolas en flor",
+   "autor": "Gustav Klimt",
+   "anio": "1907",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Blooming_Poppies_-_Klimt.jpg/960px-Blooming_Poppies_-_Klimt.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/28/Blooming_Poppies_-_Klimt.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.064 × 7.200 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-jovencita",
+   "titulo": "La jovencita",
+   "autor": "Gustav Klimt",
+   "anio": "1910",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/BACKFISCH_-_La_Ragazzetta_%281910%29_GUSTAV_KLIMT.jpg/960px-BACKFISCH_-_La_Ragazzetta_%281910%29_GUSTAV_KLIMT.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/56/BACKFISCH_-_La_Ragazzetta_%281910%29_GUSTAV_KLIMT.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.496 × 8.032 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "alegoria-de-la-escultura",
+   "titulo": "Alegoría de la escultura",
+   "autor": "Gustav Klimt",
+   "anio": "1889",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gustav_Klimt_-_Allegory_of_Sculpture_-_1889.jpg/960px-Gustav_Klimt_-_Allegory_of_Sculpture_-_1889.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Gustav_Klimt_-_Allegory_of_Sculpture_-_1889.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.704 × 9.438 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "levitacion-los-ciegos-ii",
+   "titulo": "Levitación, los ciegos II",
+   "autor": "Egon Schiele",
+   "anio": "1915",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Egon_Schiele_-_Levitation_%28The_Blind_II%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Levitation_%28The_Blind_II%29_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Egon_Schiele_-_Levitation_%28The_Blind_II%29_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.975 × 10.566 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "bodegon-con-flores",
+   "titulo": "Bodegón con flores",
+   "autor": "Egon Schiele",
+   "anio": "1911",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1911_Schiele_Stilleben_mit_Blumen_anagoria.jpg/960px-1911_Schiele_Stilleben_mit_Blumen_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/07/1911_Schiele_Stilleben_mit_Blumen_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.000 × 12.000 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "muchacha-sentada-con-sombrero-rojo",
+   "titulo": "Muchacha sentada con sombrero rojo",
+   "autor": "Egon Schiele",
+   "anio": "1910",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Egon_Schiele_Sitzendes_M%C3%A4dchen_mit_rotem_Hut_1910.jpg/960px-Egon_Schiele_Sitzendes_M%C3%A4dchen_mit_rotem_Hut_1910.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/af/Egon_Schiele_Sitzendes_M%C3%A4dchen_mit_rotem_Hut_1910.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.853 × 9.711 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "paisaje-de-verano",
+   "titulo": "Paisaje de verano",
+   "autor": "Egon Schiele",
+   "anio": "1917",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Schiele_sommerlandschaft.jpg/960px-Schiele_sommerlandschaft.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Schiele_sommerlandschaft.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 11.673 × 9.308 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "las-estaciones-invierno",
+   "titulo": "Las estaciones: invierno",
+   "autor": "Alfons Mucha",
+   "anio": "1896",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Mucha_-_Les_Saisons_%281896%29_-_hiver.jpg/960px-Mucha_-_Les_Saisons_%281896%29_-_hiver.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Mucha_-_Les_Saisons_%281896%29_-_hiver.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.081 × 13.027 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "las-estaciones-verano",
+   "titulo": "Las estaciones: verano",
+   "autor": "Alfons Mucha",
+   "anio": "1896",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mucha_-_Les_Saisons_%281896%29_-_ete.jpg/960px-Mucha_-_Les_Saisons_%281896%29_-_ete.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mucha_-_Les_Saisons_%281896%29_-_ete.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.185 × 13.414 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "las-estaciones-otono",
+   "titulo": "Las estaciones: otoño",
+   "autor": "Alfons Mucha",
+   "anio": "1896",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mucha_-_Les_Saisons_%281896%29_-_automne.jpg/960px-Mucha_-_Les_Saisons_%281896%29_-_automne.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mucha_-_Les_Saisons_%281896%29_-_automne.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.246 × 12.972 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "las-estaciones-primavera",
+   "titulo": "Las estaciones: primavera",
+   "autor": "Alfons Mucha",
+   "anio": "1896",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mucha_-_Les_Saisons_%281896%29_-_printemps.jpg/960px-Mucha_-_Les_Saisons_%281896%29_-_printemps.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mucha_-_Les_Saisons_%281896%29_-_printemps.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.929 × 13.040 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-beso-de-francia-a-bohemia",
+   "titulo": "El beso de Francia a Bohemia",
+   "autor": "Alfons Mucha",
+   "anio": "1919",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Alfons_Mucha_-_Le_Baiser_de_la_France_%C3%A0_la_Boh%C3%AAme_02.jpg/960px-Alfons_Mucha_-_Le_Baiser_de_la_France_%C3%A0_la_Boh%C3%AAme_02.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Alfons_Mucha_-_Le_Baiser_de_la_France_%C3%A0_la_Boh%C3%AAme_02.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.000 × 4.000 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "monaco-montecarlo",
+   "titulo": "Mónaco, Montecarlo",
+   "autor": "Alfons Mucha",
+   "anio": "1897",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Monaco-Monte-Carlo_affiche_%28Variante_de_lettre_sans_mention_PLM%29%2C_Mucha_1897.jpg/960px-Monaco-Monte-Carlo_affiche_%28Variante_de_lettre_sans_mention_PLM%29%2C_Mucha_1897.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/47/Monaco-Monte-Carlo_affiche_%28Variante_de_lettre_sans_mention_PLM%29%2C_Mucha_1897.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.495 × 13.493 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "champagne-ruinart",
+   "titulo": "Champagne Ruinart",
+   "autor": "Alfons Mucha",
+   "anio": "1896",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Champagne_Ruinart-Mucha.jpg/960px-Champagne_Ruinart-Mucha.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/49/Champagne_Ruinart-Mucha.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.400 × 11.078 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "monsieur-boileau-en-el-cafe",
+   "titulo": "Monsieur Boileau en el café",
+   "autor": "Henri de Toulouse-Lautrec",
+   "anio": "1893",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Toulouse-Lautrec_-_Monsieur_Boileau_at_the_Caf%C3%A9%2C_1893%2C_1925.1409.tif/lossy-page1-960px-Toulouse-Lautrec_-_Monsieur_Boileau_at_the_Caf%C3%A9%2C_1893%2C_1925.1409.tif.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Toulouse-Lautrec_-_Monsieur_Boileau_at_the_Caf%C3%A9%2C_1893%2C_1925.1409.tif",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.589 × 11.760 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "en-el-salon-de-la-calle-de-los-molinos",
+   "titulo": "En el salón de la calle de los Molinos",
+   "autor": "Henri de Toulouse-Lautrec",
+   "anio": "1894",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/%28Albi%29_Au_Salon_de_la_rue_des_Moulins_-_Henri_de_Toulouse-Lautrec_1894_MTL.inv180_%28small%29.jpg/960px-%28Albi%29_Au_Salon_de_la_rue_des_Moulins_-_Henri_de_Toulouse-Lautrec_1894_MTL.inv180_%28small%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%28Albi%29_Au_Salon_de_la_rue_des_Moulins_-_Henri_de_Toulouse-Lautrec_1894_MTL.inv180_%28small%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.103 × 6.027 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "en-la-cama",
+   "titulo": "En la cama",
+   "autor": "Henri de Toulouse-Lautrec",
+   "anio": "1894",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%28Albi%29_Au_lit_-_Toulouse-Lautrec_-_1894_MTL.175.jpg/960px-%28Albi%29_Au_lit_-_Toulouse-Lautrec_-_1894_MTL.175.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/e9/%28Albi%29_Au_lit_-_Toulouse-Lautrec_-_1894_MTL.175.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.812 × 5.254 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "paul-guillaume-novo-pilota",
+   "titulo": "Paul Guillaume, Novo Pilota",
+   "autor": "Amedeo Modigliani",
+   "anio": "1915",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Amedeo_Modigliani_-_Paul_Guillaume%2C_Novo_Pilota_-_Google_Art_Project.jpg/960px-Amedeo_Modigliani_-_Paul_Guillaume%2C_Novo_Pilota_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/46/Amedeo_Modigliani_-_Paul_Guillaume%2C_Novo_Pilota_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 21.216 × 30.000 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "desnudo-sobre-un-cojin-azul",
+   "titulo": "Desnudo sobre un cojín azul",
+   "autor": "Amedeo Modigliani",
+   "anio": "1917",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Amedeo_Modigliani_-_Nude_on_a_Blue_Cushion_%281917%29.jpg/960px-Amedeo_Modigliani_-_Nude_on_a_Blue_Cushion_%281917%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/1/14/Amedeo_Modigliani_-_Nude_on_a_Blue_Cushion_%281917%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 19.188 × 12.352 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "madame-kisling",
+   "titulo": "Madame Kisling",
+   "autor": "Amedeo Modigliani",
+   "anio": "h. 1917",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Amedeo_Modigliani_-_Madame_Kisling_%28ca.1917%29.jpg/960px-Amedeo_Modigliani_-_Madame_Kisling_%28ca.1917%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/1/16/Amedeo_Modigliani_-_Madame_Kisling_%28ca.1917%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.577 × 11.932 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "gitana-con-bebe",
+   "titulo": "Gitana con bebé",
+   "autor": "Amedeo Modigliani",
+   "anio": "1919",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Amedeo_Modigliani_-_Gypsy_Woman_with_Baby_%281919%29.jpg/960px-Amedeo_Modigliani_-_Gypsy_Woman_with_Baby_%281919%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/3/38/Amedeo_Modigliani_-_Gypsy_Woman_with_Baby_%281919%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.104 × 11.323 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "retrato-de-diego-rivera",
+   "titulo": "Retrato de Diego Rivera",
+   "autor": "Amedeo Modigliani",
+   "anio": "1914",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/1914_Modigliani_Bildnis_Diego_Rivera_anagoria.jpg/960px-1914_Modigliani_Bildnis_Diego_Rivera_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/4f/1914_Modigliani_Bildnis_Diego_Rivera_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.000 × 12.480 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "calendulas",
+   "titulo": "Caléndulas",
+   "autor": "Koloman Moser",
+   "anio": "1909",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Koloman_Moser_-_Marigolds_-_Google_Art_Project.jpg/960px-Koloman_Moser_-_Marigolds_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Koloman_Moser_-_Marigolds_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.877 × 6.901 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-rax-nevado",
+   "titulo": "El Rax nevado",
+   "autor": "Koloman Moser",
+   "anio": "1914",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Koloman_Moser_Blick_auf_die_verschneite_Rax_1914.jpg/960px-Koloman_Moser_Blick_auf_die_verschneite_Rax_1914.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Koloman_Moser_Blick_auf_die_verschneite_Rax_1914.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.417 × 4.956 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "tarde-en-la-calle-karl-johan",
+   "titulo": "Tarde en la calle Karl Johan",
+   "autor": "Edvard Munch",
+   "anio": "1892",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Edvard_Munch_-_Evening_on_Karl_Johan_Street_%281892%29.jpg/960px-Edvard_Munch_-_Evening_on_Karl_Johan_Street_%281892%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/da/Edvard_Munch_-_Evening_on_Karl_Johan_Street_%281892%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.326 × 5.784 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-mujer-en-tres-etapas",
+   "titulo": "La mujer en tres etapas",
+   "autor": "Edvard Munch",
+   "anio": "1894",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Edvard_Munch_-_Woman_in_Three_Stages_%281894%29.jpg/960px-Edvard_Munch_-_Woman_in_Three_Stages_%281894%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Edvard_Munch_-_Woman_in_Three_Stages_%281894%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.284 × 5.438 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "junto-al-lecho-de-muerte",
+   "titulo": "Junto al lecho de muerte",
+   "autor": "Edvard Munch",
+   "anio": "1895",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Edvard_Munch_-_At_the_Deathbed_%281895%29.jpg/960px-Edvard_Munch_-_At_the_Deathbed_%281895%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Edvard_Munch_-_At_the_Deathbed_%281895%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.348 × 4.738 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "autorretrato-con-gripe-espanola",
+   "titulo": "Autorretrato con gripe española",
+   "autor": "Edvard Munch",
+   "anio": "1919",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Self-Portrait_with_the_Spanish_Flu_%28Edvard_Munch%2C_1918%29.jpg/960px-Self-Portrait_with_the_Spanish_Flu_%28Edvard_Munch%2C_1918%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Self-Portrait_with_the_Spanish_Flu_%28Edvard_Munch%2C_1918%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.000 × 4.000 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-nina-enferma",
+   "titulo": "La niña enferma",
+   "autor": "Edvard Munch",
+   "anio": "1925",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Edvard_Munch%2C_Det_syge_barn%2C_1925%2C_MM.M.00051%2C_Munchmuseet%2C_Oslo.jpg/960px-Edvard_Munch%2C_Det_syge_barn%2C_1925%2C_MM.M.00051%2C_Munchmuseet%2C_Oslo.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/7/77/Edvard_Munch%2C_Det_syge_barn%2C_1925%2C_MM.M.00051%2C_Munchmuseet%2C_Oslo.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.388 × 7.442 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "invierno-en-nordstrand",
+   "titulo": "Invierno en Nordstrand",
+   "autor": "Edvard Munch",
+   "anio": "1900–1901",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Munch_-_Winter_in_Nordstrand%2C_1900_%E2%80%93_1901%2C_DEP717.jpg/960px-Munch_-_Winter_in_Nordstrand%2C_1900_%E2%80%93_1901%2C_DEP717.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/1/12/Munch_-_Winter_in_Nordstrand%2C_1900_%E2%80%93_1901%2C_DEP717.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 11.503 × 9.240 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "calle-en-asgardstrand",
+   "titulo": "Calle en Åsgårdstrand",
+   "autor": "Edvard Munch",
+   "anio": "1901",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Munch_-_Strasse_in_Aasgaardstrand%2C_1901%2C_Inv._G_1979.8.jpg/960px-Munch_-_Strasse_in_Aasgaardstrand%2C_1901%2C_Inv._G_1979.8.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/3/36/Munch_-_Strasse_in_Aasgaardstrand%2C_1901%2C_Inv._G_1979.8.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.573 × 5.096 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "inger-de-negro-y-violeta",
+   "titulo": "Inger de negro y violeta",
+   "autor": "Edvard Munch",
+   "anio": "1892",
+   "sala": "Modernismo y Art Nouveau",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Edvard_Munch%2C_Inger_in_Black_and_Violet%2C_1892%2C_National_Gallery%2C_Oslo_%282%29_%2836420621976%29.jpg/960px-Edvard_Munch%2C_Inger_in_Black_and_Violet%2C_1892%2C_National_Gallery%2C_Oslo_%282%29_%2836420621976%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Edvard_Munch%2C_Inger_in_Black_and_Violet%2C_1892%2C_National_Gallery%2C_Oslo_%282%29_%2836420621976%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.000 × 4.000 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "las-tentaciones-de-san-antonio",
+   "titulo": "Las tentaciones de San Antonio",
+   "autor": "El Bosco",
+   "anio": "h. 1501",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Hieronymus_Bosch_The_Temptation_of_St_Anthony.jpg/960px-Hieronymus_Bosch_The_Temptation_of_St_Anthony.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Hieronymus_Bosch_The_Temptation_of_St_Anthony.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 12.600 × 7.040 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "san-juan-en-patmos",
+   "titulo": "San Juan en Patmos",
+   "autor": "El Bosco",
+   "anio": "h. 1500",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hieronymus_Bosch_St._John_the_Evangelist_on_Patmos_about_1500_Gem%C3%A4ldegalerie_Berlin_9882.jpg/960px-Hieronymus_Bosch_St._John_the_Evangelist_on_Patmos_about_1500_Gem%C3%A4ldegalerie_Berlin_9882.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hieronymus_Bosch_St._John_the_Evangelist_on_Patmos_about_1500_Gem%C3%A4ldegalerie_Berlin_9882.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.256 × 5.504 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-pasion-de-cristo",
+   "titulo": "La Pasión de Cristo",
+   "autor": "El Bosco",
+   "anio": "h. 1500",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Hieronymus_Bosch_The_Passion_of_Christ_about_1500_Gem%C3%A4ldegalerie_Berlin_9350.jpg/960px-Hieronymus_Bosch_The_Passion_of_Christ_about_1500_Gem%C3%A4ldegalerie_Berlin_9350.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Hieronymus_Bosch_The_Passion_of_Christ_about_1500_Gem%C3%A4ldegalerie_Berlin_9350.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.256 × 5.504 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-vela-amarilla",
+   "titulo": "La vela amarilla",
+   "autor": "Odilon Redon",
+   "anio": "h. 1905",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Redon%2C_Odilon_-_La_Voile_jaune_%28The_Yellow_Sail%29_-_Google_Art_Project.jpg/960px-Redon%2C_Odilon_-_La_Voile_jaune_%28The_Yellow_Sail%29_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Redon%2C_Odilon_-_La_Voile_jaune_%28The_Yellow_Sail%29_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.501 × 8.083 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-carro-del-sol",
+   "titulo": "El carro del Sol",
+   "autor": "Odilon Redon",
+   "anio": "h. 1910",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Redon_-_Le_char_du_Soleil%2C_Vers_1910.jpg/960px-Redon_-_Le_char_du_Soleil%2C_Vers_1910.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/53/Redon_-_Le_char_du_Soleil%2C_Vers_1910.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.278 × 3.510 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "cabeza-con-aureola",
+   "titulo": "Cabeza con aureola",
+   "autor": "Odilon Redon",
+   "anio": "h. 1894",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Redon_-_Head_within_an_Aureole%2C_about_1894%E2%80%931895.jpg/960px-Redon_-_Head_within_an_Aureole%2C_about_1894%E2%80%931895.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Redon_-_Head_within_an_Aureole%2C_about_1894%E2%80%931895.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.940 × 11.166 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-isla-de-la-vida",
+   "titulo": "La isla de la vida",
+   "autor": "Arnold Böcklin",
+   "anio": "1888",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/B%C3%B6cklin_-_Die_Lebensinsel_-1888.jpeg/960px-B%C3%B6cklin_-_Die_Lebensinsel_-1888.jpeg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/d/db/B%C3%B6cklin_-_Die_Lebensinsel_-1888.jpeg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.701 × 4.473 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "tarde-de-primavera",
+   "titulo": "Tarde de primavera",
+   "autor": "Arnold Böcklin",
+   "anio": "1879",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Arnold_B%C3%B6cklin_-_Spring_Evening_-_Google_Art_Project.jpg/960px-Arnold_B%C3%B6cklin_-_Spring_Evening_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Arnold_B%C3%B6cklin_-_Spring_Evening_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.030 × 3.091 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-juego-de-las-nereidas",
+   "titulo": "El juego de las nereidas",
+   "autor": "Arnold Böcklin",
+   "anio": "1886",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Play_of_the_Nereides_by_Arnold_B%C3%B6cklin.jpg/960px-Play_of_the_Nereides_by_Arnold_B%C3%B6cklin.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/41/Play_of_the_Nereides_by_Arnold_B%C3%B6cklin.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.106 × 5.213 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-santuario-de-hercules",
+   "titulo": "El santuario de Hércules",
+   "autor": "Arnold Böcklin",
+   "anio": "1884",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Arnold_B%C3%B6cklin_-_Das_Heiligtum_des_Herkules_%281884%29.jpg/960px-Arnold_B%C3%B6cklin_-_Das_Heiligtum_des_Herkules_%281884%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/50/Arnold_B%C3%B6cklin_-_Das_Heiligtum_des_Herkules_%281884%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.309 × 5.205 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-bosque-sagrado",
+   "titulo": "El bosque sagrado",
+   "autor": "Arnold Böcklin",
+   "anio": "1882",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/B%C3%B6cklin_-_Der_heilige_Hain%2C_1882%2C_110.jpg/960px-B%C3%B6cklin_-_Der_heilige_Hain%2C_1882%2C_110.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/9/91/B%C3%B6cklin_-_Der_heilige_Hain%2C_1882%2C_110.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.884 × 4.800 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "combate-de-centauros",
+   "titulo": "Combate de centauros",
+   "autor": "Arnold Böcklin",
+   "anio": "1873",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/B%C3%B6cklin_-_Kentaurenkampf%2C_1872-1873%2C_107.jpg/960px-B%C3%B6cklin_-_Kentaurenkampf%2C_1872-1873%2C_107.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/23/B%C3%B6cklin_-_Kentaurenkampf%2C_1872-1873%2C_107.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.729 × 4.105 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-caceria-de-diana",
+   "titulo": "La cacería de Diana",
+   "autor": "Arnold Böcklin",
+   "anio": "1862",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Arnold_B%C3%B6cklin_-_Diana%27s_Hunt%2C_1862.jpg/960px-Arnold_B%C3%B6cklin_-_Diana%27s_Hunt%2C_1862.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Arnold_B%C3%B6cklin_-_Diana%27s_Hunt%2C_1862.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.844 × 3.648 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "jupiter-y-semele",
+   "titulo": "Júpiter y Sémele",
+   "autor": "Gustave Moreau",
+   "anio": "1895",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Moreau%2C_Gustave_-_Jupiter_und_Semele_-_1896.jpg/960px-Moreau%2C_Gustave_-_Jupiter_und_Semele_-_1896.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Moreau%2C_Gustave_-_Jupiter_und_Semele_-_1896.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 7.101 × 9.300 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "lago",
+   "titulo": "Lago",
+   "autor": "Ferdinand Hodler",
+   "anio": "1910–1912",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ferdinand_Hodler_-_See_%281910-1912%29.jpg/960px-Ferdinand_Hodler_-_See_%281910-1912%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ferdinand_Hodler_-_See_%281910-1912%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 10.000 × 6.995 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-lago-de-ginebra-desde-chexbres",
+   "titulo": "El lago de Ginebra desde Chexbres",
+   "autor": "Ferdinand Hodler",
+   "anio": "1905",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ferdinand_Hodler_-_Der_Genfersee_von_Chexbres_aus.jpg/960px-Ferdinand_Hodler_-_Der_Genfersee_von_Chexbres_aus.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ferdinand_Hodler_-_Der_Genfersee_von_Chexbres_aus.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.425 × 5.086 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-bailarina-giulia-leonardi",
+   "titulo": "La bailarina Giulia Leonardi",
+   "autor": "Ferdinand Hodler",
+   "anio": "1910",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/1910_Hodler_Bildnis_der_T%C3%A4nzerin_Giulia_Leonardi_anagoria.jpg/960px-1910_Hodler_Bildnis_der_T%C3%A4nzerin_Giulia_Leonardi_anagoria.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/52/1910_Hodler_Bildnis_der_T%C3%A4nzerin_Giulia_Leonardi_anagoria.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.449 × 8.150 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "en-el-abrevadero",
+   "titulo": "En el abrevadero",
+   "autor": "Giovanni Segantini",
+   "anio": "1888",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Segantini_-_An_der_Tr%C3%A4nke_%28K%C3%BChe_im_Joch%29%2C_1888%2C_Inv._563.jpg/960px-Segantini_-_An_der_Tr%C3%A4nke_%28K%C3%BChe_im_Joch%29%2C_1888%2C_Inv._563.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/62/Segantini_-_An_der_Tr%C3%A4nke_%28K%C3%BChe_im_Joch%29%2C_1888%2C_Inv._563.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.612 × 3.940 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-ganancia-del-pastor",
+   "titulo": "La ganancia del pastor",
+   "autor": "Giovanni Segantini",
+   "anio": "h. 1883",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/The_income_of_the_shepherd_%28c.1883%29%2C_by_Giovanni_Segantini.jpg/960px-The_income_of_the_shepherd_%28c.1883%29%2C_by_Giovanni_Segantini.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/9/9f/The_income_of_the_shepherd_%28c.1883%29%2C_by_Giovanni_Segantini.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.034 × 5.484 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "trio-florido",
+   "titulo": "Trío florido",
+   "autor": "Jan Toorop",
+   "anio": "1886",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/JanToorop-trio-fleuri-1886.jpg/960px-JanToorop-trio-fleuri-1886.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/8/80/JanToorop-trio-fleuri-1886.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.055 × 7.072 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "aceite-de-ensalada-de-delft",
+   "titulo": "Aceite de ensalada de Delft",
+   "autor": "Jan Toorop",
+   "anio": "1895",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jan_Toorop%2C_Delft_Salad_Oil%2C_1895.jpg/960px-Jan_Toorop%2C_Delft_Salad_Oil%2C_1895.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jan_Toorop%2C_Delft_Salad_Oil%2C_1895.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.166 × 9.455 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "retrato-de-madame-jules-ricard",
+   "titulo": "Retrato de Madame Jules Ricard",
+   "autor": "Fernand Khnopff",
+   "anio": "1888",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/2018.206_full_Portrait_of_Madame_Jules_Ricard%2C_KHNOPFF.tif/lossy-page1-960px-2018.206_full_Portrait_of_Madame_Jules_Ricard%2C_KHNOPFF.tif.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2018.206_full_Portrait_of_Madame_Jules_Ricard%2C_KHNOPFF.tif",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.860 × 12.306 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-nina-ciega",
+   "titulo": "La niña ciega",
+   "autor": "John Everett Millais",
+   "anio": "1854–1856",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/John_Everett_Millais_-_The_Blind_Girl%2C_1854-56.jpg/960px-John_Everett_Millais_-_The_Blind_Girl%2C_1854-56.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/7/7a/John_Everett_Millais_-_The_Blind_Girl%2C_1854-56.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 8.858 × 12.869 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "corazones-son-triunfo",
+   "titulo": "Corazones son triunfo",
+   "autor": "John Everett Millais",
+   "anio": "1872",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/John_Everett_Millais_-_Hearts_are_Trumps_-_Google_Art_Project.jpg/960px-John_Everett_Millais_-_Hearts_are_Trumps_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/9/99/John_Everett_Millais_-_Hearts_are_Trumps_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.264 × 4.775 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "jane-morris",
+   "titulo": "Jane Morris",
+   "autor": "Dante Gabriel Rossetti",
+   "anio": "1870",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Dante_Gabriel_Rossetti_-_Jane_Morris_%281870%29.jpg/960px-Dante_Gabriel_Rossetti_-_Jane_Morris_%281870%29.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Dante_Gabriel_Rossetti_-_Jane_Morris_%281870%29.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.205 × 4.930 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-laboratorio",
+   "titulo": "El laboratorio",
+   "autor": "Dante Gabriel Rossetti",
+   "anio": "1849",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Dante_Gabriel_Rossetti_-_The_Laboratory_-_Google_Art_Project.jpg/960px-Dante_Gabriel_Rossetti_-_The_Laboratory_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Dante_Gabriel_Rossetti_-_The_Laboratory_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.652 × 5.429 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "el-mago",
+   "titulo": "El mago",
+   "autor": "Edward Burne-Jones",
+   "anio": "1896",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Edward_Burne-Jones_-_The_Wizard_-_Google_Art_Project.jpg/960px-Edward_Burne-Jones_-_The_Wizard_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/7/72/Edward_Burne-Jones_-_The_Wizard_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 6.262 × 10.532 píxeles, apto para lámina de 50 × 70 cm."
+  },
+  {
+   "id": "la-estrella-de-belen",
+   "titulo": "La estrella de Belén",
+   "autor": "Edward Burne-Jones",
+   "anio": "1890",
+   "sala": "Simbolismo y lo fantástico",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Edward_Burne-Jones_-_The_Star_of_Bethlehem_-_Google_Art_Project.jpg/960px-Edward_Burne-Jones_-_The_Star_of_Bethlehem_-_Google_Art_Project.jpg",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Edward_Burne-Jones_-_The_Star_of_Bethlehem_-_Google_Art_Project.jpg",
+   "nota": "Obra de dominio público en altísima resolución (Wikimedia Commons). Archivo original de 9.369 × 6.134 píxeles, apto para lámina de 50 × 70 cm."
   },
   {
    "id": "noche",
