@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Mulish:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="estilo.css?v=3">
+<link rel="stylesheet" href="estilo.css?v=4">
 </head>
 <body>
 <header class="barra">
@@ -58,8 +58,11 @@
 
 <section class="salas" id="salas">
   <div class="tit"><p class="sobre">La colección</p><h2>Salas de la galería</h2></div>
+  <div class="buscador"><input id="buscaObra" type="search" placeholder="Buscar una obra o un artista…" aria-label="Buscar una obra o un artista" autocomplete="off"></div>
   <div class="filtros" id="filtros"></div>
+  <p class="muro-info" id="muroInfo"></p>
   <div class="muro" id="muro"></div>
+  <div class="mas"><button class="btn claro" id="masObras" hidden>Ver más obras</button></div>
 </section>
 
 <section class="biblio" id="biblioteca">
@@ -97,6 +100,6 @@
 <div class="velo" id="velo" hidden></div>
 <div class="modal" id="modal" hidden role="dialog" aria-modal="true"></div>
 <aside class="cajon" id="cajon" hidden aria-label="Su pedido"></aside>
-<script src="app.js?v=4"></script>
+<script src="app.js?v=5"></script>
 </body>
 </html>
