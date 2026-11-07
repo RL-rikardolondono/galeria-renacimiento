@@ -14,7 +14,8 @@
    "sala": "Impresionismo y modernos",
    "img": "img/noche.jpg",
    "nota": "Pintada desde la ventana del asilo de Saint-Rémy, es una de las imágenes más amadas de la historia del arte.",
-   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/3840px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/3840px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+   "l50": false
   },
   {
    "id": "perla",
@@ -24,7 +25,7 @@
    "sala": "Barroco",
    "img": "img/perla.jpg",
    "nota": "La «Mona Lisa del norte»: una mirada, una perla y una luz que parecen detener el tiempo.",
-   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/3840px-1665_Girl_with_a_Pearl_Earring.jpg"
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/0/0f/1665_Girl_with_a_Pearl_Earring.jpg"
   },
   {
    "id": "prodigo",
@@ -44,7 +45,8 @@
    "sala": "Arte sacro",
    "img": "img/manos.jpg",
    "nota": "Estudio a pincel sobre papel azul, convertido en símbolo universal de la oración.",
-   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg"
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg",
+   "l50": false
   },
   {
    "id": "mateo",
@@ -74,7 +76,7 @@
    "sala": "Renacimiento",
    "img": "img/gioconda.jpg",
    "nota": "El retrato más célebre del mundo y su enigmática sonrisa.",
-   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
   },
   {
    "id": "ronda",
@@ -84,7 +86,7 @@
    "sala": "Barroco",
    "img": "img/ronda.jpg",
    "nota": "Una compañía de arcabuceros en plena marcha, entre sombras y destellos.",
-   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/3840px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
   },
   {
    "id": "ola",
@@ -94,7 +96,8 @@
    "sala": "Oriente",
    "img": "img/ola.jpg",
    "nota": "El grabado japonés más famoso: la fuerza del mar ante el monte Fuji.",
-   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP141042.jpg"
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP141042.jpg",
+   "l50": false
   },
   {
    "id": "monet",
@@ -114,7 +117,7 @@
    "sala": "Impresionismo y modernos",
    "img": "img/beso.jpg",
    "nota": "Oro, ornamento y ternura en la obra maestra del período dorado de Klimt.",
-   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/3840px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
   },
   {
    "id": "magdalena",
@@ -154,7 +157,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280846.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP280846.jpg",
-   "nota": "Obra de Alberto Durero (1519), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Alberto Durero (1519), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "sabinas",
@@ -174,7 +178,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1570.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1570.jpg",
-   "nota": "Obra de Luis Meléndez (c. 1772), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Luis Meléndez (c. 1772), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "mezzetin",
@@ -184,7 +189,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP170811.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP170811.jpg",
-   "nota": "Obra de Antoine Watteau (c. 1718), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Antoine Watteau (c. 1718), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "disponible": false
   },
   {
    "id": "pastores",
@@ -194,7 +200,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP213831.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP213831.jpg",
-   "nota": "Obra de Andrea Mantegna (c. 1450), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Andrea Mantegna (c. 1450), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "caballos",
@@ -224,7 +231,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356133.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg",
-   "nota": "Obra de Jean Siméon Chardin (c. 1734), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Jean Siméon Chardin (c. 1734), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "cantante",
@@ -234,7 +242,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/dp130799.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/dp130799.jpg",
-   "nota": "Obra de Édouard Manet (1860), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Édouard Manet (1860), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "cancion",
@@ -254,7 +263,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353256.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP353256.jpg",
-   "nota": "Obra de Johannes Vermeer (c. 1666), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Johannes Vermeer (c. 1666), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "manzanas",
@@ -264,7 +274,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT47.jpg",
-   "nota": "Obra de Paul Cézanne (c. 1890), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Paul Cézanne (c. 1890), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "duccio",
@@ -274,7 +285,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP142735.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg",
-   "nota": "Obra de Duccio di Buoninsegna (c. 1295), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Duccio di Buoninsegna (c. 1295), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "jarra",
@@ -284,7 +296,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
-   "nota": "Obra de Johannes Vermeer (c. 1662), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Johannes Vermeer (c. 1662), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "aristoteles",
@@ -314,7 +327,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164867.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP164867.jpg",
-   "nota": "Obra de Hans Baldung Grien (c. 1511), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Hans Baldung Grien (c. 1511), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "disponible": false
   },
   {
    "id": "anunciacion",
@@ -324,7 +338,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240360.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP240360.jpg",
-   "nota": "Obra de Hans Memling (c. 1467), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Hans Memling (c. 1467), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "magos",
@@ -344,7 +359,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-015.jpg",
-   "nota": "Obra de Georges de La Tour (c. 1630), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Georges de La Tour (c. 1630), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "sanmarcos",
@@ -354,7 +370,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-009.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-009.jpg",
-   "nota": "Obra de Canaletto (c. 1728), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Canaletto (c. 1728), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "toledo",
@@ -364,7 +381,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP349564.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP349564.jpg",
-   "nota": "Obra de El Greco (c. 1600), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de El Greco (c. 1600), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "jatte",
@@ -374,7 +392,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP259921.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP259921.jpg",
-   "nota": "Obra de Georges Seurat (1884), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Georges Seurat (1884), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "disponible": false
   },
   {
    "id": "flores",
@@ -394,7 +413,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP168811.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP168811.jpg",
-   "nota": "Obra de Valentin de Boulogne (c. 1626), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Valentin de Boulogne (c. 1626), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "murillo",
@@ -414,7 +434,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146455.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146455.jpg",
-   "nota": "Obra de Jan Steen (c. 1670), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Jan Steen (c. 1670), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "vagon",
@@ -444,7 +465,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP375450_cropped.jpg",
-   "nota": "Obra de Georges Seurat (1887–88), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Georges Seurat (1887–88), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "cosechadores",
@@ -454,7 +476,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
-   "nota": "Obra de Pieter Bruegel el Viejo (1565), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Pieter Bruegel el Viejo (1565), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "bellini",
@@ -464,7 +487,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT375.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT375.jpg",
-   "nota": "Obra de Giovanni Bellini (c. 1488), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Giovanni Bellini (c. 1488), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "rebeca",
@@ -484,7 +508,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP295025.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP295025.jpg",
-   "nota": "Obra de Andrea del Sarto (c. 1528), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Andrea del Sarto (c. 1528), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "agar",
@@ -494,7 +519,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2013.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2013.jpg",
-   "nota": "Obra de Camille Corot (1835), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Camille Corot (1835), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "troyanas",
@@ -504,7 +530,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP226145.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP226145.jpg",
-   "nota": "Obra de Claude Lorrain (c. 1643), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Claude Lorrain (c. 1643), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "edipo",
@@ -524,7 +551,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13360-001.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-13360-001.jpg",
-   "nota": "Obra de J. M. W. Turner (c. 1845), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de J. M. W. Turner (c. 1845), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "naipes",
@@ -534,7 +562,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg",
-   "nota": "Obra de Paul Cézanne (1890–92), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Paul Cézanne (1890–92), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "socrates",
@@ -564,7 +593,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276931.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP276931.jpg",
-   "nota": "Obra de Jacopo Bassano (c. 1590), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Jacopo Bassano (c. 1590), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "autorretrato",
@@ -584,7 +614,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT503.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT503.jpg",
-   "nota": "Obra de Guercino (1619), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Guercino (1619), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "orilla",
@@ -604,7 +635,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP322015.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP322015.jpg",
-   "nota": "Obra de Joseph Wright of Derby (1779), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Joseph Wright of Derby (1779), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "lippi",
@@ -614,7 +646,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159891.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP159891.jpg",
-   "nota": "Obra de Filippo Lippi (c. 1440), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York."
+   "nota": "Obra de Filippo Lippi (c. 1440), de dominio público, del acervo de libre uso del Museo Metropolitano de Arte de Nueva York.",
+   "l50": false
   },
   {
    "id": "juana",
@@ -644,7 +677,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-411-01.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-411-01.jpg",
-   "nota": "Rococó en estado puro: sedas, rosas y la diosa del amor, pintado para Madame de Pompadour."
+   "nota": "Rococó en estado puro: sedas, rosas y la diosa del amor, pintado para Madame de Pompadour.",
+   "l50": false
   },
   {
    "id": "bronzino",
@@ -654,7 +688,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-011.jpg",
-   "nota": "Elegancia y misterio manierista en uno de los grandes retratos florentinos."
+   "nota": "Elegancia y misterio manierista en uno de los grandes retratos florentinos.",
+   "l50": false
   },
   {
    "id": "brugghen",
@@ -664,7 +699,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146490.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146490.jpg",
-   "nota": "Dramática y austera, con la luz de Caravaggio llevada al norte de Europa."
+   "nota": "Dramática y austera, con la luz de Caravaggio llevada al norte de Europa.",
+   "l50": false
   },
   {
    "id": "carpaccio",
@@ -674,7 +710,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP296427.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP296427.jpg",
-   "nota": "Dos santos ermitaños meditan ante Cristo en un paisaje lleno de símbolos."
+   "nota": "Dos santos ermitaños meditan ante Cristo en un paisaje lleno de símbolos.",
+   "l50": false
   },
   {
    "id": "hortense",
@@ -684,7 +721,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320128.jpg",
-   "nota": "La esposa del pintor, retratada con la solidez geométrica que anunció el arte moderno."
+   "nota": "La esposa del pintor, retratada con la solidez geométrica que anunció el arte moderno.",
+   "l50": false
   },
   {
    "id": "cartujo",
@@ -724,7 +762,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280358.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP280358.jpg",
-   "nota": "El mito griego vestido a la moda de la corte alemana del siglo XVI."
+   "nota": "El mito griego vestido a la moda de la corte alemana del siglo XVI.",
+   "l50": false
   },
   {
    "id": "lavoisier",
@@ -744,7 +783,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP253480.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP253480.jpg",
-   "nota": "Un instante íntimo captado en pastel por la mirada de Degas."
+   "nota": "Un instante íntimo captado en pastel por la mirada de Degas.",
+   "l50": false
   },
   {
    "id": "uffel",
@@ -774,7 +814,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169640.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169640.jpg",
-   "nota": "Niños del campo inglés, pintados con delicadeza por el gran retratista."
+   "nota": "Niños del campo inglés, pintados con delicadeza por el gran retratista.",
+   "l50": false
   },
   {
    "id": "lirios",
@@ -794,7 +835,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg",
-   "nota": "Van Gogh en París, el año en que descubrió el color y la pincelada impresionista."
+   "nota": "Van Gogh en París, el año en que descubrió el color y la pincelada impresionista.",
+   "l50": false
   },
   {
    "id": "cipreses",
@@ -814,7 +856,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP287624.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP287624.jpg",
-   "nota": "El famoso «niño de rojo» de Goya, con su urraca y los gatos al acecho."
+   "nota": "El famoso «niño de rojo» de Goya, con su urraca y los gatos al acecho.",
+   "l50": false
   },
   {
    "id": "guevara",
@@ -834,7 +877,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12952-001.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-12952-001.jpg",
-   "nota": "Una escena moralizante del siglo XVIII contada con picardía."
+   "nota": "Una escena moralizante del siglo XVIII contada con picardía.",
+   "l50": false
   },
   {
    "id": "carnaval",
@@ -844,7 +888,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145901.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145901.jpg",
-   "nota": "Risas y disfraces del martes de carnaval por el maestro de Haarlem."
+   "nota": "Risas y disfraces del martes de carnaval por el maestro de Haarlem.",
+   "l50": false
   },
   {
    "id": "wedigh",
@@ -854,7 +899,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164836.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP164836.jpg",
-   "nota": "Precisión asombrosa en el retrato de un comerciante de la Liga Hanseática."
+   "nota": "Precisión asombrosa en el retrato de un comerciante de la Liga Hanseática.",
+   "l50": false
   },
   {
    "id": "cleve",
@@ -864,7 +910,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1467.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1467.jpg",
-   "nota": "Tríptico flamenco de colores luminosos y paisaje minucioso."
+   "nota": "Tríptico flamenco de colores luminosos y paisaje minucioso.",
+   "l50": false
   },
   {
    "id": "mada",
@@ -874,7 +921,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243354.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP243354.jpg",
-   "nota": "Una niña segura de sí misma entre flores, del período maduro de Klimt."
+   "nota": "Una niña segura de sí misma entre flores, del período maduro de Klimt.",
+   "l50": false
   },
   {
    "id": "labille",
@@ -884,7 +932,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320103.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320103.jpg",
-   "nota": "Una pintora reclama el lugar de las mujeres en la Academia francesa."
+   "nota": "Una pintora reclama el lugar de las mujeres en la Academia francesa.",
+   "l50": false
   },
   {
    "id": "farren",
@@ -894,7 +943,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169218.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169218.jpg",
-   "nota": "La célebre actriz londinense, pintada por Lawrence con apenas veinte años."
+   "nota": "La célebre actriz londinense, pintada por Lawrence con apenas veinte años.",
+   "l50": false
   },
   {
    "id": "filippino",
@@ -904,7 +954,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243637.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP243637.jpg",
-   "nota": "Ternura florentina del hijo de Filippo Lippi y discípulo de Botticelli."
+   "nota": "Ternura florentina del hijo de Filippo Lippi y discípulo de Botticelli.",
+   "l50": false
   },
   {
    "id": "lotto",
@@ -924,7 +975,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP273977.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP273977.jpg",
-   "nota": "También llamada «La mujer del loro», con su modelo predilecta Victorine Meurent."
+   "nota": "También llamada «La mujer del loro», con su modelo predilecta Victorine Meurent.",
+   "l50": false
   },
   {
    "id": "portinari",
@@ -944,7 +996,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP124093.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP124093.jpg",
-   "nota": "La calma del campo francés, por el pintor de los campesinos."
+   "nota": "La calma del campo francés, por el pintor de los campesinos.",
+   "l50": false
   },
   {
    "id": "patinir",
@@ -954,7 +1007,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT5549.jpg",
-   "nota": "Tríptico de paisajes fantásticos del primer gran paisajista flamenco."
+   "nota": "Tríptico de paisajes fantásticos del primer gran paisajista flamenco.",
+   "l50": false
   },
   {
    "id": "caceria",
@@ -974,7 +1028,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1859.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1859.jpg",
-   "nota": "Un paisaje rural que anuncia el impresionismo."
+   "nota": "Un paisaje rural que anuncia el impresionismo.",
+   "l50": false
   },
   {
    "id": "orion",
@@ -984,7 +1039,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP148490.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP148490.jpg",
-   "nota": "El gigante mitológico camina hacia la luz que le devolverá la vista."
+   "nota": "El gigante mitológico camina hacia la luz que le devolverá la vista.",
+   "l50": false
   },
   {
    "id": "pastor",
@@ -1014,7 +1070,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1138.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1138.jpg",
-   "nota": "Pintada para la infanta de España; modelo de muchas Inmaculadas posteriores."
+   "nota": "Pintada para la infanta de España; modelo de muchas Inmaculadas posteriores.",
+   "l50": false
   },
   {
    "id": "coussmaker",
@@ -1024,7 +1081,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169215.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169215.jpg",
-   "nota": "Elegancia inglesa: un joven oficial apoyado en un árbol junto a su caballo."
+   "nota": "Elegancia inglesa: un joven oficial apoyado en un árbol junto a su caballo.",
+   "l50": false
   },
   {
    "id": "ribera",
@@ -1034,7 +1092,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT16.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT16.jpg",
-   "nota": "Naturalismo y dulzura del gran pintor valenciano en Nápoles."
+   "nota": "Naturalismo y dulzura del gran pintor valenciano en Nápoles.",
+   "l50": false
   },
   {
    "id": "deste",
@@ -1054,7 +1113,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-003.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-003.jpg",
-   "nota": "El pintor con su joven esposa y su hijo en el jardín de su casa."
+   "nota": "El pintor con su joven esposa y su hijo en el jardín de su casa.",
+   "l50": false
   },
   {
    "id": "trigales",
@@ -1064,7 +1124,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145911.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145911.jpg",
-   "nota": "Un cielo inmenso sobre la llanura holandesa."
+   "nota": "Un cielo inmenso sobre la llanura holandesa.",
+   "l50": false
   },
   {
    "id": "andres",
@@ -1074,7 +1135,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP343101.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP343101.jpg",
-   "nota": "Fondo de oro y elegancia gótica del maestro de Siena."
+   "nota": "Fondo de oro y elegancia gótica del maestro de Siena.",
+   "l50": false
   },
   {
    "id": "vestir",
@@ -1094,7 +1156,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-007.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-007.jpg",
-   "nota": "Boceto para el gran techo de la Residencia de Wurzburgo."
+   "nota": "Boceto para el gran techo de la Residencia de Wurzburgo.",
+   "l50": false
   },
   {
    "id": "moulin",
@@ -1104,7 +1167,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1500.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1500.jpg",
-   "nota": "La noche parisina con los colores planos de Toulouse-Lautrec."
+   "nota": "La noche parisina con los colores planos de Toulouse-Lautrec.",
+   "l50": false
   },
   {
    "id": "pareja",
@@ -1114,7 +1178,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-001.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-001.jpg",
-   "nota": "Uno de los retratos más asombrosos de la historia, pintado por Velázquez en Roma."
+   "nota": "Uno de los retratos más asombrosos de la historia, pintado por Velázquez en Roma.",
+   "l50": false
   },
   {
    "id": "chatre",
@@ -1164,7 +1229,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278472.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP278472.jpg",
-   "nota": "Oro y dolor en la pintura gótica de Siena."
+   "nota": "Oro y dolor en la pintura gótica de Siena.",
+   "l50": false
   },
   {
    "id": "charpentier",
@@ -1204,7 +1270,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP151185.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP151185.jpg",
-   "nota": "Pintado en Roma con la precisión impecable de Ingres."
+   "nota": "Pintado en Roma con la precisión impecable de Ingres.",
+   "l50": false
   },
   {
    "id": "senoritas",
@@ -1214,7 +1281,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1967.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1967.jpg",
-   "nota": "Las hermanas del pintor dan limosna a una pastorcita en el campo."
+   "nota": "Las hermanas del pintor dan limosna a una pastorcita en el campo.",
+   "l50": false
   },
   {
    "id": "iaorana",
@@ -1224,7 +1292,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1025.jpg",
-   "nota": "La Anunciación llevada a Tahití: la primera gran obra polinesia de Gauguin."
+   "nota": "La Anunciación llevada a Tahití: la primera gran obra polinesia de Gauguin.",
+   "l50": false
   },
   {
    "id": "leon",
@@ -1234,7 +1303,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT50.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT50.jpg",
-   "nota": "Una selva soñada por el Aduanero Rousseau, que nunca salió de Francia."
+   "nota": "Una selva soñada por el Aduanero Rousseau, que nunca salió de Francia.",
+   "l50": false
   },
   {
    "id": "bashi",
@@ -1244,7 +1314,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243839.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP243839.jpg",
-   "nota": "Sedas y luz en un retrato orientalista de asombroso detalle."
+   "nota": "Sedas y luz en un retrato orientalista de asombroso detalle.",
+   "l50": false
   },
   {
    "id": "jabach",
@@ -1254,7 +1325,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP352819.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP352819.jpg",
-   "nota": "Un banquero de París y su familia, por el primer pintor de Luis XIV."
+   "nota": "Un banquero de París y su familia, por el primer pintor de Luis XIV.",
+   "l50": false
   },
   {
    "id": "sueno",
@@ -1264,7 +1336,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP318843.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP318843.jpg",
-   "nota": "Simbolismo suizo: un pastor dormido y las figuras de su sueño."
+   "nota": "Simbolismo suizo: un pastor dormido y las figuras de su sueño.",
+   "l50": false
   },
   {
    "id": "pescado",
@@ -1274,7 +1347,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375107.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP375107.jpg",
-   "nota": "Abundancia y vida cotidiana en un mercado flamenco del siglo XVI."
+   "nota": "Abundancia y vida cotidiana en un mercado flamenco del siglo XVI.",
+   "l50": false
   },
   {
    "id": "ramo",
@@ -1294,7 +1368,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1399.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1399.jpg",
-   "nota": "Un retrato temprano de Renoir, lleno de calidez y sencillez."
+   "nota": "Un retrato temprano de Renoir, lleno de calidez y sencillez.",
+   "l50": false
   },
   {
    "id": "margot",
@@ -1304,7 +1379,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1489.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1489.jpg",
-   "nota": "La mirada fresca de una niña, pintada con la luz suave de Renoir."
+   "nota": "La mirada fresca de una niña, pintada con la luz suave de Renoir.",
+   "l50": false
   },
   {
    "id": "italiana",
@@ -1334,7 +1410,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1556.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1556.jpg",
-   "nota": "La vida tranquila del campo francés en pleno nacimiento del impresionismo."
+   "nota": "La vida tranquila del campo francés en pleno nacimiento del impresionismo.",
+   "l50": false
   },
   {
    "id": "pontoise",
@@ -1344,7 +1421,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1868.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1868.jpg",
-   "nota": "Paseantes y árboles bajo la luz clara de una tarde impresionista."
+   "nota": "Paseantes y árboles bajo la luz clara de una tarde impresionista.",
+   "l50": false
   },
   {
    "id": "villeneuve",
@@ -1364,7 +1442,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130325.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP130325.jpg",
-   "nota": "Un camino de pueblo pintado con la delicadeza del impresionismo."
+   "nota": "Un camino de pueblo pintado con la delicadeza del impresionismo.",
+   "l50": false
   },
   {
    "id": "manzanas2",
@@ -1374,7 +1453,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1940.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1940.jpg",
-   "nota": "Un bodegón sencillo donde Cézanne ensaya la geometría del arte moderno."
+   "nota": "Un bodegón sencillo donde Cézanne ensaya la geometría del arte moderno.",
+   "l50": false
   },
   {
    "id": "banistas",
@@ -1404,7 +1484,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7098.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT7098.jpg",
-   "nota": "Un estallido de color pintado en los últimos meses de vida del artista."
+   "nota": "Un estallido de color pintado en los últimos meses de vida del artista.",
+   "l50": false
   },
   {
    "id": "tahitianas",
@@ -1414,7 +1495,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1342.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1342.jpg",
-   "nota": "La belleza serena de la Polinesia en uno de los cuadros más queridos de Gauguin."
+   "nota": "La belleza serena de la Polinesia en uno de los cuadros más queridos de Gauguin.",
+   "l50": false
   },
   {
    "id": "bretana",
@@ -1424,7 +1506,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123847.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP123847.jpg",
-   "nota": "Colores intensos y formas simples en el paisaje bretón de Gauguin."
+   "nota": "Colores intensos y formas simples en el paisaje bretón de Gauguin.",
+   "l50": false
   },
   {
    "id": "espada",
@@ -1454,7 +1537,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1982.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1982.jpg",
-   "nota": "El campo francés en otoño, con la poesía sencilla de Millet."
+   "nota": "El campo francés en otoño, con la poesía sencilla de Millet.",
+   "l50": false
   },
   {
    "id": "lemaistre",
@@ -1464,7 +1548,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2017.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2017.jpg",
-   "nota": "Un retrato íntimo pintado por el maestro de los paisajes."
+   "nota": "Un retrato íntimo pintado por el maestro de los paisajes.",
+   "l50": false
   },
   {
    "id": "bacante",
@@ -1504,7 +1589,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP162142.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP162142.jpg",
-   "nota": "Un raro retrato del gran paisajista inglés."
+   "nota": "Un raro retrato del gran paisajista inglés.",
+   "l50": false
   },
   {
    "id": "salisbury",
@@ -1514,7 +1600,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164837.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP164837.jpg",
-   "nota": "La catedral enmarcada por árboles, una de las vistas más amadas de Inglaterra."
+   "nota": "La catedral enmarcada por árboles, una de las vistas más amadas de Inglaterra.",
+   "disponible": false
   },
   {
    "id": "samaritana",
@@ -1524,7 +1611,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145935.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145935.jpg",
-   "nota": "El encuentro junto al pozo, contado con la luz dorada de Rembrandt."
+   "nota": "El encuentro junto al pozo, contado con la luz dorada de Rembrandt.",
+   "l50": false
   },
   {
    "id": "cabezacristo",
@@ -1534,7 +1622,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145916.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145916.jpg",
-   "nota": "Un rostro humano y sereno de Cristo, estudiado con profunda ternura."
+   "nota": "Un rostro humano y sereno de Cristo, estudiado con profunda ternura.",
+   "l50": false
   },
   {
    "id": "banquete",
@@ -1544,7 +1633,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143192.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP143192.jpg",
-   "nota": "La alegría de una fiesta holandesa del Siglo de Oro."
+   "nota": "La alegría de una fiesta holandesa del Siglo de Oro.",
+   "l50": false
   },
   {
    "id": "posada",
@@ -1554,7 +1644,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145899.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145899.jpg",
-   "nota": "Picardía y vida en una escena de taberna del maestro de Haarlem."
+   "nota": "Picardía y vida en una escena de taberna del maestro de Haarlem.",
+   "l50": false
   },
   {
    "id": "fecatolica",
@@ -1564,7 +1655,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145924.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145924.jpg",
-   "nota": "Una obra simbólica y poco común de Vermeer, llena de detalles."
+   "nota": "Una obra simbólica y poco común de Vermeer, llena de detalles.",
+   "l50": false
   },
   {
    "id": "dormida",
@@ -1574,7 +1666,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP355525.jpg",
-   "nota": "Una criada descansa junto a la mesa: silencio y luz de Vermeer."
+   "nota": "Una criada descansa junto a la mesa: silencio y luz de Vermeer.",
+   "l50": false
   },
   {
    "id": "atalanta",
@@ -1584,7 +1677,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP261342.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP261342.jpg",
-   "nota": "El mito de la cazadora y el héroe, con la energía de Rubens."
+   "nota": "El mito de la cazadora y el héroe, con la energía de Rubens.",
+   "disponible": false
   },
   {
    "id": "coronacion2",
@@ -1594,7 +1688,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7932.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT7932.jpg",
-   "nota": "Gloria y movimiento en un boceto luminoso de Rubens."
+   "nota": "Gloria y movimiento en un boceto luminoso de Rubens.",
+   "l50": false
   },
   {
    "id": "cesta",
@@ -1624,7 +1719,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14092-001.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP-14092-001.jpg",
-   "nota": "El jardín de la escritora y amiga de Delacroix, pintado del natural."
+   "nota": "El jardín de la escritora y amiga de Delacroix, pintado del natural.",
+   "l50": false
   },
   {
    "id": "hamlet",
@@ -1634,7 +1730,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2001.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2001.jpg",
-   "nota": "Una escena dramática de Shakespeare pintada por el romántico francés."
+   "nota": "Una escena dramática de Shakespeare pintada por el romántico francés.",
+   "l50": false
   },
   {
    "id": "saltash",
@@ -1644,7 +1741,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169566.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169566.jpg",
-   "nota": "Agua y luz en un paisaje inglés del gran Turner."
+   "nota": "Agua y luz en un paisaje inglés del gran Turner.",
+   "l50": false
   },
   {
    "id": "venecia",
@@ -1654,7 +1752,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169568.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP169568.jpg",
-   "nota": "Una Venecia de luz dorada pintada por el maestro inglés."
+   "nota": "Una Venecia de luz dorada pintada por el maestro inglés.",
+   "disponible": false
   },
   {
    "id": "stuart",
@@ -1674,7 +1773,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276130.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP276130.jpg",
-   "nota": "La joven reina de España retratada por el pintor de corte."
+   "nota": "La joven reina de España retratada por el pintor de corte.",
+   "l50": false
   },
   {
    "id": "hombre",
@@ -1684,7 +1784,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP276131.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP276131.jpg",
-   "nota": "Una mirada viva y directa que muestra la maestría de Velázquez."
+   "nota": "Una mirada viva y directa que muestra la maestría de Velázquez.",
+   "l50": false
   },
   {
    "id": "crucifixion3",
@@ -1694,7 +1795,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT10248.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT10248.jpg",
-   "nota": "Cristo en la cruz, con la serenidad devota de Murillo."
+   "nota": "Cristo en la cruz, con la serenidad devota de Murillo.",
+   "l50": false
   },
   {
    "id": "andrade",
@@ -1754,7 +1856,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123919.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP123919.jpg",
-   "nota": "Luz sobrenatural y figuras alargadas en una de las últimas obras de El Greco."
+   "nota": "Luz sobrenatural y figuras alargadas en una de las últimas obras de El Greco.",
+   "l50": false
   },
   {
    "id": "ciego",
@@ -1774,7 +1877,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT216453.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT216453.jpg",
-   "nota": "Fe y poder veneciano en una escena majestuosa de Tintoretto."
+   "nota": "Fe y poder veneciano en una escena majestuosa de Tintoretto.",
+   "l50": false
   },
   {
    "id": "moises",
@@ -1784,7 +1888,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP239507.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP239507.jpg",
-   "nota": "La princesa de Egipto rescata al niño Moisés de las aguas."
+   "nota": "La princesa de Egipto rescata al niño Moisés de las aguas.",
+   "l50": false
   },
   {
    "id": "grancanal",
@@ -1794,7 +1899,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/Wrightsman16.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/Wrightsman16.jpg",
-   "nota": "Góndolas y palacios en la vista más célebre de Venecia."
+   "nota": "Góndolas y palacios en la vista más célebre de Venecia.",
+   "l50": false
   },
   {
    "id": "zobenigo",
@@ -1804,7 +1910,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT274230.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT274230.jpg",
-   "nota": "Una plaza veneciana llena de vida, pintada con precisión asombrosa."
+   "nota": "Una plaza veneciana llena de vida, pintada con precisión asombrosa.",
+   "l50": false
   },
   {
    "id": "fantastico",
@@ -1824,7 +1931,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/EP256.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/EP256.jpg",
-   "nota": "La gracia inconfundible de Botticelli en una escena devocional."
+   "nota": "La gracia inconfundible de Botticelli en una escena devocional.",
+   "disponible": false
   },
   {
    "id": "coronacion3",
@@ -1834,7 +1942,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT350031.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT350031.jpg",
-   "nota": "Ángeles y oro en una de las escenas sagradas de Botticelli."
+   "nota": "Ángeles y oro en una de las escenas sagradas de Botticelli.",
+   "l50": false
   },
   {
    "id": "alejandro",
@@ -1864,7 +1973,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-32_100_76-1.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_76-1.jpg",
-   "nota": "Oro y color en un retablo de la escuela de Siena."
+   "nota": "Oro y color en un retablo de la escuela de Siena.",
+   "disponible": false
   },
   {
    "id": "magos2",
@@ -1874,7 +1984,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2580.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2580.jpg",
-   "nota": "Los reyes llegan a Belén en un paisaje de fantasía sienesa."
+   "nota": "Los reyes llegan a Belén en un paisaje de fantasía sienesa.",
+   "l50": false
   },
   {
    "id": "crivelli",
@@ -1884,7 +1995,8 @@
    "sala": "Arte sacro",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8827.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT8827.jpg",
-   "nota": "Riqueza decorativa y detalle exquisito del maestro veneciano."
+   "nota": "Riqueza decorativa y detalle exquisito del maestro veneciano.",
+   "l50": false
   },
   {
    "id": "crivelli2",
@@ -1924,7 +2036,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280918.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP280918.jpg",
-   "nota": "Un príncipe alemán del Renacimiento en la tabla de Cranach."
+   "nota": "Un príncipe alemán del Renacimiento en la tabla de Cranach.",
+   "l50": false
   },
   {
    "id": "granadas",
@@ -1934,7 +2047,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT264793.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT264793.jpg",
-   "nota": "Un bodegón opulento de frutas en un paisaje."
+   "nota": "Un bodegón opulento de frutas en un paisaje.",
+   "disponible": false
   },
   {
    "id": "camino",
@@ -1984,7 +2098,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356136.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP356136.jpg",
-   "nota": "La belleza de lo cotidiano en un bodegón de Chardin."
+   "nota": "La belleza de lo cotidiano en un bodegón de Chardin.",
+   "l50": false
   },
   {
    "id": "grand",
@@ -2004,7 +2119,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320090.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP320090.jpg",
-   "nota": "Un oficial francés retratado por la gran pintora de la corte."
+   "nota": "Un oficial francés retratado por la gran pintora de la corte.",
+   "l50": false
   },
   {
    "id": "leblanc",
@@ -2014,7 +2130,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1926.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1926.jpg",
-   "nota": "Elegancia y precisión en un retrato de Ingres."
+   "nota": "Elegancia y precisión en un retrato de Ingres.",
+   "l50": false
   },
   {
    "id": "cave",
@@ -2024,7 +2141,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1996.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1996.jpg",
-   "nota": "Un retrato sobrio y refinado del maestro neoclásico."
+   "nota": "Un retrato sobrio y refinado del maestro neoclásico.",
+   "l50": false
   },
   {
    "id": "terneros",
@@ -2034,7 +2152,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2579.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT2579.jpg",
-   "nota": "La gran pintora de animales en una escena rural llena de vida."
+   "nota": "La gran pintora de animales en una escena rural llena de vida.",
+   "l50": false
   },
   {
    "id": "tejiendo",
@@ -2044,7 +2163,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1928.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1928.jpg",
-   "nota": "Un instante doméstico captado por la gran impresionista."
+   "nota": "Un instante doméstico captado por la gran impresionista.",
+   "l50": false
   },
   {
    "id": "vestidorosa",
@@ -2054,7 +2174,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1927.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1927.jpg",
-   "nota": "Una joven en reposo, pintada con delicadeza por Morisot."
+   "nota": "Una joven en reposo, pintada con delicadeza por Morisot.",
+   "l50": false
   },
   {
    "id": "crisantemos",
@@ -2064,7 +2185,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP341200.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP341200.jpg",
-   "nota": "Flores en primer plano, del jardín del propio Caillebotte."
+   "nota": "Flores en primer plano, del jardín del propio Caillebotte.",
+   "l50": false
   },
   {
    "id": "madre",
@@ -2094,7 +2216,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP208016.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP208016.jpg",
-   "nota": "La ninfa del mito griego, condenada a repetir las palabras ajenas."
+   "nota": "La ninfa del mito griego, condenada a repetir las palabras ajenas.",
+   "l50": false
   },
   {
    "id": "wolfe",
@@ -2104,7 +2227,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11971.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT11971.jpg",
-   "nota": "Retrato de la gran benefactora del Museo Metropolitano."
+   "nota": "Retrato de la gran benefactora del Museo Metropolitano.",
+   "l50": false
   },
   {
    "id": "muertos",
@@ -2134,7 +2258,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145939.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145939.jpg",
-   "nota": "Cielo amplio y campo holandés del gran paisajista."
+   "nota": "Cielo amplio y campo holandés del gran paisajista.",
+   "l50": false
   },
   {
    "id": "arroyo",
@@ -2144,7 +2269,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146457.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146457.jpg",
-   "nota": "Agua, árboles y luz en un bosque del norte."
+   "nota": "Agua, árboles y luz en un bosque del norte.",
+   "l50": false
   },
   {
    "id": "entrada",
@@ -2154,7 +2280,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146444.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP146444.jpg",
-   "nota": "Un camino de pueblo holandés entre árboles frondosos."
+   "nota": "Un camino de pueblo holandés entre árboles frondosos.",
+   "l50": false
   },
   {
    "id": "camino2",
@@ -2164,7 +2291,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP252576.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP252576.jpg",
-   "nota": "La calma del campo holandés del Siglo de Oro."
+   "nota": "La calma del campo holandés del Siglo de Oro.",
+   "l50": false
   },
   {
    "id": "pareja2",
@@ -2174,7 +2302,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145906.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145906.jpg",
-   "nota": "La vida doméstica holandesa bañada de luz."
+   "nota": "La vida doméstica holandesa bañada de luz.",
+   "l50": false
   },
   {
    "id": "jarra2",
@@ -2184,7 +2313,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143173.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP143173.jpg",
-   "nota": "Un interior tranquilo, con la luz característica de De Hooch."
+   "nota": "Un interior tranquilo, con la luz característica de De Hooch.",
+   "l50": false
   },
   {
    "id": "calavera",
@@ -2194,7 +2324,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145929.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP145929.jpg",
-   "nota": "Una vanitas: recordatorio de lo breve de la vida."
+   "nota": "Una vanitas: recordatorio de lo breve de la vida.",
+   "l50": false
   },
   {
    "id": "ostras",
@@ -2204,7 +2335,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120415.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP120415.jpg",
-   "nota": "Plata, cristal y ostras en un bodegón de gran refinamiento."
+   "nota": "Plata, cristal y ostras en un bodegón de gran refinamiento.",
+   "l50": false
   },
   {
    "id": "ruysch",
@@ -2224,7 +2356,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8649.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT8649.jpg",
-   "nota": "Rosas y frutas del maestro francés de las flores."
+   "nota": "Rosas y frutas del maestro francés de las flores.",
+   "l50": false
   },
   {
    "id": "flores2",
@@ -2234,7 +2367,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1980.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT1980.jpg",
-   "nota": "Un bodegón delicado y lleno de color."
+   "nota": "Un bodegón delicado y lleno de color.",
+   "l50": false
   },
   {
    "id": "chino",
@@ -2244,7 +2378,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240599.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP240599.jpg",
-   "nota": "Flores de colores soñados por el pintor simbolista."
+   "nota": "Flores de colores soñados por el pintor simbolista.",
+   "l50": false
   },
   {
    "id": "reposo",
@@ -2254,7 +2389,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT1551.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT1551.jpg",
-   "nota": "Una mujer reclinada en un vestido de líneas elegantes y fluidas."
+   "nota": "Una mujer reclinada en un vestido de líneas elegantes y fluidas.",
+   "l50": false
   },
   {
    "id": "rocosas",
@@ -2264,7 +2400,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT82.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT82.jpg",
-   "nota": "La grandeza del Oeste americano en un enorme paisaje."
+   "nota": "La grandeza del Oeste americano en un enorme paisaje.",
+   "l50": false
   },
   {
    "id": "missouri",
@@ -2274,7 +2411,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT73.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT73.jpg",
-   "nota": "Un amanecer silencioso en el río, ícono de la pintura americana."
+   "nota": "Un amanecer silencioso en el río, ícono de la pintura americana.",
+   "l50": false
   },
   {
    "id": "playa",
@@ -2284,7 +2422,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT95.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT95.jpg",
-   "nota": "Sol, mar y sombrillas en un día de verano."
+   "nota": "Sol, mar y sombrillas en un día de verano.",
+   "l50": false
   },
   {
    "id": "andes",
@@ -2294,7 +2433,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT78.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT78.jpg",
-   "nota": "Los Andes de Sudamérica, pintados tras el viaje del artista por Colombia y Ecuador."
+   "nota": "Los Andes de Sudamérica, pintados tras el viaje del artista por Colombia y Ecuador.",
+   "l50": false
   },
   {
    "id": "oxbow",
@@ -2314,7 +2454,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT58.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT58.jpg",
-   "nota": "Un niño con su ardilla, en un retrato colonial americano."
+   "nota": "Un niño con su ardilla, en un retrato colonial americano.",
+   "l50": false
   },
   {
    "id": "remo",
@@ -2324,7 +2465,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT86.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT86.jpg",
-   "nota": "Un remero en el río al atardecer, obra clave del realismo americano."
+   "nota": "Un remero en el río al atardecer, obra clave del realismo americano.",
+   "l50": false
   },
   {
    "id": "baile",
@@ -2334,7 +2476,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5507.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT5507.jpg",
-   "nota": "Un abuelo enseña a bailar a su nieto."
+   "nota": "Un abuelo enseña a bailar a su nieto.",
+   "l50": false
   },
   {
    "id": "boardman",
@@ -2344,7 +2487,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT60.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT60.jpg",
-   "nota": "Un comerciante en su tienda de telas."
+   "nota": "Un comerciante en su tienda de telas.",
+   "disponible": false
   },
   {
    "id": "violin",
@@ -2354,7 +2498,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2046.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT2046.jpg",
-   "nota": "Un engaño visual tan real que parece salir del cuadro."
+   "nota": "Un engaño visual tan real que parece salir del cuadro.",
+   "l50": false
   },
   {
    "id": "tormenta",
@@ -2364,7 +2509,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP248013.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP248013.jpg",
-   "nota": "Un cielo oscuro sobre la bahía, con una calma inquietante."
+   "nota": "Un cielo oscuro sobre la bahía, con una calma inquietante.",
+   "disponible": false
   },
   {
    "id": "golfo",
@@ -2384,7 +2530,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/ap54.183.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/ap54.183.jpg",
-   "nota": "Una mujer de pescadores frente al viento del mar."
+   "nota": "Una mujer de pescadores frente al viento del mar.",
+   "disponible": false
   },
   {
    "id": "veterano",
@@ -2394,7 +2541,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP102298.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP102298.jpg",
-   "nota": "Un soldado vuelve a la siega después de la guerra."
+   "nota": "Un soldado vuelve a la siega después de la guerra.",
+   "disponible": false
   },
   {
    "id": "george",
@@ -2404,7 +2552,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT84.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT84.jpg",
-   "nota": "Un lago sereno, bañado de luz plateada."
+   "nota": "Un lago sereno, bañado de luz plateada.",
+   "l50": false
   },
   {
    "id": "nocturno",
@@ -2414,7 +2563,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT256385.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT256385.jpg",
-   "nota": "Un paisaje nocturno lleno de poesía."
+   "nota": "Un paisaje nocturno lleno de poesía.",
+   "l50": false
   },
   {
    "id": "delaware",
@@ -2424,7 +2574,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP215410.jpg",
-   "nota": "La escena más famosa de la independencia de Estados Unidos."
+   "nota": "La escena más famosa de la independencia de Estados Unidos.",
+   "disponible": false
   },
   {
    "id": "generalife",
@@ -2434,7 +2585,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP323590.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP323590.jpg",
-   "nota": "Pintoras en los jardines de la Alhambra de Granada."
+   "nota": "Pintoras en los jardines de la Alhambra de Granada.",
+   "l50": false
   },
   {
    "id": "madamex",
@@ -2454,7 +2606,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DP161508.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DP161508.jpg",
-   "nota": "El gran pintor de la América colonial se retrata a sí mismo."
+   "nota": "El gran pintor de la América colonial se retrata a sí mismo.",
+   "disponible": false
   },
   {
    "id": "washington",
@@ -2464,7 +2617,8 @@
    "sala": "Arte americano",
    "img": "https://images.metmuseum.org/CRDImages/ad/web-large/DT62.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ad/original/DT62.jpg",
-   "nota": "El retrato que inspiró el rostro del billete de un dólar."
+   "nota": "El retrato que inspiró el rostro del billete de un dólar.",
+   "l50": false
   },
   {
    "id": "roben",
@@ -2474,7 +2628,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP141246.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP141246.jpg",
-   "nota": "Peregrinos bajo una cascada sagrada, de la serie de cascadas de Hokusai."
+   "nota": "Peregrinos bajo una cascada sagrada, de la serie de cascadas de Hokusai.",
+   "l50": false
   },
   {
    "id": "jito",
@@ -2484,7 +2639,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP140961.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP140961.jpg",
-   "nota": "Escena campesina inspirada en un poema clásico japonés."
+   "nota": "Escena campesina inspirada en un poema clásico japonés.",
+   "disponible": false
   },
   {
    "id": "hitomaro",
@@ -2494,7 +2650,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP140962.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP140962.jpg",
-   "nota": "Pescadores y paisaje en la serie de los Cien poemas."
+   "nota": "Pescadores y paisaje en la serie de los Cien poemas.",
+   "l50": false
   },
   {
    "id": "aguacero",
@@ -2504,7 +2661,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP121525.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP121525.jpg",
-   "nota": "La lluvia más famosa del arte japonés, que inspiró a Van Gogh."
+   "nota": "La lluvia más famosa del arte japonés, que inspiró a Van Gogh.",
+   "disponible": false
   },
   {
    "id": "cerezos",
@@ -2514,7 +2672,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP123237.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP123237.jpg",
-   "nota": "Cerezos en flor y paseantes en una tarde de primavera."
+   "nota": "Cerezos en flor y paseantes en una tarde de primavera.",
+   "disponible": false
   },
   {
    "id": "kihan",
@@ -2524,7 +2683,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP120436.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP120436.jpg",
-   "nota": "Barcos que vuelven a puerto en un paisaje sereno."
+   "nota": "Barcos que vuelven a puerto en un paisaje sereno.",
+   "l50": false
   },
   {
    "id": "haneda",
@@ -2534,7 +2694,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP123256.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP123256.jpg",
-   "nota": "Aves migratorias sobre la costa, con la poesía de Hiroshige."
+   "nota": "Aves migratorias sobre la costa, con la poesía de Hiroshige.",
+   "disponible": false
   },
   {
    "id": "yukata",
@@ -2544,7 +2705,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP135638.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP135638.jpg",
-   "nota": "La elegancia femenina del maestro de las bellezas japonesas."
+   "nota": "La elegancia femenina del maestro de las bellezas japonesas.",
+   "l50": false
   },
   {
    "id": "lluvia",
@@ -2554,7 +2716,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP144598.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP144598.jpg",
-   "nota": "Un paseo bajo el aguacero, de la serie Placeres del mundo flotante."
+   "nota": "Un paseo bajo el aguacero, de la serie Placeres del mundo flotante.",
+   "l50": false
   },
   {
    "id": "espejos",
@@ -2564,7 +2727,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP135639.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP135639.jpg",
-   "nota": "Una joven famosa de Edo se mira el peinado."
+   "nota": "Una joven famosa de Edo se mira el peinado.",
+   "l50": false
   },
   {
    "id": "imado",
@@ -2574,7 +2738,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP124464.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP124464.jpg",
-   "nota": "Vida a orillas del río en el antiguo Edo."
+   "nota": "Vida a orillas del río en el antiguo Edo.",
+   "l50": false
   },
   {
    "id": "nieve",
@@ -2594,7 +2759,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP124466.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP124466.jpg",
-   "nota": "Un alto en el camino bajo los pinos de Hashiba."
+   "nota": "Un alto en el camino bajo los pinos de Hashiba.",
+   "l50": false
   },
   {
    "id": "veranda",
@@ -2614,7 +2780,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP119523.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP119523.jpg",
-   "nota": "Humor y poesía en una escena doméstica japonesa."
+   "nota": "Humor y poesía en una escena doméstica japonesa.",
+   "l50": false
   },
   {
    "id": "agua",
@@ -2624,7 +2791,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP114903.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP114903.jpg",
-   "nota": "Una tradición de Año Nuevo en Japón."
+   "nota": "Una tradición de Año Nuevo en Japón.",
+   "l50": false
   },
   {
    "id": "komuso",
@@ -2644,7 +2812,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP119525.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP119525.jpg",
-   "nota": "De la serie Ocho vistas de salón: poesía en lo cotidiano."
+   "nota": "De la serie Ocho vistas de salón: poesía en lo cotidiano.",
+   "l50": false
   },
   {
    "id": "avalokiteshvara",
@@ -2664,7 +2833,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/1981_4_1a.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/1981_4_1a.jpg",
-   "nota": "Montañas y poesía de un maestro chino de la tinta."
+   "nota": "Montañas y poesía de un maestro chino de la tinta.",
+   "disponible": false
   },
   {
    "id": "vid",
@@ -2684,7 +2854,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT6940.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DT6940.jpg",
-   "nota": "Un manuscrito iluminado de la India, de colores vibrantes."
+   "nota": "Un manuscrito iluminado de la India, de colores vibrantes.",
+   "l50": false
   },
   {
    "id": "corona",
@@ -2714,7 +2885,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT5231.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DT5231.jpg",
-   "nota": "Una pintura sagrada tibetana llena de figuras y color."
+   "nota": "Una pintura sagrada tibetana llena de figuras y color.",
+   "l50": false
   },
   {
    "id": "jnanadakini",
@@ -2724,7 +2896,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP-30187-002.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP-30187-002.jpg",
-   "nota": "Un mandala de geometría perfecta para la meditación."
+   "nota": "Un mandala de geometría perfecta para la meditación.",
+   "l50": false
   },
   {
    "id": "amitayus",
@@ -2734,7 +2907,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/23ar4_61B.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/23ar4_61B.jpg",
-   "nota": "Una de las pinturas tibetanas más antiguas que se conservan."
+   "nota": "Una de las pinturas tibetanas más antiguas que se conservan.",
+   "l50": false
   },
   {
    "id": "vilaval",
@@ -2744,7 +2918,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP259541.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP259541.jpg",
-   "nota": "Una pintura india que representa un modo musical."
+   "nota": "Una pintura india que representa un modo musical.",
+   "disponible": false
   },
   {
    "id": "krishna",
@@ -2754,7 +2929,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP152283.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP152283.jpg",
-   "nota": "Una escena del Bhagavata Purana llena de color."
+   "nota": "Una escena del Bhagavata Purana llena de color.",
+   "l50": false
   },
   {
    "id": "chaupar",
@@ -2764,7 +2940,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT5245.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DT5245.jpg",
-   "nota": "Los dioses juegan en una delicada miniatura india."
+   "nota": "Los dioses juegan en una delicada miniatura india.",
+   "disponible": false
   },
   {
    "id": "rama",
@@ -2774,7 +2951,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP278165.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP278165.jpg",
-   "nota": "Una escena del Ramayana pintada en las colinas de la India."
+   "nota": "Una escena del Ramayana pintada en las colinas de la India.",
+   "l50": false
   },
   {
    "id": "gopis",
@@ -2784,7 +2962,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DP153157.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DP153157.jpg",
-   "nota": "Una escena amable de la mitología india en vivos colores."
+   "nota": "Una escena amable de la mitología india en vivos colores.",
+   "l50": false
   },
   {
    "id": "fantastico2",
@@ -2794,7 +2973,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DT4562.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DT4562.jpg",
-   "nota": "Arquitecturas soñadas a orillas del agua, compañero del anterior."
+   "nota": "Arquitecturas soñadas a orillas del agua, compañero del anterior.",
+   "l50": false
   },
   {
    "id": "spielhausen",
@@ -2804,7 +2984,8 @@
    "sala": "Renacimiento",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278979.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP278979.jpg",
-   "nota": "Un burgués alemán retratado con la precisión de Cranach."
+   "nota": "Un burgués alemán retratado con la precisión de Cranach.",
+   "l50": false
   },
   {
    "id": "caballero",
@@ -2814,7 +2995,8 @@
    "sala": "Barroco",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP361123.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP361123.jpg",
-   "nota": "Un retrato juvenil de Van Dyck, todavía en Amberes."
+   "nota": "Un retrato juvenil de Van Dyck, todavía en Amberes.",
+   "l50": false
   },
   {
    "id": "jnanatapa",
@@ -2834,7 +3016,8 @@
    "sala": "Oriente",
    "img": "https://images.metmuseum.org/CRDImages/as/web-large/DT6641.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/as/original/DT6641.jpg",
-   "nota": "Un Buda rodeado de bodhisattvas, del Tíbet central."
+   "nota": "Un Buda rodeado de bodhisattvas, del Tíbet central.",
+   "l50": false
   },
   {
    "id": "sabueso",
@@ -2844,7 +3027,8 @@
    "sala": "Impresionismo y modernos",
    "img": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123961.jpg",
    "alta": "https://images.metmuseum.org/CRDImages/ep/original/DP123961.jpg",
-   "nota": "El retrato de un perro de caza, por la gran pintora de animales."
+   "nota": "El retrato de un perro de caza, por la gran pintora de animales.",
+   "l50": false
   }
  ],
  "libros": [
