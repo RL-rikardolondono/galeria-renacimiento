@@ -813,5 +813,28 @@ $('btn-prueba').onclick = function () {
     .catch(function (e) { cargando(false); aviso('aviso-prueba', 'error', e.message); });
 };
 </script>
+<script>
+/* Confirmación dentro de la página: los avisos emergentes del navegador pueden estar bloqueados */
+(function () {
+  var ultimo = null, aprobado = false;
+  document.addEventListener('click', function (e) { if (aprobado || e.target.closest('#conf-caja')) return; ultimo = e.target.closest('button,a,input,label') || e.target; }, true);
+  window.confirm = function (msg) { if (aprobado) { aprobado = false; return true; } mostrar(msg); return false; };
+  function mostrar(msg) {
+    var d = document.getElementById('conf-caja');
+    if (!d) {
+      d = document.createElement('div'); d.id = 'conf-caja';
+      d.setAttribute('style', 'position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:rgba(28,43,57,.45);padding:16px');
+      d.innerHTML = '<div role="dialog" aria-modal="true" style="background:#fff;border-radius:14px;max-width:420px;width:100%;padding:22px;box-shadow:0 10px 30px rgba(0,0,0,.2)"><p id="conf-texto" style="margin:0 0 18px;font-size:17px;color:#1C2B39;line-height:1.45"></p><div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap"><button type="button" class="boton b-borde" id="conf-no">Cancelar</button><button type="button" class="boton b-principal" id="conf-si">Sí, continuar</button></div></div>';
+      document.body.appendChild(d);
+      d.querySelector('#conf-no').onclick = function () { d.style.display = 'none'; };
+      d.querySelector('#conf-si').onclick = function () {
+        d.style.display = 'none'; var t = ultimo; if (!t) return;
+        aprobado = true; try { t.click(); } finally { aprobado = false; }
+      };
+    }
+    d.querySelector('#conf-texto').textContent = msg; d.style.display = 'flex'; d.querySelector('#conf-si').focus();
+  }
+})();
+</script>
 </body>
 </html>
