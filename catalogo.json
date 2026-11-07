@@ -13,7 +13,8 @@
    "anio": "1889",
    "sala": "Impresionismo y modernos",
    "img": "img/noche.jpg",
-   "nota": "Pintada desde la ventana del asilo de Saint-Rémy, es una de las imágenes más amadas de la historia del arte."
+   "nota": "Pintada desde la ventana del asilo de Saint-Rémy, es una de las imágenes más amadas de la historia del arte.",
+   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/3840px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
   },
   {
    "id": "perla",
@@ -22,7 +23,8 @@
    "anio": "c. 1665",
    "sala": "Barroco",
    "img": "img/perla.jpg",
-   "nota": "La «Mona Lisa del norte»: una mirada, una perla y una luz que parecen detener el tiempo."
+   "nota": "La «Mona Lisa del norte»: una mirada, una perla y una luz que parecen detener el tiempo.",
+   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/3840px-1665_Girl_with_a_Pearl_Earring.jpg"
   },
   {
    "id": "prodigo",
@@ -31,7 +33,8 @@
    "anio": "c. 1668",
    "sala": "Arte sacro",
    "img": "img/prodigo.jpg",
-   "nota": "La parábola de Lucas 15 hecha luz: el abrazo del padre que perdona."
+   "nota": "La parábola de Lucas 15 hecha luz: el abrazo del padre que perdona.",
+   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/3840px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg"
   },
   {
    "id": "manos",
@@ -40,7 +43,8 @@
    "anio": "1508",
    "sala": "Arte sacro",
    "img": "img/manos.jpg",
-   "nota": "Estudio a pincel sobre papel azul, convertido en símbolo universal de la oración."
+   "nota": "Estudio a pincel sobre papel azul, convertido en símbolo universal de la oración.",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg"
   },
   {
    "id": "mateo",
@@ -49,7 +53,8 @@
    "anio": "1600",
    "sala": "Arte sacro",
    "img": "img/mateo.jpg",
-   "nota": "Un rayo de luz y una mano que señala: el instante en que Cristo llama al recaudador."
+   "nota": "Un rayo de luz y una mano que señala: el instante en que Cristo llama al recaudador.",
+   "disponible": false
   },
   {
    "id": "venus",
@@ -58,7 +63,8 @@
    "anio": "c. 1485",
    "sala": "Renacimiento",
    "img": "img/venus.jpg",
-   "nota": "Emblema del Renacimiento florentino y de su sueño de belleza clásica."
+   "nota": "Emblema del Renacimiento florentino y de su sueño de belleza clásica.",
+   "disponible": false
   },
   {
    "id": "gioconda",
@@ -67,7 +73,8 @@
    "anio": "c. 1503",
    "sala": "Renacimiento",
    "img": "img/gioconda.jpg",
-   "nota": "El retrato más célebre del mundo y su enigmática sonrisa."
+   "nota": "El retrato más célebre del mundo y su enigmática sonrisa.",
+   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
   },
   {
    "id": "ronda",
@@ -76,7 +83,8 @@
    "anio": "1642",
    "sala": "Barroco",
    "img": "img/ronda.jpg",
-   "nota": "Una compañía de arcabuceros en plena marcha, entre sombras y destellos."
+   "nota": "Una compañía de arcabuceros en plena marcha, entre sombras y destellos.",
+   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/3840px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
   },
   {
    "id": "ola",
@@ -85,7 +93,8 @@
    "anio": "c. 1831",
    "sala": "Oriente",
    "img": "img/ola.jpg",
-   "nota": "El grabado japonés más famoso: la fuerza del mar ante el monte Fuji."
+   "nota": "El grabado japonés más famoso: la fuerza del mar ante el monte Fuji.",
+   "alta": "https://images.metmuseum.org/CRDImages/as/original/DP141042.jpg"
   },
   {
    "id": "monet",
@@ -94,7 +103,8 @@
    "anio": "1872",
    "sala": "Impresionismo y modernos",
    "img": "img/monet.jpg",
-   "nota": "El cuadro que dio nombre al impresionismo."
+   "nota": "El cuadro que dio nombre al impresionismo.",
+   "alta": "https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg"
   },
   {
    "id": "beso",
@@ -103,7 +113,8 @@
    "anio": "1908",
    "sala": "Impresionismo y modernos",
    "img": "img/beso.jpg",
-   "nota": "Oro, ornamento y ternura en la obra maestra del período dorado de Klimt."
+   "nota": "Oro, ornamento y ternura en la obra maestra del período dorado de Klimt.",
+   "alta": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/3840px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
   },
   {
    "id": "magdalena",
