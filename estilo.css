@@ -112,3 +112,4 @@ h1,h2,h3,.marca{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;l
 .muro-info{text-align:center;color:var(--suave);font-size:14px;margin:-22px 0 26px}
 .mas{text-align:center;margin-top:36px}
 @media(max-width:600px){.muro{grid-template-columns:1fr 1fr;gap:14px}.obra{padding:8px 8px 12px}.obra h3{font-size:16px}.obra p{font-size:12px}.filtros{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding-bottom:6px}.filtros button{white-space:nowrap}}
+.filtros-joyas{margin:0 0 4px;justify-content:flex-start}.filtros-joyas button{color:#f3ead6;border-color:rgba(230,199,120,.45)}.filtros-joyas button.on{background:#e6c778;color:#04190f;border-color:#e6c778}
